@@ -117,7 +117,7 @@ export default function HomePage() {
             {t.home.seeAll} <ArrowRight size={18} />
           </Link>
         </div>
-        <motion.div variants={stagger} initial="initial" whileInView="animate" viewport={{ once: true, margin: "-60px" }} className="mt-6 grid grid-cols-2 gap-x-4 gap-y-8 lg:grid-cols-4">
+        <motion.div variants={stagger} initial="initial" whileInView="animate" viewport={{ once: true, margin: "-60px" }} className="mt-6 grid grid-cols-2 gap-4 lg:grid-cols-4">
           {now.map((d) => (
             <DishCard key={d.id} dish={d} />
           ))}

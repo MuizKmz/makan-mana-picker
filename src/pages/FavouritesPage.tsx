@@ -2,7 +2,7 @@ import { Link } from "react-router";
 import { motion } from "motion/react";
 import { Heart } from "lucide-react";
 import { Page } from "../layouts/Page";
-import { DishCard } from "../components/DishCard";
+import { DishCardCompact } from "../components/DishCardCompact";
 import { foodService } from "../services/foodService";
 import { useFoodStore } from "../store/useFoodStore";
 import { stagger } from "../animations/variants";
@@ -30,9 +30,9 @@ export default function FavouritesPage() {
             </Link>
           </div>
         ) : (
-          <motion.div variants={stagger} initial="initial" animate="animate" className="mt-8 grid grid-cols-2 gap-x-4 gap-y-8 md:grid-cols-3 lg:grid-cols-4">
+          <motion.div variants={stagger} initial="initial" animate="animate" className="mt-8 grid gap-3 md:grid-cols-2">
             {dishes.map((d) => (
-              <DishCard key={d.id} dish={d} />
+              <DishCardCompact key={d.id} dish={d} />
             ))}
           </motion.div>
         )}

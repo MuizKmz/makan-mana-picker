@@ -133,7 +133,7 @@ export default function DiscoverPage() {
             {results.length === 0 && closest.length > 0 ? (
               <div className="mt-4">
                 <p className="font-semibold">{t.discover.closest}</p>
-                <motion.div variants={stagger} initial="initial" animate="animate" className="mt-4 grid grid-cols-2 gap-x-4 gap-y-8 md:grid-cols-3">
+                <motion.div variants={stagger} initial="initial" animate="animate" className="mt-4 grid grid-cols-2 gap-4 md:grid-cols-3">
                   {closest.map((d) => (
                     <DishCard key={d.id} dish={d} />
                   ))}
@@ -159,14 +159,14 @@ export default function DiscoverPage() {
                   variants={stagger}
                   initial="initial"
                   animate="animate"
-                  className="mt-4 grid grid-cols-2 gap-x-4 gap-y-8 md:grid-cols-3"
+                  className="mt-4 grid grid-cols-2 gap-4 md:grid-cols-3"
                 >
                   {results.slice(0, PAGE).map((d) => (
                     <DishCard key={d.id} dish={d} />
                   ))}
                 </motion.div>
                 {limit > PAGE && (
-                  <motion.div variants={stagger} initial="initial" animate="animate" className="mt-8 grid grid-cols-2 gap-x-4 gap-y-8 md:grid-cols-3">
+                  <motion.div variants={stagger} initial="initial" animate="animate" className="mt-8 grid grid-cols-2 gap-4 md:grid-cols-3">
                     {results.slice(PAGE, limit).map((d) => (
                       <DishCard key={d.id} dish={d} />
                     ))}
