@@ -13,6 +13,7 @@ const base: Omit<Dish, "id" | "name"> = {
   spicy: false,
   halalOption: true,
   price: "cheap",
+  priceMYR: null,
   description: "Test dish description.",
   descriptionEn: "Test dish description in English.",
   image: null,
@@ -137,6 +138,16 @@ describe("bilingual", () => {
     expect(parseSearch("cari nasi lemak pedas bawah RM10").rest).toBe("lemak");
     expect(parseSearch("cheap italian food near KL").rest).toBe("");
     expect(parseSearch("I want ramen tonight").rest).toBe("ramen");
+  });
+
+  it("uses real ringgit estimates when a dish has one", () => {
+    const priced: Dish[] = [
+      { ...dishes[0], id: "x", price: "mid", priceMYR: [12, 18] },
+      { ...dishes[0], id: "y", price: "cheap", priceMYR: [20, 30] },
+      { ...dishes[0], id: "z", price: "cheap", priceMYR: null },
+    ];
+    // x fits RM15 by its estimate, y doesn't, z falls back to its level.
+    expect(filterDishes(priced, parseSearch("bawah RM15").filters).map((d) => d.id)).toEqual(["x", "z"]);
   });
 
   it("searches English descriptions too", () => {

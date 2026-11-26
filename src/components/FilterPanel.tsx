@@ -90,7 +90,7 @@ export function FilterPanel({ filters, onChange, showCuisines = true }: Props) {
 
       <Group label={t.filters.budget}>
         {budgets.map((b) => (
-          <button key={b.value} type="button" className="chip" aria-pressed={filters.price === b.value} onClick={() => set({ price: b.value })}>
+          <button key={b.value} type="button" className="chip" aria-pressed={filters.price === b.value} onClick={() => set({ price: b.value, maxRM: null })}>
             {b.label}
           </button>
         ))}

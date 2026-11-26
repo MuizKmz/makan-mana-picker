@@ -70,8 +70,10 @@ export interface Dish {
   spicy: boolean;
   /** true when a halal version is easy to find in Malaysia. Says nothing about a specific shop. */
   halalOption: boolean;
-  /** Relative price level: cheap ($), mid ($$), pricey ($$$). */
+  /** Rough price level, used when there's no ringgit estimate. */
   price: PriceTier;
+  /** Estimated price range for one serving in Malaysia, in ringgit [min, max]. Filled by `npm run estimate-prices`. */
+  priceMYR: [number, number] | null;
   /** Malay description (10–120 chars). */
   description: string;
   /** English description (10–120 chars). */
@@ -93,5 +95,7 @@ export interface DishFilters {
   cuisines: Cuisine[];
   categories: Category[];
   excludeIds: string[];
+  /** Exact ringgit ceiling from searches like "bawah RM15". Uses priceMYR when a dish has it. */
+  maxRM: number | null;
   query: string;
 }

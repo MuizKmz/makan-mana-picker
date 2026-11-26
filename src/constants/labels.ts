@@ -27,13 +27,6 @@ export const CUISINE_REGION = Object.fromEntries(
   REGIONS.flatMap((r) => REGION_CUISINES[r].map((c) => [c, r]))
 ) as Record<Cuisine, Region>;
 
-/** Price levels are relative, so they make sense in any country. */
-export const PRICE_SIGN: Record<PriceTier, string> = {
-  cheap: "$",
-  mid: "$$",
-  pricey: "$$$",
-};
-
 /** Rough Malaysian ringgit ceilings, used when someone searches "bawah RM15". */
 export const PRICE_MAX: Record<PriceTier, number> = {
   cheap: 10,

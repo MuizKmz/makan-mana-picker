@@ -8,7 +8,7 @@ import { FavouriteButton } from "../components/FavouriteButton";
 import { foodService } from "../services/foodService";
 import { sampleDishes } from "../lib/picker";
 import { mapsSearchUrl } from "../lib/maps";
-import { PRICE_SIGN } from "../constants/labels";
+import { priceText } from "../lib/price";
 import { useDescription, useT } from "../i18n";
 import { stagger } from "../animations/variants";
 import NotFoundPage from "./NotFoundPage";
@@ -26,7 +26,7 @@ export default function FoodDetailPage() {
   );
 
   const facts = [
-    { icon: Wallet, label: t.detail.price, value: `${PRICE_SIGN[dish.price]} · ${t.price[dish.price]}` },
+    { icon: Wallet, label: t.detail.price, value: priceText(dish, t) },
     { icon: Clock, label: t.detail.suits, value: dish.mealTime.map((m) => t.meal[m]).join(", ") },
     { icon: Flame, label: t.detail.spicy, value: dish.spicy ? t.detail.spicyYes : t.detail.spicyNo },
     { icon: ShieldCheck, label: t.detail.halal, value: dish.halalOption ? t.detail.halalYes : t.detail.halalNo },
