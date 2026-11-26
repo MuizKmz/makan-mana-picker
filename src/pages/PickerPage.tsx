@@ -10,12 +10,14 @@ import { ResultCard } from "../components/ResultCard";
 import { FilterPanel } from "../components/FilterPanel";
 import { Page } from "../layouts/Page";
 import type { Dish, DishFilters } from "../types/food";
+import { useT } from "../i18n";
 
 const WHEEL_SIZE = 8;
 
 export default function PickerPage() {
   const all = foodService.all();
   const reduce = useReducedMotion();
+  const t = useT();
   const recentPicks = useFoodStore((s) => s.recentPicks);
   const rememberPick = useFoodStore((s) => s.rememberPick);
 
@@ -88,12 +90,12 @@ export default function PickerPage() {
   const resetExcluded = () => updateFilters({ ...filters, excludeIds: [] });
 
   return (
-    <Page title="Putar roda · Makan Mana?">
+    <Page title={t.picker.title}>
       <section className="container-page pt-8 md:pt-12">
         <div className="max-w-2xl">
-          <h1 className="text-4xl font-extrabold sm:text-5xl">Biar roda yang tentukan.</h1>
+          <h1 className="text-4xl font-extrabold sm:text-5xl">{t.picker.headline}</h1>
           <p className="mt-3 text-lg text-muted">
-            Tetapkan selera kau, tekan putar, dan terima je apa yang keluar. Atau tekan "Tak nak ni" kalau memang tak boleh.
+            {t.picker.sub}
           </p>
         </div>
 
@@ -110,7 +112,7 @@ export default function PickerPage() {
 
             <div className="mt-6 flex flex-wrap items-center justify-center gap-2">
               <button type="button" onClick={spin} disabled={spinning || pool.length === 0} className="btn-primary min-w-48 disabled:opacity-60">
-                <Shuffle size={18} /> {spinning ? "Tengah putar…" : "Surprise me"}
+                <Shuffle size={18} /> {spinning ? t.picker.spinning : t.picker.surprise}
               </button>
               <button
                 type="button"
@@ -119,18 +121,18 @@ export default function PickerPage() {
                 aria-expanded={showFilters}
                 aria-controls="picker-filters"
               >
-                <SlidersHorizontal size={18} /> Penapis
+                <SlidersHorizontal size={18} /> {t.filters.toggle}
               </button>
             </div>
             <p className="mt-3 text-center text-sm text-muted" role="status">
               {pool.length === 0
-                ? "Tiada hidangan ikut penapis ni. Longgarkan sikit."
-                : `${pool.length} hidangan dalam cabutan`}
+                ? t.picker.empty
+                : t.picker.inDraw(pool.length)}
               {filters.excludeIds.length > 0 && (
                 <>
                   {" · "}
                   <button type="button" onClick={resetExcluded} className="inline-flex items-center gap-1 font-semibold text-ink underline underline-offset-4">
-                    <RotateCcw size={13} /> pulihkan {filters.excludeIds.length} yang dibuang
+                    <RotateCcw size={13} /> {t.picker.restore(filters.excludeIds.length)}
                   </button>
                 </>
               )}
@@ -143,7 +145,7 @@ export default function PickerPage() {
                 <ResultCard
                   key={result.id}
                   dish={result}
-                  reasons={whyPicked(result, filters)}
+                  reasons={whyPicked(result, filters, t)}
                   onAgain={spin}
                   onExclude={exclude}
                 />

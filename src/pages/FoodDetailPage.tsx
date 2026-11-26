@@ -8,11 +8,14 @@ import { FavouriteButton } from "../components/FavouriteButton";
 import { foodService } from "../services/foodService";
 import { sampleDishes } from "../lib/picker";
 import { mapsSearchUrl } from "../lib/maps";
-import { CATEGORY_LABEL, CUISINE_LABEL, MEAL_LABEL, PRICE_RANGE } from "../constants/labels";
+import { PRICE_SIGN } from "../constants/labels";
+import { useDescription, useT } from "../i18n";
 import { stagger } from "../animations/variants";
 import NotFoundPage from "./NotFoundPage";
 
 export default function FoodDetailPage() {
+  const t = useT();
+  const desc = useDescription();
   const { id = "" } = useParams();
   const dish = foodService.get(id);
   if (!dish) return <NotFoundPage />;
@@ -23,21 +26,17 @@ export default function FoodDetailPage() {
   );
 
   const facts = [
-    { icon: Wallet, label: "Anggaran harga", value: PRICE_RANGE[dish.price] },
-    { icon: Clock, label: "Sesuai untuk", value: dish.mealTime.map((m) => MEAL_LABEL[m]).join(", ") },
-    { icon: Flame, label: "Pedas", value: dish.spicy ? "Ya, biasanya pedas" : "Tidak pedas" },
-    {
-      icon: ShieldCheck,
-      label: "Halal",
-      value: dish.halalOption ? "Versi halal mudah dicari" : "Selalunya tidak halal",
-    },
+    { icon: Wallet, label: t.detail.price, value: `${PRICE_SIGN[dish.price]} · ${t.price[dish.price]}` },
+    { icon: Clock, label: t.detail.suits, value: dish.mealTime.map((m) => t.meal[m]).join(", ") },
+    { icon: Flame, label: t.detail.spicy, value: dish.spicy ? t.detail.spicyYes : t.detail.spicyNo },
+    { icon: ShieldCheck, label: t.detail.halal, value: dish.halalOption ? t.detail.halalYes : t.detail.halalNo },
   ];
 
   return (
     <Page title={`${dish.name} · Makan Mana?`}>
       <section className="container-page pt-6 md:pt-10">
         <Link to="/cari" className="inline-flex items-center gap-1.5 text-sm font-semibold text-muted hover:text-ink">
-          <ArrowLeft size={16} /> Semua hidangan
+          <ArrowLeft size={16} /> {t.detail.back}
         </Link>
 
         <div className="mt-4 grid gap-8 lg:grid-cols-[1.15fr_1fr] lg:gap-12">
@@ -46,11 +45,11 @@ export default function FoodDetailPage() {
           </motion.div>
 
           <div>
-            <p className="text-sm font-semibold text-orange-deep">
-              {CUISINE_LABEL[dish.cuisine]} · {CATEGORY_LABEL[dish.category]}
+            <p className="text-sm font-semibold text-orange-ink">
+              {t.cuisine[dish.cuisine]} · {t.category[dish.category]}
             </p>
             <h1 className="mt-2 text-4xl font-extrabold sm:text-5xl">{dish.name}</h1>
-            <p className="mt-4 text-lg text-ink/85">{dish.description}</p>
+            <p className="mt-4 text-lg text-ink/85">{desc(dish)}</p>
 
             <dl className="mt-6 grid grid-cols-2 gap-3">
               {facts.map(({ icon: Icon, label, value }) => (
@@ -63,12 +62,12 @@ export default function FoodDetailPage() {
               ))}
             </dl>
             <p className="mt-3 text-xs text-muted">
-              Harga ialah anggaran kedai biasa. Status halal bergantung pada kedai; sentiasa semak sijil kedai.
+              {t.detail.note}
             </p>
 
             <div className="mt-6 flex flex-wrap gap-2">
               <a href={mapsSearchUrl(dish.name)} target="_blank" rel="noreferrer" className="btn-primary">
-                <MapPin size={18} /> Cari kedai berdekatan
+                <MapPin size={18} /> {t.common.findNearby}
               </a>
               <FavouriteButton dish={dish} variant="full" />
             </div>
@@ -78,7 +77,7 @@ export default function FoodDetailPage() {
 
       {related.length > 0 && (
         <section className="container-page mt-20">
-          <h2 className="text-2xl font-extrabold sm:text-3xl">Kalau tak nak {dish.name}…</h2>
+          <h2 className="text-2xl font-extrabold sm:text-3xl">{t.detail.related(dish.name)}</h2>
           <motion.div variants={stagger} initial="initial" whileInView="animate" viewport={{ once: true }} className="mt-6 grid grid-cols-2 gap-x-4 gap-y-8 lg:grid-cols-4">
             {related.map((d) => (
               <DishCard key={d.id} dish={d} />

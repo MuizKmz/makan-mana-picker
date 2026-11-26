@@ -1,15 +1,7 @@
 import { useState } from "react";
 import { useNavigate } from "react-router";
 import { ArrowUp, Sparkles } from "lucide-react";
-
-export const PROMPT_CHIPS = [
-  "Makan bawah RM10",
-  "Nak makanan pedas",
-  "Cari nasi lemak",
-  "Western food",
-  "Supper malam ni",
-  "Halal dan tak pedas",
-];
+import { useT } from "../i18n";
 
 interface Props {
   initial?: string;
@@ -22,6 +14,7 @@ interface Props {
 export function SmartSearch({ initial = "", size = "lg", onSearch, showChips = true }: Props) {
   const [q, setQ] = useState(initial);
   const navigate = useNavigate();
+  const t = useT();
 
   const submit = (value: string) => {
     const text = value.trim();
@@ -44,15 +37,15 @@ export function SmartSearch({ initial = "", size = "lg", onSearch, showChips = t
           big ? "h-16" : "h-14"
         }`}
       >
-        <Sparkles size={20} className="shrink-0 text-orange" aria-hidden="true" />
+        <Sparkles size={20} className="shrink-0 text-orange-ink" aria-hidden="true" />
         <label htmlFor="smart-search" className="sr-only">
-          Taip apa yang kau nak makan
+          {t.search.label}
         </label>
         <input
           id="smart-search"
           value={q}
           onChange={(e) => setQ(e.target.value)}
-          placeholder="Contoh: nasi pedas bawah RM15 dekat JB"
+          placeholder={t.search.placeholder}
           className={`min-w-0 flex-1 bg-transparent font-medium text-ink placeholder:text-muted/80 focus:outline-none ${
             big ? "text-base sm:text-lg" : "text-base"
           }`}
@@ -61,8 +54,8 @@ export function SmartSearch({ initial = "", size = "lg", onSearch, showChips = t
         />
         <button
           type="submit"
-          aria-label="Cari"
-          className={`grid shrink-0 place-items-center rounded-full bg-orange text-white transition-colors hover:bg-orange-deep ${
+          aria-label={t.search.submit}
+          className={`grid shrink-0 place-items-center rounded-full bg-orange text-ink transition-colors hover:bg-[#FF8550] ${
             big ? "h-12 w-12" : "h-10 w-10"
           }`}
         >
@@ -72,7 +65,7 @@ export function SmartSearch({ initial = "", size = "lg", onSearch, showChips = t
 
       {showChips && (
         <div className="mt-3 flex gap-2 overflow-x-auto pb-1 [scrollbar-width:none] sm:flex-wrap">
-          {PROMPT_CHIPS.map((chip) => (
+          {t.search.chips.map((chip) => (
             <button
               key={chip}
               type="button"

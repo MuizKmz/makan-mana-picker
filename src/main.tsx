@@ -5,6 +5,7 @@ import "./styles/index.css";
 import { RootLayout } from "./layouts/RootLayout";
 import HomePage from "./pages/HomePage";
 import ErrorPage from "./pages/ErrorPage";
+import { useT } from "./i18n";
 import NotFoundPage from "./pages/NotFoundPage";
 
 // Secondary pages load on demand to keep the first load light.
@@ -16,8 +17,9 @@ const NearbyPage = lazy(() => import("./pages/NearbyPage"));
 const AboutPage = lazy(() => import("./pages/AboutPage"));
 
 function Loading() {
+  const t = useT();
   return (
-    <div className="container-page py-24" aria-busy="true" aria-label="Memuatkan">
+    <div className="container-page py-24" aria-busy="true" aria-label={t.common.loading}>
       <div className="h-10 w-2/3 max-w-md animate-pulse rounded-2xl bg-cream" />
       <div className="mt-4 h-5 w-1/2 max-w-sm animate-pulse rounded-xl bg-cream" />
     </div>

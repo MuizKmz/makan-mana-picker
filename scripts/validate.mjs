@@ -4,8 +4,18 @@ import { readFileSync } from "node:fs";
 
 const MEAL_TIMES = ["breakfast", "lunch", "teatime", "dinner", "supper"];
 const PRICES = ["cheap", "mid", "pricey"];
-const CATEGORIES = ["rice", "noodle", "bread", "meat", "soup", "snack", "dessert", "drink"];
-const CUISINES = ["malay", "chinese", "indian", "mamak", "peranakan", "thai", "east-malaysia", "western", "japanese", "korean"];
+const CATEGORIES = ["rice", "noodle", "bread", "meat", "soup", "salad", "snack", "dessert", "drink"];
+// Keep in sync with REGION_CUISINES in src/constants/labels.ts
+const CUISINES = [
+  "malay", "chinese", "mamak", "peranakan", "east-malaysia", "western",
+  "thai", "indonesian", "vietnamese", "filipino", "burmese", "cambodian",
+  "china", "taiwanese", "japanese", "korean",
+  "indian", "pakistani", "sri-lankan", "nepali",
+  "middle-eastern", "turkish",
+  "italian", "french", "spanish", "greek", "british", "german", "east-european",
+  "american", "mexican", "south-american", "caribbean",
+  "african", "oceanian", "fast-food",
+];
 
 const file = new URL("../src/data/dishes.json", import.meta.url);
 const errors = [];
@@ -41,6 +51,9 @@ dishes.forEach((d, i) => {
   if (typeof d.emoji !== "string" || d.emoji.trim() === "") fail("emoji is required");
   if (!CATEGORIES.includes(d.category)) fail(`category must be one of: ${CATEGORIES.join(", ")}`);
   if (!CUISINES.includes(d.cuisine)) fail(`cuisine must be one of: ${CUISINES.join(", ")}`);
+  if (d.image !== null && (typeof d.image !== "string" || !/^(\/food\/[a-z0-9-]+\.(webp|jpe?g|png|avif)|https:\/\/.+)$/.test(d.image))) {
+    fail('image must be null, a file like "/food/nasi-lemak.webp", or an https URL');
+  }
   if (d.wiki !== null && (typeof d.wiki !== "string" || /\s/.test(d.wiki))) fail("wiki must be null or a Wikipedia title with underscores, e.g. \"Nasi_lemak\"");
   if (!PRICES.includes(d.price)) fail(`price must be one of: ${PRICES.join(", ")}`);
   if (typeof d.spicy !== "boolean") fail("spicy must be true or false");
@@ -56,6 +69,9 @@ dishes.forEach((d, i) => {
 
   if (typeof d.description !== "string" || d.description.length < 10 || d.description.length > 120) {
     fail("description must be 10–120 characters");
+  }
+  if (typeof d.descriptionEn !== "string" || d.descriptionEn.length < 10 || d.descriptionEn.length > 120) {
+    fail("descriptionEn (English) must be 10–120 characters");
   }
 });
 

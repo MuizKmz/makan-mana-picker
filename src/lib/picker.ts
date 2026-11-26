@@ -1,5 +1,6 @@
 import type { Dish, DishFilters, MealTime, PriceTier } from "../types/food";
-import { MEAL_LABEL, PRICE_LABEL } from "../constants/labels";
+import type { Dict } from "../i18n/ms";
+import { CUISINE_REGION } from "../constants/labels";
 
 /** Budget is a ceiling: "mid" means cheap or mid. */
 const PRICE_RANK: Record<PriceTier, number> = { cheap: 0, mid: 1, pricey: 2 };
@@ -9,6 +10,7 @@ export const EMPTY_FILTERS: DishFilters = {
   price: "any",
   spicy: "any",
   halalOnly: false,
+  regions: [],
   cuisines: [],
   categories: [],
   excludeIds: [],
@@ -37,11 +39,16 @@ export function filterDishes(dishes: Dish[], f: Partial<DishFilters>): Dish[] {
     if (filters.spicy === "yes" && !d.spicy) return false;
     if (filters.spicy === "no" && d.spicy) return false;
     if (filters.halalOnly && !d.halalOption) return false;
-    if (filters.cuisines.length && !filters.cuisines.includes(d.cuisine)) return false;
+    // A picked cuisine is more specific than a region, so it wins when both are set.
+    if (filters.cuisines.length) {
+      if (!filters.cuisines.includes(d.cuisine)) return false;
+    } else if (filters.regions.length && !filters.regions.includes(CUISINE_REGION[d.cuisine])) {
+      return false;
+    }
     if (filters.categories.length && !filters.categories.includes(d.category)) return false;
     if (filters.excludeIds.includes(d.id)) return false;
     if (words.length) {
-      const haystack = normalise(`${d.name} ${d.description}`);
+      const haystack = normalise(`${d.name} ${d.description} ${d.descriptionEn}`);
       if (!words.every((w) => haystack.includes(w))) return false;
     }
     return true;
@@ -69,14 +76,14 @@ export function sampleDishes(dishes: Dish[], count: number, must?: Dish, random 
 }
 
 /** Plain-language reasons a dish matched, shown under the result. */
-export function whyPicked(dish: Dish, f: Partial<DishFilters>): string[] {
+export function whyPicked(dish: Dish, f: Partial<DishFilters>, t: Dict): string[] {
   const filters = { ...EMPTY_FILTERS, ...f };
   const reasons: string[] = [];
-  if (filters.mealTime !== "any") reasons.push(`Sesuai untuk ${MEAL_LABEL[filters.mealTime].toLowerCase()}`);
-  if (filters.price !== "any") reasons.push(`Masuk bajet (${PRICE_LABEL[dish.price].toLowerCase()})`);
-  if (filters.spicy === "yes") reasons.push("Pedas, macam yang kau nak");
-  if (filters.spicy === "no") reasons.push("Tak pedas");
-  if (filters.halalOnly) reasons.push("Versi halal mudah dicari");
-  if (reasons.length === 0) reasons.push("Pilihan rawak penuh, tiada penapis");
+  if (filters.mealTime !== "any") reasons.push(t.why.meal(t.meal[filters.mealTime]));
+  if (filters.price !== "any") reasons.push(t.why.budget(t.price[dish.price]));
+  if (filters.spicy === "yes") reasons.push(t.why.spicy);
+  if (filters.spicy === "no") reasons.push(t.why.notSpicy);
+  if (filters.halalOnly) reasons.push(t.why.halal);
+  if (reasons.length === 0) reasons.push(t.why.random);
   return reasons;
 }

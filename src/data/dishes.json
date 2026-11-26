@@ -14,6 +14,8 @@
     "halalOption": true,
     "price": "cheap",
     "description": "Nasi santan, sambal, ikan bilis, kacang dan telur. Raja segala sarapan.",
+    "descriptionEn": "Coconut rice with sambal, anchovies, peanuts and egg. The king of breakfast.",
+    "image": null,
     "wiki": "Nasi_lemak"
   },
   {
@@ -31,6 +33,8 @@
     "halalOption": true,
     "price": "mid",
     "description": "Nasi dengan kuah campur banjir dan lauk pilihan. Ala Penang.",
+    "descriptionEn": "Rice flooded with mixed curries and your pick of sides. Penang style.",
+    "image": null,
     "wiki": "Nasi_kandar"
   },
   {
@@ -47,6 +51,8 @@
     "halalOption": true,
     "price": "cheap",
     "description": "Nasi ayam rebus atau panggang dengan sos cili dan sup.",
+    "descriptionEn": "Poached or roasted chicken rice with chilli sauce and soup.",
+    "image": null,
     "wiki": "Hainanese_chicken_rice"
   },
   {
@@ -64,6 +70,8 @@
     "halalOption": true,
     "price": "cheap",
     "description": "Nasi goreng dengan ikan bilis, kangkung dan cili padi.",
+    "descriptionEn": "Village-style fried rice with anchovies, water spinach and bird's eye chilli.",
+    "image": null,
     "wiki": "Nasi_goreng"
   },
   {
@@ -80,6 +88,8 @@
     "halalOption": true,
     "price": "cheap",
     "description": "Nasi biru Kelantan dengan ulam, kerisik dan ikan goreng.",
+    "descriptionEn": "Kelantan blue rice with fresh herbs, toasted coconut and fried fish.",
+    "image": null,
     "wiki": "Nasi_kerabu"
   },
   {
@@ -95,6 +105,8 @@
     "halalOption": true,
     "price": "cheap",
     "description": "Nasi santan Terengganu dengan gulai ikan tongkol.",
+    "descriptionEn": "Terengganu coconut rice with tuna curry.",
+    "image": null,
     "wiki": "Nasi_dagang"
   },
   {
@@ -111,6 +123,8 @@
     "halalOption": true,
     "price": "cheap",
     "description": "Ambil sendiri lauk kegemaran. Pilihan selamat bila tak tahu nak makan apa.",
+    "descriptionEn": "Pick your own sides. The safe choice when you can't decide.",
+    "image": null,
     "wiki": "Nasi_campur"
   },
   {
@@ -127,6 +141,8 @@
     "halalOption": true,
     "price": "mid",
     "description": "Nasi berempah dengan ayam atau kambing dan dalca.",
+    "descriptionEn": "Spiced rice with chicken or mutton and dalca.",
+    "image": null,
     "wiki": "Biryani"
   },
   {
@@ -143,6 +159,8 @@
     "halalOption": true,
     "price": "mid",
     "description": "Nasi atas daun pisang dengan sayur, papadom dan kari. Makan guna tangan!",
+    "descriptionEn": "Rice on a banana leaf with vegetables, papadum and curry. Eat with your hands!",
+    "image": null,
     "wiki": "Banana_leaf_rice"
   },
   {
@@ -160,6 +178,8 @@
     "halalOption": true,
     "price": "cheap",
     "description": "Nasi kukus dengan ayam goreng berempah dan kuah kari.",
+    "descriptionEn": "Steamed rice with spiced fried chicken and curry.",
+    "image": null,
     "wiki": null
   },
   {
@@ -176,6 +196,8 @@
     "halalOption": false,
     "price": "cheap",
     "description": "Nasi dengan daging babi panggang manis dan sos.",
+    "descriptionEn": "Rice with sweet roast pork and sauce.",
+    "image": null,
     "wiki": "Char_siu"
   },
   {
@@ -191,6 +213,8 @@
     "halalOption": false,
     "price": "mid",
     "description": "Nasi ayam dalam periuk tanah dengan lap cheong. Kerak bawah paling sedap.",
+    "descriptionEn": "Chicken rice cooked in a clay pot with Chinese sausage. The crispy bottom is the best part.",
+    "image": null,
     "wiki": "Claypot_chicken_rice"
   },
   {
@@ -208,6 +232,8 @@
     "halalOption": true,
     "price": "cheap",
     "description": "Kuey teow goreng api besar dengan udang, kerang dan taugeh.",
+    "descriptionEn": "Flat rice noodles stir-fried over high heat with prawns, cockles and bean sprouts.",
+    "image": null,
     "wiki": "Char_kway_teow"
   },
   {
@@ -225,6 +251,8 @@
     "halalOption": true,
     "price": "cheap",
     "description": "Mee kuning goreng dengan kentang, tauhu dan perahan limau.",
+    "descriptionEn": "Fried yellow noodles with potato, tofu and a squeeze of lime.",
+    "image": null,
     "wiki": "Mee_goreng"
   },
   {
@@ -240,6 +268,8 @@
     "halalOption": true,
     "price": "cheap",
     "description": "Menu wajib lepak mamak tengah malam. Tambah telur mata.",
+    "descriptionEn": "The must-order at a late-night mamak hangout. Add a fried egg.",
+    "image": null,
     "wiki": "Maggi_goreng"
   },
   {
@@ -255,6 +285,8 @@
     "halalOption": true,
     "price": "cheap",
     "description": "Kuah ikan masam pedas Penang dengan nanas, bunga kantan dan petis.",
+    "descriptionEn": "Penang's sour, spicy fish broth with pineapple, ginger flower and shrimp paste.",
+    "image": null,
     "wiki": "Asam_laksa"
   },
   {
@@ -271,6 +303,8 @@
     "halalOption": true,
     "price": "cheap",
     "description": "Mee dalam kuah kari santan dengan tauhu pok dan ayam.",
+    "descriptionEn": "Noodles in coconut curry broth with tofu puffs and chicken.",
+    "image": null,
     "wiki": "Curry_mee"
   },
   {
@@ -287,6 +321,8 @@
     "halalOption": true,
     "price": "cheap",
     "description": "Spaghetti dalam kuah ikan dan kerisik dengan ulam. Kebanggaan Johor.",
+    "descriptionEn": "Spaghetti in fish and toasted coconut gravy with fresh herbs. Johor's pride.",
+    "image": null,
     "wiki": "Laksa_Johor"
   },
   {
@@ -303,6 +339,8 @@
     "halalOption": true,
     "price": "cheap",
     "description": "Mee kuning dengan kuah keledek pekat, telur rebus dan cili.",
+    "descriptionEn": "Yellow noodles in thick sweet potato gravy with boiled egg and chilli.",
+    "image": null,
     "wiki": "Mee_rebus"
   },
   {
@@ -319,6 +357,8 @@
     "halalOption": true,
     "price": "cheap",
     "description": "Mee dalam kuah udang pekat dan telur. Asal dari Muar.",
+    "descriptionEn": "Noodles in a rich prawn broth with egg. Originally from Muar.",
+    "image": null,
     "wiki": "Mee_bandung_Muar"
   },
   {
@@ -335,6 +375,8 @@
     "halalOption": true,
     "price": "cheap",
     "description": "Mee kering dengan sos gelap, sayur dan wantan.",
+    "descriptionEn": "Dry egg noodles with dark sauce, greens and wontons.",
+    "image": null,
     "wiki": "Wonton_noodles"
   },
   {
@@ -351,6 +393,8 @@
     "halalOption": true,
     "price": "cheap",
     "description": "Mee buatan tangan dalam sup ikan bilis dengan sayur manis.",
+    "descriptionEn": "Hand-made noodles in anchovy soup with sweet leaf greens.",
+    "image": null,
     "wiki": "Pan_mee"
   },
   {
@@ -367,6 +411,8 @@
     "halalOption": false,
     "price": "cheap",
     "description": "Mee tebal goreng dengan kicap pekat dan lemak babi.",
+    "descriptionEn": "Thick noodles fried in dark soy sauce and pork lard.",
+    "image": null,
     "wiki": "Hokkien_mee"
   },
   {
@@ -384,6 +430,8 @@
     "halalOption": true,
     "price": "cheap",
     "description": "Bihun dalam sup ayam panas dengan sambal kicap. Sesuai masa hujan.",
+    "descriptionEn": "Rice vermicelli in hot chicken soup with chilli soy sauce. Perfect on a rainy day.",
+    "image": null,
     "wiki": null
   },
   {
@@ -399,6 +447,8 @@
     "halalOption": true,
     "price": "cheap",
     "description": "Bihun dalam kuah sambal belacan dan santan dengan udang dan telur dadar.",
+    "descriptionEn": "Vermicelli in sambal and coconut broth with prawns and omelette strips.",
+    "image": null,
     "wiki": "Sarawak_laksa"
   },
   {
@@ -415,6 +465,8 @@
     "halalOption": true,
     "price": "cheap",
     "description": "Mee kering Sarawak dengan bawang goreng dan daging hiris.",
+    "descriptionEn": "Sarawak dry noodles with fried shallots and sliced meat.",
+    "image": null,
     "wiki": "Kolo_mee"
   },
   {
@@ -431,6 +483,8 @@
     "halalOption": true,
     "price": "cheap",
     "description": "Roti leper rangup dengan dal dan kari. Kosong, telur atau bawang?",
+    "descriptionEn": "Crispy flatbread with dhal and curry. Plain, egg or onion?",
+    "image": null,
     "wiki": "Roti_canai"
   },
   {
@@ -447,6 +501,8 @@
     "halalOption": true,
     "price": "mid",
     "description": "Roti berinti daging cincang, telur dan bawang, dengan acar.",
+    "descriptionEn": "Flatbread stuffed with minced meat, egg and onion, served with pickles.",
+    "image": null,
     "wiki": "Murtabak"
   },
   {
@@ -463,6 +519,8 @@
     "halalOption": true,
     "price": "cheap",
     "description": "Lempeng nipis tepung beras dengan chutney kelapa dan sambar.",
+    "descriptionEn": "Thin rice-flour crepe with coconut chutney and sambar.",
+    "image": null,
     "wiki": "Dosa_(food)"
   },
   {
@@ -479,6 +537,8 @@
     "halalOption": true,
     "price": "cheap",
     "description": "Roti gandum tanpa minyak dengan dal. Pilihan ringan.",
+    "descriptionEn": "Oil-free wholewheat flatbread with dhal. The lighter option.",
+    "image": null,
     "wiki": "Chapati"
   },
   {
@@ -496,6 +556,8 @@
     "halalOption": true,
     "price": "cheap",
     "description": "Roti panjang dengan telur dan daging cincang, sos cili dan mayonis.",
+    "descriptionEn": "Long bread with egg and minced meat, chilli sauce and mayonnaise.",
+    "image": null,
     "wiki": "Roti_john"
   },
   {
@@ -511,6 +573,8 @@
     "halalOption": true,
     "price": "cheap",
     "description": "Burger tepi jalan berbalut telur dengan sos melimpah.",
+    "descriptionEn": "Street-side burger wrapped in egg with plenty of sauce.",
+    "image": null,
     "wiki": "Ramly_Burger"
   },
   {
@@ -527,6 +591,8 @@
     "halalOption": true,
     "price": "mid",
     "description": "Daging cucuk bakar dengan kuah kacang, nasi impit dan timun.",
+    "descriptionEn": "Grilled meat skewers with peanut sauce, rice cakes and cucumber.",
+    "image": null,
     "wiki": "Satay"
   },
   {
@@ -543,6 +609,8 @@
     "halalOption": true,
     "price": "mid",
     "description": "Ayam goreng dipenyek dengan sambal pedas berapi.",
+    "descriptionEn": "Smashed fried chicken with fiery hot sambal.",
+    "image": null,
     "wiki": "Ayam_penyet"
   },
   {
@@ -558,6 +626,8 @@
     "halalOption": true,
     "price": "pricey",
     "description": "Ikan segar bakar atas daun pisang dengan air asam.",
+    "descriptionEn": "Fresh fish grilled on banana leaf with tamarind dip.",
+    "image": null,
     "wiki": "Ikan_bakar"
   },
   {
@@ -574,6 +644,8 @@
     "halalOption": true,
     "price": "mid",
     "description": "Daging masak perlahan dalam santan dan rempah sampai kering.",
+    "descriptionEn": "Beef slow-cooked in coconut milk and spices until dry.",
+    "image": null,
     "wiki": "Rendang"
   },
   {
@@ -591,6 +663,8 @@
     "halalOption": true,
     "price": "mid",
     "description": "Sup masam pedas dari kedai tomyam. Campur, seafood atau ayam.",
+    "descriptionEn": "Hot and sour soup from a tomyam shop. Mixed, seafood or chicken.",
+    "image": null,
     "wiki": "Tom_yum"
   },
   {
@@ -607,6 +681,8 @@
     "halalOption": true,
     "price": "mid",
     "description": "Sup tulang lembu berempah, sedut sumsum guna straw.",
+    "descriptionEn": "Spiced beef bone soup. Suck the marrow out with a straw.",
+    "image": null,
     "wiki": "Sup_tulang"
   },
   {
@@ -623,6 +699,8 @@
     "halalOption": true,
     "price": "mid",
     "description": "Sup kambing pekat berempah dengan roti atau nasi.",
+    "descriptionEn": "Thick spiced mutton soup with bread or rice.",
+    "image": null,
     "wiki": "Sup_kambing"
   },
   {
@@ -639,6 +717,8 @@
     "halalOption": false,
     "price": "mid",
     "description": "Sup herba dengan tulang rusuk babi. Klang punya famous.",
+    "descriptionEn": "Herbal soup with pork ribs. Klang's famous one.",
+    "image": null,
     "wiki": "Bak_kut_teh"
   },
   {
@@ -654,6 +734,8 @@
     "halalOption": true,
     "price": "pricey",
     "description": "Celur sendiri seafood, daging dan sayur dalam periuk kongsi. Best ramai-ramai.",
+    "descriptionEn": "Cook your own seafood, meat and vegetables in a shared pot. Best in a group.",
+    "image": null,
     "wiki": "Hot_pot"
   },
   {
@@ -669,6 +751,8 @@
     "halalOption": true,
     "price": "cheap",
     "description": "Pilih sendiri tauhu dan sayur bersumbat ikan, dalam sup atau kering.",
+    "descriptionEn": "Pick your own fish-stuffed tofu and vegetables, in soup or dry.",
+    "image": null,
     "wiki": "Yong_tau_foo"
   },
   {
@@ -684,6 +768,8 @@
     "halalOption": true,
     "price": "mid",
     "description": "Pau, siew mai dan har gow dalam bakul kukus. Cari kedai dim sum halal.",
+    "descriptionEn": "Buns, siew mai and har gow in steamer baskets. Look for a halal dim sum shop.",
+    "image": null,
     "wiki": "Dim_sum"
   },
   {
@@ -700,6 +786,8 @@
     "halalOption": true,
     "price": "cheap",
     "description": "Kulit nipis berisi sengkuang, telur dan sos manis.",
+    "descriptionEn": "Thin crepe rolls filled with jicama, egg and sweet sauce.",
+    "image": null,
     "wiki": "Popiah"
   },
   {
@@ -716,6 +804,8 @@
     "halalOption": true,
     "price": "cheap",
     "description": "Pilih cucuk, celur, celup sos kacang. Aktiviti malam yang sempurna.",
+    "descriptionEn": "Pick skewers, blanch them, dip in peanut sauce. The perfect night out.",
+    "image": null,
     "wiki": "Lok-lok"
   },
   {
@@ -731,6 +821,8 @@
     "halalOption": true,
     "price": "cheap",
     "description": "Keropok ikan Terengganu goreng dengan sos cili. Snek petang.",
+    "descriptionEn": "Terengganu fried fish crackers with chilli sauce. A teatime snack.",
+    "image": null,
     "wiki": "Keropok_lekor"
   },
   {
@@ -747,6 +839,8 @@
     "halalOption": true,
     "price": "cheap",
     "description": "Cekodok pisang rangup panas-panas dengan kopi O.",
+    "descriptionEn": "Hot, crispy banana fritters with black coffee.",
+    "image": null,
     "wiki": "Pisang_goreng"
   },
   {
@@ -763,6 +857,8 @@
     "halalOption": true,
     "price": "cheap",
     "description": "Pastri berinti kentang kari. Beli lima, makan semua.",
+    "descriptionEn": "Pastry filled with curried potato. Buy five, eat all five.",
+    "image": null,
     "wiki": "Curry_puff"
   },
   {
@@ -778,6 +874,8 @@
     "halalOption": true,
     "price": "cheap",
     "description": "Buah dan sayur dengan kuah petis pekat dan kacang tumbuk.",
+    "descriptionEn": "Fruit and vegetables in thick shrimp paste sauce with crushed peanuts.",
+    "image": null,
     "wiki": "Rojak"
   },
   {
@@ -794,6 +892,8 @@
     "halalOption": true,
     "price": "cheap",
     "description": "Ais dengan cendol hijau, santan dan gula Melaka. Penyelamat hari panas.",
+    "descriptionEn": "Shaved ice with green jelly, coconut milk and palm sugar. A hot-day saviour.",
+    "image": null,
     "wiki": "Cendol"
   },
   {
@@ -810,6 +910,8 @@
     "halalOption": true,
     "price": "cheap",
     "description": "Ais kisar dengan kacang merah, jagung, cincau dan susu.",
+    "descriptionEn": "Shaved ice with red beans, corn, grass jelly and milk.",
+    "image": null,
     "wiki": "Ais_kacang"
   },
   {
@@ -826,6 +928,8 @@
     "halalOption": true,
     "price": "cheap",
     "description": "Lempeng lipat berisi kacang, gula dan jagung. Nipis rangup atau tebal?",
+    "descriptionEn": "Folded pancake filled with peanuts, sugar and corn. Thin and crispy or thick?",
+    "image": null,
     "wiki": "Apam_balik"
   },
   {
@@ -842,6 +946,8 @@
     "halalOption": true,
     "price": "mid",
     "description": "Ikan mentah diperap limau, cili dan halia. Tradisi Kadazan-Dusun Sabah.",
+    "descriptionEn": "Raw fish cured in lime, chilli and ginger. A Kadazan-Dusun tradition from Sabah.",
+    "image": null,
     "wiki": "Hinava"
   },
   {
@@ -858,6 +964,8 @@
     "halalOption": true,
     "price": "cheap",
     "description": "Roti nipis tinggi macam kon, disiram gula dan susu pekat.",
+    "descriptionEn": "Paper-thin bread shaped like a cone, drizzled with sugar and condensed milk.",
+    "image": null,
     "wiki": "Roti_tisu"
   },
   {
@@ -874,6 +982,8 @@
     "halalOption": true,
     "price": "mid",
     "description": "Ayam goreng tepung atau grill dengan sos lada hitam, kentang dan coleslaw.",
+    "descriptionEn": "Crumbed or grilled chicken with black pepper sauce, fries and coleslaw.",
+    "image": null,
     "wiki": "Chicken_chop"
   },
   {
@@ -890,6 +1000,8 @@
     "halalOption": true,
     "price": "mid",
     "description": "Spaghetti dengan sos tomato daging cincang. Menu wajib kedai western.",
+    "descriptionEn": "Spaghetti with minced meat tomato sauce. A western stall classic.",
+    "image": null,
     "wiki": "Spaghetti_alla_bolognese"
   },
   {
@@ -906,6 +1018,8 @@
     "halalOption": true,
     "price": "mid",
     "description": "Nasi cuka dengan ikan dan seafood. Kedai sushi conveyor senang jumpa di mall.",
+    "descriptionEn": "Vinegared rice with fish and seafood. Conveyor sushi is easy to find in malls.",
+    "image": null,
     "wiki": "Sushi"
   },
   {
@@ -922,11 +1036,13 @@
     "halalOption": true,
     "price": "pricey",
     "description": "Mee Jepun dalam sup pekat dengan telur separuh masak. Cari kedai ramen halal.",
+    "descriptionEn": "Japanese noodles in rich broth with a soft-boiled egg. Look for a halal ramen shop.",
+    "image": null,
     "wiki": "Ramen"
   },
   {
     "id": "korean-fried-chicken",
-    "name": "Ayam Goreng Korea",
+    "name": "Korean Fried Chicken",
     "emoji": "🍗",
     "category": "meat",
     "cuisine": "korean",
@@ -938,6 +1054,8 @@
     "halalOption": true,
     "price": "mid",
     "description": "Ayam goreng rangup disalut sos gochujang manis pedas.",
+    "descriptionEn": "Crispy fried chicken coated in sweet and spicy gochujang sauce.",
+    "image": null,
     "wiki": "Korean_fried_chicken"
   },
   {
@@ -954,6 +1072,8 @@
     "halalOption": true,
     "price": "cheap",
     "description": "Kek beras kenyal dalam sos merah pedas manis.",
+    "descriptionEn": "Chewy rice cakes in a sweet and spicy red sauce.",
+    "image": null,
     "wiki": "Tteok-bokki"
   },
   {
@@ -971,6 +1091,8 @@
     "halalOption": true,
     "price": "cheap",
     "description": "Teh susu ditarik sampai berbuih. Kurang manis kalau nak sihat sikit.",
+    "descriptionEn": "Milk tea pulled until frothy. Ask for kurang manis if you want less sugar.",
+    "image": null,
     "wiki": "Teh_tarik"
   },
   {
@@ -988,6 +1110,8 @@
     "halalOption": true,
     "price": "cheap",
     "description": "Milo sejuk pekat. Nak lagi gila, order Milo Dinosaur.",
+    "descriptionEn": "Thick iced Milo. For extra, order a Milo Dinosaur.",
+    "image": null,
     "wiki": "Milo_(drink)"
   },
   {
@@ -1004,6 +1128,8 @@
     "halalOption": true,
     "price": "cheap",
     "description": "Kopi hitam kopitiam yang pekat. Kawan baik roti bakar dan telur separuh masak.",
+    "descriptionEn": "Strong black kopitiam coffee. Best friends with kaya toast and soft-boiled eggs.",
+    "image": null,
     "wiki": "Kopi"
   },
   {
@@ -1021,6 +1147,3072 @@
     "halalOption": true,
     "price": "cheap",
     "description": "Sirap mawar dengan susu, sejuk dan merah jambu.",
+    "descriptionEn": "Rose syrup with milk, cold and pink.",
+    "image": null,
     "wiki": "Bandung_(drink)"
+  },
+  {
+    "id": "nasi-goreng-pattaya",
+    "name": "Nasi Goreng Pattaya",
+    "emoji": "🍳",
+    "category": "rice",
+    "cuisine": "malay",
+    "mealTime": [
+      "lunch",
+      "dinner",
+      "supper"
+    ],
+    "spicy": false,
+    "halalOption": true,
+    "price": "cheap",
+    "description": "Nasi goreng berbalut telur dadar nipis, disiram sos cili.",
+    "descriptionEn": "Fried rice wrapped in a thin omelette, topped with chilli sauce.",
+    "image": null,
+    "wiki": null
+  },
+  {
+    "id": "mee-siam",
+    "name": "Mee Siam",
+    "emoji": "🍜",
+    "category": "noodle",
+    "cuisine": "peranakan",
+    "mealTime": [
+      "breakfast",
+      "lunch"
+    ],
+    "spicy": true,
+    "halalOption": true,
+    "price": "cheap",
+    "description": "Bihun dalam kuah manis masam pedas dengan telur dan tauhu.",
+    "descriptionEn": "Rice vermicelli in a sweet, sour and spicy gravy with egg and tofu.",
+    "image": null,
+    "wiki": "Mee_siam"
+  },
+  {
+    "id": "lontong",
+    "name": "Lontong",
+    "emoji": "🍚",
+    "category": "rice",
+    "cuisine": "malay",
+    "mealTime": [
+      "breakfast"
+    ],
+    "spicy": true,
+    "halalOption": true,
+    "price": "cheap",
+    "description": "Nasi impit dalam kuah lodeh santan dengan sambal.",
+    "descriptionEn": "Compressed rice cakes in coconut vegetable curry with sambal.",
+    "image": null,
+    "wiki": "Lontong"
+  },
+  {
+    "id": "soto-ayam",
+    "name": "Soto Ayam",
+    "emoji": "🍲",
+    "category": "soup",
+    "cuisine": "malay",
+    "mealTime": [
+      "breakfast",
+      "lunch"
+    ],
+    "spicy": false,
+    "halalOption": true,
+    "price": "cheap",
+    "description": "Sup ayam berempah dengan nasi impit atau mee dan sambal kicap.",
+    "descriptionEn": "Fragrant chicken soup with rice cakes or noodles and sambal kicap.",
+    "image": null,
+    "wiki": "Soto_ayam"
+  },
+  {
+    "id": "bubur-ayam",
+    "name": "Bubur Ayam",
+    "emoji": "🥣",
+    "category": "rice",
+    "cuisine": "malay",
+    "mealTime": [
+      "breakfast",
+      "supper"
+    ],
+    "spicy": false,
+    "halalOption": true,
+    "price": "cheap",
+    "description": "Bubur nasi lembut dengan ayam carik, halia dan bawang goreng.",
+    "descriptionEn": "Soft rice porridge with shredded chicken, ginger and fried shallots.",
+    "image": null,
+    "wiki": "Congee"
+  },
+  {
+    "id": "kaya-toast",
+    "name": "Roti Bakar Kaya",
+    "emoji": "🍞",
+    "category": "bread",
+    "cuisine": "chinese",
+    "mealTime": [
+      "breakfast",
+      "teatime"
+    ],
+    "spicy": false,
+    "halalOption": true,
+    "price": "cheap",
+    "description": "Roti bakar dengan kaya dan mentega, bersama telur separuh masak.",
+    "descriptionEn": "Toast with kaya jam and butter, with soft-boiled eggs on the side.",
+    "image": null,
+    "wiki": "Kaya_toast"
+  },
+  {
+    "id": "kuih-lapis",
+    "name": "Kuih Lapis",
+    "emoji": "🍰",
+    "category": "dessert",
+    "cuisine": "malay",
+    "mealTime": [
+      "teatime"
+    ],
+    "spicy": false,
+    "halalOption": true,
+    "price": "cheap",
+    "description": "Kuih kukus berlapis warna-warni yang lembut dan kenyal.",
+    "descriptionEn": "Soft, chewy layered steamed cake in bright colours.",
+    "image": null,
+    "wiki": "Kue_lapis"
+  },
+  {
+    "id": "onde-onde",
+    "name": "Onde-Onde",
+    "emoji": "🟢",
+    "category": "dessert",
+    "cuisine": "malay",
+    "mealTime": [
+      "teatime"
+    ],
+    "spicy": false,
+    "halalOption": true,
+    "price": "cheap",
+    "description": "Bebola tepung pandan berinti gula Melaka, disalut kelapa parut.",
+    "descriptionEn": "Pandan rice balls filled with melted palm sugar, rolled in coconut.",
+    "image": null,
+    "wiki": "Klepon"
+  },
+  {
+    "id": "otak-otak",
+    "name": "Otak-Otak",
+    "emoji": "🐟",
+    "category": "snack",
+    "cuisine": "peranakan",
+    "mealTime": [
+      "teatime",
+      "dinner"
+    ],
+    "spicy": true,
+    "halalOption": true,
+    "price": "cheap",
+    "description": "Isi ikan berempah dibakar dalam daun pisang atau nipah.",
+    "descriptionEn": "Spiced fish paste grilled in banana or nipah leaves.",
+    "image": null,
+    "wiki": "Otak-otak"
+  },
+  {
+    "id": "asam-pedas",
+    "name": "Asam Pedas",
+    "emoji": "🐟",
+    "category": "meat",
+    "cuisine": "malay",
+    "mealTime": [
+      "lunch",
+      "dinner"
+    ],
+    "spicy": true,
+    "halalOption": true,
+    "price": "mid",
+    "description": "Ikan dalam kuah asam jawa masam pedas. Kegemaran Melaka dan Johor.",
+    "descriptionEn": "Fish in a sour, spicy tamarind gravy. Melaka and Johor favourite.",
+    "image": null,
+    "wiki": "Asam_pedas"
+  },
+  {
+    "id": "putu-piring",
+    "name": "Putu Piring",
+    "emoji": "🍥",
+    "category": "dessert",
+    "cuisine": "malay",
+    "mealTime": [
+      "teatime"
+    ],
+    "spicy": false,
+    "halalOption": true,
+    "price": "cheap",
+    "description": "Kuih tepung beras kukus berinti gula Melaka, dengan kelapa parut.",
+    "descriptionEn": "Steamed rice flour cakes filled with palm sugar, served with coconut.",
+    "image": null,
+    "wiki": "Putu_piring"
+  },
+  {
+    "id": "nasi-ulam",
+    "name": "Nasi Ulam",
+    "emoji": "🌿",
+    "category": "rice",
+    "cuisine": "malay",
+    "mealTime": [
+      "lunch"
+    ],
+    "spicy": false,
+    "halalOption": true,
+    "price": "cheap",
+    "description": "Nasi digaul dengan ulam-ulaman, isi ikan dan kerisik.",
+    "descriptionEn": "Rice tossed with finely chopped fresh herbs, fish and toasted coconut.",
+    "image": null,
+    "wiki": null
+  },
+  {
+    "id": "gado-gado",
+    "name": "Gado-Gado",
+    "emoji": "🥗",
+    "category": "salad",
+    "cuisine": "indonesian",
+    "mealTime": [
+      "lunch"
+    ],
+    "spicy": false,
+    "halalOption": true,
+    "price": "cheap",
+    "description": "Sayur rebus, tauhu, telur dan keropok dengan kuah kacang.",
+    "descriptionEn": "Blanched vegetables, tofu, egg and crackers in peanut sauce.",
+    "image": null,
+    "wiki": "Gado-gado"
+  },
+  {
+    "id": "bakso",
+    "name": "Bakso",
+    "emoji": "🍲",
+    "category": "soup",
+    "cuisine": "indonesian",
+    "mealTime": [
+      "lunch",
+      "dinner"
+    ],
+    "spicy": false,
+    "halalOption": true,
+    "price": "cheap",
+    "description": "Bebola daging dalam sup jernih dengan mee.",
+    "descriptionEn": "Beef meatballs in clear broth with noodles.",
+    "image": null,
+    "wiki": "Bakso"
+  },
+  {
+    "id": "nasi-padang",
+    "name": "Nasi Padang",
+    "emoji": "🍛",
+    "category": "rice",
+    "cuisine": "indonesian",
+    "mealTime": [
+      "lunch",
+      "dinner"
+    ],
+    "spicy": true,
+    "halalOption": true,
+    "price": "mid",
+    "description": "Nasi dengan pelbagai lauk Minang seperti rendang dan gulai.",
+    "descriptionEn": "Rice with a spread of rich Minang curries like rendang and gulai.",
+    "image": null,
+    "wiki": "Nasi_Padang"
+  },
+  {
+    "id": "mie-ayam",
+    "name": "Mie Ayam",
+    "emoji": "🍜",
+    "category": "noodle",
+    "cuisine": "indonesian",
+    "mealTime": [
+      "lunch"
+    ],
+    "spicy": false,
+    "halalOption": true,
+    "price": "cheap",
+    "description": "Mee dengan ayam kicap manis, sayur dan semangkuk sup.",
+    "descriptionEn": "Noodles with sweet soy chicken, greens and a bowl of broth.",
+    "image": null,
+    "wiki": "Mie_ayam"
+  },
+  {
+    "id": "martabak-manis",
+    "name": "Martabak Manis",
+    "emoji": "🥞",
+    "category": "dessert",
+    "cuisine": "indonesian",
+    "mealTime": [
+      "teatime",
+      "supper"
+    ],
+    "spicy": false,
+    "halalOption": true,
+    "price": "cheap",
+    "description": "Lempeng tebal manis dilipat dengan coklat, keju atau kacang.",
+    "descriptionEn": "Thick sweet pancake folded with chocolate, cheese or peanuts.",
+    "image": null,
+    "wiki": "Martabak"
+  },
+  {
+    "id": "rawon",
+    "name": "Rawon",
+    "emoji": "🍲",
+    "category": "soup",
+    "cuisine": "indonesian",
+    "mealTime": [
+      "lunch"
+    ],
+    "spicy": false,
+    "halalOption": true,
+    "price": "mid",
+    "description": "Sup daging hitam Jawa Timur yang diwarnakan buah keluak.",
+    "descriptionEn": "East Javanese black beef soup coloured with keluak nuts.",
+    "image": null,
+    "wiki": "Rawon"
+  },
+  {
+    "id": "pad-thai",
+    "name": "Pad Thai",
+    "emoji": "🍜",
+    "category": "noodle",
+    "cuisine": "thai",
+    "mealTime": [
+      "lunch",
+      "dinner"
+    ],
+    "spicy": false,
+    "halalOption": true,
+    "price": "cheap",
+    "description": "Kuey teow goreng dengan asam jawa, telur, kacang dan limau.",
+    "descriptionEn": "Stir-fried rice noodles with tamarind, egg, peanuts and lime.",
+    "image": null,
+    "wiki": "Pad_thai"
+  },
+  {
+    "id": "green-curry",
+    "name": "Thai Green Curry",
+    "emoji": "🍛",
+    "category": "meat",
+    "cuisine": "thai",
+    "mealTime": [
+      "lunch",
+      "dinner"
+    ],
+    "spicy": true,
+    "halalOption": true,
+    "price": "mid",
+    "description": "Kari santan cili hijau dengan daun selasih dan ayam.",
+    "descriptionEn": "Creamy coconut curry with green chilli, basil and chicken.",
+    "image": null,
+    "wiki": "Green_curry"
+  },
+  {
+    "id": "som-tam",
+    "name": "Som Tam",
+    "emoji": "🥗",
+    "category": "salad",
+    "cuisine": "thai",
+    "mealTime": [
+      "lunch"
+    ],
+    "spicy": true,
+    "halalOption": true,
+    "price": "cheap",
+    "description": "Kerabu betik muda ditumbuk, masam manis dan sangat pedas.",
+    "descriptionEn": "Pounded green papaya salad, sour, sweet and very spicy.",
+    "image": null,
+    "wiki": "Green_papaya_salad"
+  },
+  {
+    "id": "mango-sticky-rice",
+    "name": "Mango Sticky Rice",
+    "emoji": "🥭",
+    "category": "dessert",
+    "cuisine": "thai",
+    "mealTime": [
+      "teatime"
+    ],
+    "spicy": false,
+    "halalOption": true,
+    "price": "cheap",
+    "description": "Pulut manis dengan mangga masak dan santan.",
+    "descriptionEn": "Sweet sticky rice with ripe mango and coconut cream.",
+    "image": null,
+    "wiki": "Mango_sticky_rice"
+  },
+  {
+    "id": "pad-kra-pao",
+    "name": "Pad Kra Pao",
+    "emoji": "🌶️",
+    "category": "rice",
+    "cuisine": "thai",
+    "mealTime": [
+      "lunch",
+      "dinner"
+    ],
+    "spicy": true,
+    "halalOption": true,
+    "price": "cheap",
+    "description": "Daging cincang goreng daun selasih atas nasi dengan telur mata.",
+    "descriptionEn": "Holy basil stir-fry with minced meat over rice and a fried egg.",
+    "image": null,
+    "wiki": "Phat_kaphrao"
+  },
+  {
+    "id": "tom-kha-gai",
+    "name": "Tom Kha Gai",
+    "emoji": "🥥",
+    "category": "soup",
+    "cuisine": "thai",
+    "mealTime": [
+      "lunch",
+      "dinner"
+    ],
+    "spicy": true,
+    "halalOption": true,
+    "price": "mid",
+    "description": "Sup ayam santan dengan lengkuas, serai dan limau.",
+    "descriptionEn": "Coconut chicken soup with galangal, lemongrass and lime.",
+    "image": null,
+    "wiki": "Tom_kha_kai"
+  },
+  {
+    "id": "boat-noodles",
+    "name": "Boat Noodles",
+    "emoji": "🛶",
+    "category": "noodle",
+    "cuisine": "thai",
+    "mealTime": [
+      "lunch"
+    ],
+    "spicy": true,
+    "halalOption": false,
+    "price": "cheap",
+    "description": "Mangkuk kecil mee sup Thai yang pekat. Biasanya babi atau daging.",
+    "descriptionEn": "Small bowls of rich, dark Thai noodle soup. Usually pork or beef.",
+    "image": null,
+    "wiki": "Boat_noodles"
+  },
+  {
+    "id": "thai-iced-tea",
+    "name": "Thai Iced Tea",
+    "emoji": "🧋",
+    "category": "drink",
+    "cuisine": "thai",
+    "mealTime": [
+      "lunch",
+      "teatime",
+      "supper"
+    ],
+    "spicy": false,
+    "halalOption": true,
+    "price": "cheap",
+    "description": "Teh berwarna oren dengan susu pekat atas ais.",
+    "descriptionEn": "Bright orange spiced tea with condensed milk over ice.",
+    "image": null,
+    "wiki": "Thai_tea"
+  },
+  {
+    "id": "pho",
+    "name": "Pho",
+    "emoji": "🍜",
+    "category": "noodle",
+    "cuisine": "vietnamese",
+    "mealTime": [
+      "breakfast",
+      "lunch"
+    ],
+    "spicy": false,
+    "halalOption": true,
+    "price": "mid",
+    "description": "Mee beras Vietnam dalam sup daging dengan herba dan limau.",
+    "descriptionEn": "Vietnamese rice noodle soup with beef, herbs and lime.",
+    "image": null,
+    "wiki": "Pho"
+  },
+  {
+    "id": "banh-mi",
+    "name": "Banh Mi",
+    "emoji": "🥖",
+    "category": "bread",
+    "cuisine": "vietnamese",
+    "mealTime": [
+      "breakfast",
+      "lunch"
+    ],
+    "spicy": false,
+    "halalOption": false,
+    "price": "cheap",
+    "description": "Baguette rangup dengan pâté, daging sejuk, jeruk dan daun ketumbar.",
+    "descriptionEn": "Crusty baguette with pâté, cold cuts, pickles and coriander.",
+    "image": null,
+    "wiki": "Bánh_mì"
+  },
+  {
+    "id": "bun-cha",
+    "name": "Bun Cha",
+    "emoji": "🥢",
+    "category": "noodle",
+    "cuisine": "vietnamese",
+    "mealTime": [
+      "lunch"
+    ],
+    "spicy": false,
+    "halalOption": false,
+    "price": "mid",
+    "description": "Daging babi bakar dengan mee beras, herba dan sos celup. Klasik Hanoi.",
+    "descriptionEn": "Grilled pork with rice noodles, herbs and dipping sauce. Hanoi classic.",
+    "image": null,
+    "wiki": "Bún_chả"
+  },
+  {
+    "id": "goi-cuon",
+    "name": "Goi Cuon",
+    "emoji": "🌯",
+    "category": "snack",
+    "cuisine": "vietnamese",
+    "mealTime": [
+      "lunch",
+      "teatime"
+    ],
+    "spicy": false,
+    "halalOption": true,
+    "price": "cheap",
+    "description": "Popiah basah kertas beras dengan udang, herba dan sos kacang.",
+    "descriptionEn": "Fresh rice paper rolls with prawns, herbs and peanut dip.",
+    "image": null,
+    "wiki": "Gỏi_cuốn"
+  },
+  {
+    "id": "vietnamese-coffee",
+    "name": "Ca Phe Sua Da",
+    "emoji": "☕",
+    "category": "drink",
+    "cuisine": "vietnamese",
+    "mealTime": [
+      "breakfast",
+      "teatime"
+    ],
+    "spicy": false,
+    "halalOption": true,
+    "price": "cheap",
+    "description": "Kopi titis pekat dengan susu pekat atas ais.",
+    "descriptionEn": "Strong drip coffee with condensed milk over ice.",
+    "image": null,
+    "wiki": "Vietnamese_iced_coffee"
+  },
+  {
+    "id": "com-tam",
+    "name": "Com Tam",
+    "emoji": "🍚",
+    "category": "rice",
+    "cuisine": "vietnamese",
+    "mealTime": [
+      "breakfast",
+      "lunch"
+    ],
+    "spicy": false,
+    "halalOption": false,
+    "price": "cheap",
+    "description": "Nasi beras hancur dengan daging babi bakar, telur dan sos ikan.",
+    "descriptionEn": "Broken rice with grilled pork chop, egg and fish sauce.",
+    "image": null,
+    "wiki": "Cơm_tấm"
+  },
+  {
+    "id": "adobo",
+    "name": "Chicken Adobo",
+    "emoji": "🍗",
+    "category": "meat",
+    "cuisine": "filipino",
+    "mealTime": [
+      "lunch",
+      "dinner"
+    ],
+    "spicy": false,
+    "halalOption": true,
+    "price": "mid",
+    "description": "Ayam masak cuka, kicap, bawang putih dan daun salam.",
+    "descriptionEn": "Chicken braised in vinegar, soy sauce, garlic and bay leaf.",
+    "image": null,
+    "wiki": "Philippine_adobo"
+  },
+  {
+    "id": "sinigang",
+    "name": "Sinigang",
+    "emoji": "🍲",
+    "category": "soup",
+    "cuisine": "filipino",
+    "mealTime": [
+      "lunch",
+      "dinner"
+    ],
+    "spicy": false,
+    "halalOption": false,
+    "price": "mid",
+    "description": "Sup asam jawa masam dengan sayur, selalunya dengan babi.",
+    "descriptionEn": "Sour tamarind soup with vegetables, often with pork.",
+    "image": null,
+    "wiki": "Sinigang"
+  },
+  {
+    "id": "lechon",
+    "name": "Lechon",
+    "emoji": "🐖",
+    "category": "meat",
+    "cuisine": "filipino",
+    "mealTime": [
+      "dinner"
+    ],
+    "spicy": false,
+    "halalOption": false,
+    "price": "pricey",
+    "description": "Babi panggang sepenuh badan dengan kulit rangup. Hidangan kenduri.",
+    "descriptionEn": "Whole roasted pig with crackling skin. Party food.",
+    "image": null,
+    "wiki": "Lechon"
+  },
+  {
+    "id": "halo-halo",
+    "name": "Halo-Halo",
+    "emoji": "🍧",
+    "category": "dessert",
+    "cuisine": "filipino",
+    "mealTime": [
+      "teatime"
+    ],
+    "spicy": false,
+    "halalOption": true,
+    "price": "cheap",
+    "description": "Ais kisar dengan susu, kacang, jeli, ubi ungu dan puding.",
+    "descriptionEn": "Shaved ice with milk, beans, jelly, ube and leche flan.",
+    "image": null,
+    "wiki": "Halo-halo"
+  },
+  {
+    "id": "pancit",
+    "name": "Pancit Canton",
+    "emoji": "🍝",
+    "category": "noodle",
+    "cuisine": "filipino",
+    "mealTime": [
+      "lunch",
+      "dinner"
+    ],
+    "spicy": false,
+    "halalOption": false,
+    "price": "cheap",
+    "description": "Mee goreng dengan sayur dan daging. Mee hari jadi.",
+    "descriptionEn": "Stir-fried egg noodles with vegetables and meat. Birthday noodles.",
+    "image": null,
+    "wiki": "Pancit"
+  },
+  {
+    "id": "mohinga",
+    "name": "Mohinga",
+    "emoji": "🐟",
+    "category": "noodle",
+    "cuisine": "burmese",
+    "mealTime": [
+      "breakfast"
+    ],
+    "spicy": false,
+    "halalOption": true,
+    "price": "cheap",
+    "description": "Mee beras dalam sup ikan dan serai. Sarapan Myanmar.",
+    "descriptionEn": "Rice noodles in fish and lemongrass broth. Myanmar's breakfast.",
+    "image": null,
+    "wiki": "Mohinga"
+  },
+  {
+    "id": "fish-amok",
+    "name": "Fish Amok",
+    "emoji": "🐟",
+    "category": "meat",
+    "cuisine": "cambodian",
+    "mealTime": [
+      "lunch",
+      "dinner"
+    ],
+    "spicy": false,
+    "halalOption": true,
+    "price": "mid",
+    "description": "Kari ikan kukus berkrim santan, dimasak dalam daun pisang.",
+    "descriptionEn": "Steamed fish curry custard with coconut, cooked in banana leaf.",
+    "image": null,
+    "wiki": "Fish_amok"
+  },
+  {
+    "id": "peking-duck",
+    "name": "Peking Duck",
+    "emoji": "🦆",
+    "category": "meat",
+    "cuisine": "china",
+    "mealTime": [
+      "dinner"
+    ],
+    "spicy": false,
+    "halalOption": false,
+    "price": "pricey",
+    "description": "Kulit itik panggang rangup dibalut lempeng dengan sos hoisin.",
+    "descriptionEn": "Crispy roast duck skin wrapped in pancakes with hoisin.",
+    "image": null,
+    "wiki": "Peking_duck"
+  },
+  {
+    "id": "mapo-tofu",
+    "name": "Mapo Tofu",
+    "emoji": "🌶️",
+    "category": "meat",
+    "cuisine": "china",
+    "mealTime": [
+      "lunch",
+      "dinner"
+    ],
+    "spicy": true,
+    "halalOption": false,
+    "price": "mid",
+    "description": "Tauhu lembut dalam sos Sichuan pedas kebas dengan babi cincang.",
+    "descriptionEn": "Silky tofu in numbing, fiery Sichuan sauce with minced pork.",
+    "image": null,
+    "wiki": "Mapo_tofu"
+  },
+  {
+    "id": "xiaolongbao",
+    "name": "Xiaolongbao",
+    "emoji": "🥟",
+    "category": "snack",
+    "cuisine": "china",
+    "mealTime": [
+      "breakfast",
+      "lunch"
+    ],
+    "spicy": false,
+    "halalOption": false,
+    "price": "mid",
+    "description": "Ladu berisi babi dan sup panas di dalamnya.",
+    "descriptionEn": "Soup dumplings filled with pork and hot broth.",
+    "image": null,
+    "wiki": "Xiaolongbao"
+  },
+  {
+    "id": "kung-pao-chicken",
+    "name": "Kung Pao Chicken",
+    "emoji": "🍗",
+    "category": "meat",
+    "cuisine": "china",
+    "mealTime": [
+      "lunch",
+      "dinner"
+    ],
+    "spicy": true,
+    "halalOption": true,
+    "price": "mid",
+    "description": "Ayam goreng dengan cili kering, kacang dan lada Sichuan.",
+    "descriptionEn": "Chicken stir-fried with dried chillies, peanuts and Sichuan pepper.",
+    "image": null,
+    "wiki": "Kung_Pao_chicken"
+  },
+  {
+    "id": "sweet-sour-chicken",
+    "name": "Sweet and Sour Chicken",
+    "emoji": "🍍",
+    "category": "meat",
+    "cuisine": "china",
+    "mealTime": [
+      "lunch",
+      "dinner"
+    ],
+    "spicy": false,
+    "halalOption": true,
+    "price": "mid",
+    "description": "Ayam rangup dalam sos nanas masam manis.",
+    "descriptionEn": "Crispy chicken in tangy pineapple sauce.",
+    "image": null,
+    "wiki": "Sweet_and_sour"
+  },
+  {
+    "id": "lanzhou-noodles",
+    "name": "Lanzhou Beef Noodles",
+    "emoji": "🍜",
+    "category": "noodle",
+    "cuisine": "china",
+    "mealTime": [
+      "breakfast",
+      "lunch",
+      "dinner"
+    ],
+    "spicy": true,
+    "halalOption": true,
+    "price": "mid",
+    "description": "Mee tarik dalam sup daging jernih dengan minyak cili. Tradisi halal Hui.",
+    "descriptionEn": "Hand-pulled noodles in clear beef broth with chilli oil. Halal by tradition.",
+    "image": null,
+    "wiki": "Lanzhou_beef_noodle_soup"
+  },
+  {
+    "id": "jiaozi",
+    "name": "Jiaozi Dumplings",
+    "emoji": "🥟",
+    "category": "snack",
+    "cuisine": "china",
+    "mealTime": [
+      "lunch",
+      "dinner"
+    ],
+    "spicy": false,
+    "halalOption": false,
+    "price": "cheap",
+    "description": "Ladu rebus atau goreng, biasanya isi babi dan kubis.",
+    "descriptionEn": "Boiled or pan-fried dumplings, usually pork and cabbage.",
+    "image": null,
+    "wiki": "Jiaozi"
+  },
+  {
+    "id": "char-siu-bao",
+    "name": "Char Siu Bao",
+    "emoji": "🥟",
+    "category": "snack",
+    "cuisine": "china",
+    "mealTime": [
+      "breakfast",
+      "teatime"
+    ],
+    "spicy": false,
+    "halalOption": false,
+    "price": "cheap",
+    "description": "Pau kukus gebu berinti babi panggang manis.",
+    "descriptionEn": "Fluffy steamed buns filled with sweet barbecue pork.",
+    "image": null,
+    "wiki": "Char_siu_bao"
+  },
+  {
+    "id": "egg-tart",
+    "name": "Egg Tart",
+    "emoji": "🥧",
+    "category": "dessert",
+    "cuisine": "china",
+    "mealTime": [
+      "breakfast",
+      "teatime"
+    ],
+    "spicy": false,
+    "halalOption": true,
+    "price": "cheap",
+    "description": "Pastri rangup dengan kastard telur yang lembut.",
+    "descriptionEn": "Flaky pastry with smooth, warm egg custard.",
+    "image": null,
+    "wiki": "Egg_tart"
+  },
+  {
+    "id": "bubble-tea",
+    "name": "Bubble Tea",
+    "emoji": "🧋",
+    "category": "drink",
+    "cuisine": "taiwanese",
+    "mealTime": [
+      "lunch",
+      "teatime",
+      "supper"
+    ],
+    "spicy": false,
+    "halalOption": true,
+    "price": "cheap",
+    "description": "Teh susu dengan mutiara tapioka kenyal. Pilih tahap manis.",
+    "descriptionEn": "Milk tea with chewy tapioca pearls. Choose your sugar level.",
+    "image": null,
+    "wiki": "Bubble_tea"
+  },
+  {
+    "id": "taiwanese-beef-noodles",
+    "name": "Taiwanese Beef Noodles",
+    "emoji": "🍜",
+    "category": "noodle",
+    "cuisine": "taiwanese",
+    "mealTime": [
+      "lunch",
+      "dinner"
+    ],
+    "spicy": true,
+    "halalOption": true,
+    "price": "mid",
+    "description": "Daging lembu rebus dalam sup berempah pekat dengan mee tebal.",
+    "descriptionEn": "Braised beef shank in rich spiced broth with thick noodles.",
+    "image": null,
+    "wiki": "Beef_noodle_soup"
+  },
+  {
+    "id": "tempura",
+    "name": "Tempura",
+    "emoji": "🍤",
+    "category": "snack",
+    "cuisine": "japanese",
+    "mealTime": [
+      "lunch",
+      "dinner"
+    ],
+    "spicy": false,
+    "halalOption": true,
+    "price": "mid",
+    "description": "Udang dan sayur bersalut tepung nipis yang rangup.",
+    "descriptionEn": "Light, crispy battered prawns and vegetables.",
+    "image": null,
+    "wiki": "Tempura"
+  },
+  {
+    "id": "tonkatsu",
+    "name": "Tonkatsu",
+    "emoji": "🐖",
+    "category": "meat",
+    "cuisine": "japanese",
+    "mealTime": [
+      "lunch",
+      "dinner"
+    ],
+    "spicy": false,
+    "halalOption": false,
+    "price": "mid",
+    "description": "Kepingan babi bersalut tepung roti, digoreng, dengan kubis hiris.",
+    "descriptionEn": "Breaded deep-fried pork cutlet with shredded cabbage.",
+    "image": null,
+    "wiki": "Tonkatsu"
+  },
+  {
+    "id": "udon",
+    "name": "Udon",
+    "emoji": "🍜",
+    "category": "noodle",
+    "cuisine": "japanese",
+    "mealTime": [
+      "lunch",
+      "dinner"
+    ],
+    "spicy": false,
+    "halalOption": true,
+    "price": "mid",
+    "description": "Mee gandum tebal dan kenyal dalam sup dashi ringan.",
+    "descriptionEn": "Thick, chewy wheat noodles in a light dashi broth.",
+    "image": null,
+    "wiki": "Udon"
+  },
+  {
+    "id": "takoyaki",
+    "name": "Takoyaki",
+    "emoji": "🐙",
+    "category": "snack",
+    "cuisine": "japanese",
+    "mealTime": [
+      "teatime",
+      "supper"
+    ],
+    "spicy": false,
+    "halalOption": true,
+    "price": "cheap",
+    "description": "Bebola sotong kurita dengan sos, mayonis dan serpihan ikan.",
+    "descriptionEn": "Octopus balls topped with sauce, mayo and bonito flakes.",
+    "image": null,
+    "wiki": "Takoyaki"
+  },
+  {
+    "id": "okonomiyaki",
+    "name": "Okonomiyaki",
+    "emoji": "🥞",
+    "category": "meat",
+    "cuisine": "japanese",
+    "mealTime": [
+      "lunch",
+      "dinner"
+    ],
+    "spicy": false,
+    "halalOption": false,
+    "price": "mid",
+    "description": "Lempeng kubis berperisa, selalunya dengan babi, sos dan mayonis.",
+    "descriptionEn": "Savoury cabbage pancake, often with pork, sauce and mayo.",
+    "image": null,
+    "wiki": "Okonomiyaki"
+  },
+  {
+    "id": "onigiri",
+    "name": "Onigiri",
+    "emoji": "🍙",
+    "category": "rice",
+    "cuisine": "japanese",
+    "mealTime": [
+      "breakfast",
+      "lunch"
+    ],
+    "spicy": false,
+    "halalOption": true,
+    "price": "cheap",
+    "description": "Bebola nasi berbalut rumpai laut dengan isi tuna, salmon atau plum.",
+    "descriptionEn": "Rice ball wrapped in seaweed with tuna, salmon or plum inside.",
+    "image": null,
+    "wiki": "Onigiri"
+  },
+  {
+    "id": "katsu-curry",
+    "name": "Chicken Katsu Curry",
+    "emoji": "🍛",
+    "category": "rice",
+    "cuisine": "japanese",
+    "mealTime": [
+      "lunch",
+      "dinner"
+    ],
+    "spicy": false,
+    "halalOption": true,
+    "price": "mid",
+    "description": "Ayam goreng tepung rangup dengan kari Jepun manis dan nasi.",
+    "descriptionEn": "Crispy chicken cutlet with mild, sweet Japanese curry and rice.",
+    "image": null,
+    "wiki": "Japanese_curry"
+  },
+  {
+    "id": "gyudon",
+    "name": "Gyudon",
+    "emoji": "🐄",
+    "category": "rice",
+    "cuisine": "japanese",
+    "mealTime": [
+      "lunch",
+      "dinner"
+    ],
+    "spicy": false,
+    "halalOption": true,
+    "price": "mid",
+    "description": "Nasi bertopping daging nipis masak manis dengan bawang.",
+    "descriptionEn": "Rice bowl topped with thin sweet-savoury beef and onion.",
+    "image": null,
+    "wiki": "Gyūdon"
+  },
+  {
+    "id": "yakitori",
+    "name": "Yakitori",
+    "emoji": "🍢",
+    "category": "meat",
+    "cuisine": "japanese",
+    "mealTime": [
+      "dinner",
+      "supper"
+    ],
+    "spicy": false,
+    "halalOption": true,
+    "price": "mid",
+    "description": "Sate ayam Jepun disapu sos tare.",
+    "descriptionEn": "Grilled chicken skewers glazed with tare sauce.",
+    "image": null,
+    "wiki": "Yakitori"
+  },
+  {
+    "id": "sashimi",
+    "name": "Sashimi",
+    "emoji": "🐟",
+    "category": "meat",
+    "cuisine": "japanese",
+    "mealTime": [
+      "lunch",
+      "dinner"
+    ],
+    "spicy": false,
+    "halalOption": true,
+    "price": "pricey",
+    "description": "Hirisan ikan mentah dengan kicap dan wasabi.",
+    "descriptionEn": "Thin slices of raw fish with soy sauce and wasabi.",
+    "image": null,
+    "wiki": "Sashimi"
+  },
+  {
+    "id": "mochi",
+    "name": "Mochi",
+    "emoji": "🍡",
+    "category": "dessert",
+    "cuisine": "japanese",
+    "mealTime": [
+      "teatime"
+    ],
+    "spicy": false,
+    "halalOption": true,
+    "price": "cheap",
+    "description": "Kuih beras lembut dan kenyal, berinti kacang merah atau aiskrim.",
+    "descriptionEn": "Soft, chewy rice cakes, often filled with red bean or ice cream.",
+    "image": null,
+    "wiki": "Mochi"
+  },
+  {
+    "id": "bibimbap",
+    "name": "Bibimbap",
+    "emoji": "🍚",
+    "category": "rice",
+    "cuisine": "korean",
+    "mealTime": [
+      "lunch",
+      "dinner"
+    ],
+    "spicy": true,
+    "halalOption": true,
+    "price": "mid",
+    "description": "Nasi dengan sayur, daging, telur dan gochujang. Gaul semua.",
+    "descriptionEn": "Rice bowl with vegetables, beef, egg and gochujang. Mix it all.",
+    "image": null,
+    "wiki": "Bibimbap"
+  },
+  {
+    "id": "bulgogi",
+    "name": "Bulgogi",
+    "emoji": "🥩",
+    "category": "meat",
+    "cuisine": "korean",
+    "mealTime": [
+      "lunch",
+      "dinner"
+    ],
+    "spicy": false,
+    "halalOption": true,
+    "price": "mid",
+    "description": "Hirisan daging lembu perap manis, dibakar atau digoreng.",
+    "descriptionEn": "Thin slices of sweet marinated beef, grilled or stir-fried.",
+    "image": null,
+    "wiki": "Bulgogi"
+  },
+  {
+    "id": "kimchi-jjigae",
+    "name": "Kimchi Jjigae",
+    "emoji": "🍲",
+    "category": "soup",
+    "cuisine": "korean",
+    "mealTime": [
+      "lunch",
+      "dinner"
+    ],
+    "spicy": true,
+    "halalOption": false,
+    "price": "mid",
+    "description": "Rebusan kimchi pedas dengan tauhu, selalunya dengan babi.",
+    "descriptionEn": "Spicy kimchi stew with tofu, often cooked with pork.",
+    "image": null,
+    "wiki": "Kimchi-jjigae"
+  },
+  {
+    "id": "samgyeopsal",
+    "name": "Samgyeopsal",
+    "emoji": "🥓",
+    "category": "meat",
+    "cuisine": "korean",
+    "mealTime": [
+      "dinner"
+    ],
+    "spicy": false,
+    "halalOption": false,
+    "price": "pricey",
+    "description": "Perut babi bakar dibalut salad dengan ssamjang.",
+    "descriptionEn": "Grilled pork belly wrapped in lettuce with ssamjang.",
+    "image": null,
+    "wiki": "Samgyeop-sal"
+  },
+  {
+    "id": "korean-bbq",
+    "name": "Korean BBQ",
+    "emoji": "🔥",
+    "category": "meat",
+    "cuisine": "korean",
+    "mealTime": [
+      "dinner"
+    ],
+    "spicy": false,
+    "halalOption": true,
+    "price": "pricey",
+    "description": "Bakar sendiri daging dan ayam perap di atas meja.",
+    "descriptionEn": "Grill your own marinated beef and chicken at the table.",
+    "image": null,
+    "wiki": "Korean_barbecue"
+  },
+  {
+    "id": "japchae",
+    "name": "Japchae",
+    "emoji": "🍝",
+    "category": "noodle",
+    "cuisine": "korean",
+    "mealTime": [
+      "lunch",
+      "dinner"
+    ],
+    "spicy": false,
+    "halalOption": true,
+    "price": "mid",
+    "description": "Soun goreng dengan sayur dan daging lembu.",
+    "descriptionEn": "Glass noodles stir-fried with vegetables and beef.",
+    "image": null,
+    "wiki": "Japchae"
+  },
+  {
+    "id": "kimbap",
+    "name": "Kimbap",
+    "emoji": "🍙",
+    "category": "rice",
+    "cuisine": "korean",
+    "mealTime": [
+      "lunch",
+      "teatime"
+    ],
+    "spicy": false,
+    "halalOption": true,
+    "price": "cheap",
+    "description": "Gulungan nasi rumpai laut dengan telur, sayur dan kek ikan.",
+    "descriptionEn": "Seaweed rice rolls with egg, vegetables and fish cake.",
+    "image": null,
+    "wiki": "Gimbap"
+  },
+  {
+    "id": "jjajangmyeon",
+    "name": "Jjajangmyeon",
+    "emoji": "🖤",
+    "category": "noodle",
+    "cuisine": "korean",
+    "mealTime": [
+      "lunch",
+      "dinner"
+    ],
+    "spicy": false,
+    "halalOption": false,
+    "price": "cheap",
+    "description": "Mee dalam sos kacang hitam pekat, biasanya dengan babi.",
+    "descriptionEn": "Noodles in thick black bean sauce, traditionally with pork.",
+    "image": null,
+    "wiki": "Jajangmyeon"
+  },
+  {
+    "id": "bingsu",
+    "name": "Bingsu",
+    "emoji": "🍧",
+    "category": "dessert",
+    "cuisine": "korean",
+    "mealTime": [
+      "teatime"
+    ],
+    "spicy": false,
+    "halalOption": true,
+    "price": "mid",
+    "description": "Ais susu halus dengan topping mangga atau kacang merah.",
+    "descriptionEn": "Fluffy milk shaved ice with toppings like mango or red bean.",
+    "image": null,
+    "wiki": "Bingsu"
+  },
+  {
+    "id": "ramyeon",
+    "name": "Ramyeon",
+    "emoji": "🍜",
+    "category": "noodle",
+    "cuisine": "korean",
+    "mealTime": [
+      "dinner",
+      "supper"
+    ],
+    "spicy": true,
+    "halalOption": true,
+    "price": "cheap",
+    "description": "Mee segera Korea pedas. Tambah telur dan keju.",
+    "descriptionEn": "Spicy Korean instant noodles. Add egg and cheese.",
+    "image": null,
+    "wiki": "Ramyeon"
+  },
+  {
+    "id": "butter-chicken",
+    "name": "Butter Chicken",
+    "emoji": "🍛",
+    "category": "meat",
+    "cuisine": "indian",
+    "mealTime": [
+      "lunch",
+      "dinner"
+    ],
+    "spicy": false,
+    "halalOption": true,
+    "price": "mid",
+    "description": "Ayam tandoori dalam kuah tomato dan mentega yang berkrim.",
+    "descriptionEn": "Tandoori chicken in a mild, creamy tomato and butter gravy.",
+    "image": null,
+    "wiki": "Butter_chicken"
+  },
+  {
+    "id": "tandoori-chicken",
+    "name": "Tandoori Chicken",
+    "emoji": "🍗",
+    "category": "meat",
+    "cuisine": "indian",
+    "mealTime": [
+      "lunch",
+      "dinner"
+    ],
+    "spicy": true,
+    "halalOption": true,
+    "price": "mid",
+    "description": "Ayam perap yogurt dan rempah, dibakar dalam ketuhar tanah liat.",
+    "descriptionEn": "Yoghurt and spice marinated chicken roasted in a clay oven.",
+    "image": null,
+    "wiki": "Tandoori_chicken"
+  },
+  {
+    "id": "naan",
+    "name": "Cheese Naan",
+    "emoji": "🫓",
+    "category": "bread",
+    "cuisine": "indian",
+    "mealTime": [
+      "lunch",
+      "dinner",
+      "supper"
+    ],
+    "spicy": false,
+    "halalOption": true,
+    "price": "cheap",
+    "description": "Roti leper lembut dibakar, kosong, bawang putih atau keju.",
+    "descriptionEn": "Soft oven-baked flatbread, plain, garlic or stuffed with cheese.",
+    "image": null,
+    "wiki": "Naan"
+  },
+  {
+    "id": "palak-paneer",
+    "name": "Palak Paneer",
+    "emoji": "🥬",
+    "category": "meat",
+    "cuisine": "indian",
+    "mealTime": [
+      "lunch",
+      "dinner"
+    ],
+    "spicy": false,
+    "halalOption": true,
+    "price": "mid",
+    "description": "Keju India dalam kuah bayam berempah. Vegetarian.",
+    "descriptionEn": "Indian cottage cheese in smooth spiced spinach gravy. Vegetarian.",
+    "image": null,
+    "wiki": "Palak_paneer"
+  },
+  {
+    "id": "chana-masala",
+    "name": "Chana Masala",
+    "emoji": "🫘",
+    "category": "meat",
+    "cuisine": "indian",
+    "mealTime": [
+      "lunch",
+      "dinner"
+    ],
+    "spicy": true,
+    "halalOption": true,
+    "price": "cheap",
+    "description": "Kacang kuda dalam kuah tomato berempah. Vegetarian.",
+    "descriptionEn": "Chickpeas in tangy spiced tomato gravy. Vegetarian.",
+    "image": null,
+    "wiki": "Chana_masala"
+  },
+  {
+    "id": "samosa",
+    "name": "Samosa",
+    "emoji": "🥟",
+    "category": "snack",
+    "cuisine": "indian",
+    "mealTime": [
+      "teatime"
+    ],
+    "spicy": true,
+    "halalOption": true,
+    "price": "cheap",
+    "description": "Pastri segi tiga rangup berinti kentang dan kacang pea berempah.",
+    "descriptionEn": "Crispy triangle pastry filled with spiced potato and peas.",
+    "image": null,
+    "wiki": "Samosa"
+  },
+  {
+    "id": "masala-chai",
+    "name": "Masala Chai",
+    "emoji": "🍵",
+    "category": "drink",
+    "cuisine": "indian",
+    "mealTime": [
+      "breakfast",
+      "teatime"
+    ],
+    "spicy": false,
+    "halalOption": true,
+    "price": "cheap",
+    "description": "Teh susu dimasak dengan halia, buah pelaga dan kayu manis.",
+    "descriptionEn": "Milk tea brewed with ginger, cardamom and cinnamon.",
+    "image": null,
+    "wiki": "Masala_chai"
+  },
+  {
+    "id": "mango-lassi",
+    "name": "Mango Lassi",
+    "emoji": "🥭",
+    "category": "drink",
+    "cuisine": "indian",
+    "mealTime": [
+      "lunch",
+      "teatime"
+    ],
+    "spicy": false,
+    "halalOption": true,
+    "price": "cheap",
+    "description": "Minuman yogurt sejuk dikisar dengan mangga masak.",
+    "descriptionEn": "Cold yoghurt drink blended with ripe mango.",
+    "image": null,
+    "wiki": "Lassi"
+  },
+  {
+    "id": "gulab-jamun",
+    "name": "Gulab Jamun",
+    "emoji": "🟤",
+    "category": "dessert",
+    "cuisine": "indian",
+    "mealTime": [
+      "teatime",
+      "dinner"
+    ],
+    "spicy": false,
+    "halalOption": true,
+    "price": "cheap",
+    "description": "Bebola doh susu lembut direndam sirap mawar dan buah pelaga.",
+    "descriptionEn": "Soft milk dough balls soaked in rose and cardamom syrup.",
+    "image": null,
+    "wiki": "Gulab_jamun"
+  },
+  {
+    "id": "idli",
+    "name": "Idli",
+    "emoji": "⚪",
+    "category": "bread",
+    "cuisine": "indian",
+    "mealTime": [
+      "breakfast"
+    ],
+    "spicy": false,
+    "halalOption": true,
+    "price": "cheap",
+    "description": "Kuih beras kukus dengan sambar dan chutney kelapa.",
+    "descriptionEn": "Steamed rice cakes with sambar and coconut chutney.",
+    "image": null,
+    "wiki": "Idli"
+  },
+  {
+    "id": "pani-puri",
+    "name": "Pani Puri",
+    "emoji": "🫧",
+    "category": "snack",
+    "cuisine": "indian",
+    "mealTime": [
+      "teatime"
+    ],
+    "spicy": true,
+    "halalOption": true,
+    "price": "cheap",
+    "description": "Puri rangup berongga diisi air berempah dan kentang. Sekali suap.",
+    "descriptionEn": "Crispy hollow puris filled with spiced water and potato. One bite each.",
+    "image": null,
+    "wiki": "Panipuri"
+  },
+  {
+    "id": "dal-makhani",
+    "name": "Dal Makhani",
+    "emoji": "🫘",
+    "category": "meat",
+    "cuisine": "indian",
+    "mealTime": [
+      "lunch",
+      "dinner"
+    ],
+    "spicy": false,
+    "halalOption": true,
+    "price": "mid",
+    "description": "Kacang dal hitam dimasak perlahan dengan mentega dan krim. Vegetarian.",
+    "descriptionEn": "Slow-cooked black lentils with butter and cream. Vegetarian.",
+    "image": null,
+    "wiki": "Dal_makhani"
+  },
+  {
+    "id": "nihari",
+    "name": "Nihari",
+    "emoji": "🍖",
+    "category": "meat",
+    "cuisine": "pakistani",
+    "mealTime": [
+      "breakfast",
+      "dinner"
+    ],
+    "spicy": true,
+    "halalOption": true,
+    "price": "mid",
+    "description": "Rebusan daging lembu dimasak perlahan, pekat berempah. Makan dengan naan.",
+    "descriptionEn": "Slow-cooked beef stew, rich and spiced. Eat with naan.",
+    "image": null,
+    "wiki": "Nihari"
+  },
+  {
+    "id": "chicken-karahi",
+    "name": "Chicken Karahi",
+    "emoji": "🍲",
+    "category": "meat",
+    "cuisine": "pakistani",
+    "mealTime": [
+      "lunch",
+      "dinner"
+    ],
+    "spicy": true,
+    "halalOption": true,
+    "price": "mid",
+    "description": "Ayam dimasak dalam kuali dengan tomato, halia dan cili hijau.",
+    "descriptionEn": "Chicken cooked in a wok with tomato, ginger and green chilli.",
+    "image": null,
+    "wiki": "Karahi"
+  },
+  {
+    "id": "kottu-roti",
+    "name": "Kottu Roti",
+    "emoji": "🔪",
+    "category": "bread",
+    "cuisine": "sri-lankan",
+    "mealTime": [
+      "dinner",
+      "supper"
+    ],
+    "spicy": true,
+    "halalOption": true,
+    "price": "cheap",
+    "description": "Roti dicincang, digoreng dengan telur, sayur dan kari atas plat panas.",
+    "descriptionEn": "Chopped roti stir-fried with egg, vegetables and curry on a hot plate.",
+    "image": null,
+    "wiki": "Kottu"
+  },
+  {
+    "id": "appam",
+    "name": "Appam",
+    "emoji": "🥞",
+    "category": "bread",
+    "cuisine": "sri-lankan",
+    "mealTime": [
+      "breakfast"
+    ],
+    "spicy": false,
+    "halalOption": true,
+    "price": "cheap",
+    "description": "Apam beras berbentuk mangkuk, tepi rangup dan tengah lembut.",
+    "descriptionEn": "Bowl-shaped rice pancakes, crispy edges and soft centre.",
+    "image": null,
+    "wiki": "Appam"
+  },
+  {
+    "id": "momo",
+    "name": "Momo",
+    "emoji": "🥟",
+    "category": "snack",
+    "cuisine": "nepali",
+    "mealTime": [
+      "lunch",
+      "teatime",
+      "supper"
+    ],
+    "spicy": true,
+    "halalOption": true,
+    "price": "cheap",
+    "description": "Ladu kukus dengan achar tomato pedas.",
+    "descriptionEn": "Steamed dumplings with spicy tomato achar.",
+    "image": null,
+    "wiki": "Momo_(food)"
+  },
+  {
+    "id": "shawarma",
+    "name": "Shawarma",
+    "emoji": "🌯",
+    "category": "bread",
+    "cuisine": "middle-eastern",
+    "mealTime": [
+      "lunch",
+      "dinner",
+      "supper"
+    ],
+    "spicy": false,
+    "halalOption": true,
+    "price": "cheap",
+    "description": "Ayam atau daging panggang berputar dibalut dengan sos bawang putih dan jeruk.",
+    "descriptionEn": "Spit-roasted chicken or beef wrapped with garlic sauce and pickles.",
+    "image": null,
+    "wiki": "Shawarma"
+  },
+  {
+    "id": "falafel",
+    "name": "Falafel",
+    "emoji": "🧆",
+    "category": "snack",
+    "cuisine": "middle-eastern",
+    "mealTime": [
+      "lunch",
+      "teatime"
+    ],
+    "spicy": false,
+    "halalOption": true,
+    "price": "cheap",
+    "description": "Cucur kacang kuda rangup dengan tahini, dalam pita atau pinggan.",
+    "descriptionEn": "Crispy chickpea fritters with tahini, in pita or on a plate.",
+    "image": null,
+    "wiki": "Falafel"
+  },
+  {
+    "id": "hummus",
+    "name": "Hummus",
+    "emoji": "🫘",
+    "category": "snack",
+    "cuisine": "middle-eastern",
+    "mealTime": [
+      "lunch",
+      "teatime"
+    ],
+    "spicy": false,
+    "halalOption": true,
+    "price": "cheap",
+    "description": "Celup kacang kuda dan tahini dengan minyak zaitun dan pita panas.",
+    "descriptionEn": "Smooth chickpea and tahini dip with olive oil and warm pita.",
+    "image": null,
+    "wiki": "Hummus"
+  },
+  {
+    "id": "nasi-mandi",
+    "name": "Nasi Mandi",
+    "emoji": "🍗",
+    "category": "rice",
+    "cuisine": "middle-eastern",
+    "mealTime": [
+      "lunch",
+      "dinner"
+    ],
+    "spicy": false,
+    "halalOption": true,
+    "price": "mid",
+    "description": "Nasi berempah Yaman dengan ayam atau kambing panggang lembut.",
+    "descriptionEn": "Yemeni spiced rice with tender roast chicken or lamb.",
+    "image": null,
+    "wiki": "Mandi_(food)"
+  },
+  {
+    "id": "kabsa",
+    "name": "Kabsa",
+    "emoji": "🍛",
+    "category": "rice",
+    "cuisine": "middle-eastern",
+    "mealTime": [
+      "lunch",
+      "dinner"
+    ],
+    "spicy": false,
+    "halalOption": true,
+    "price": "mid",
+    "description": "Nasi berempah Arab Saudi dengan ayam, kismis dan badam.",
+    "descriptionEn": "Saudi spiced rice with chicken, raisins and almonds.",
+    "image": null,
+    "wiki": "Kabsa"
+  },
+  {
+    "id": "kunafa",
+    "name": "Kunafa",
+    "emoji": "🧀",
+    "category": "dessert",
+    "cuisine": "middle-eastern",
+    "mealTime": [
+      "teatime",
+      "dinner"
+    ],
+    "spicy": false,
+    "halalOption": true,
+    "price": "mid",
+    "description": "Pastri halus rangup atas keju cair, disiram sirap.",
+    "descriptionEn": "Crispy shredded pastry over melted cheese, soaked in syrup.",
+    "image": null,
+    "wiki": "Knafeh"
+  },
+  {
+    "id": "baklava",
+    "name": "Baklava",
+    "emoji": "🍯",
+    "category": "dessert",
+    "cuisine": "turkish",
+    "mealTime": [
+      "teatime"
+    ],
+    "spicy": false,
+    "halalOption": true,
+    "price": "mid",
+    "description": "Lapisan pastri nipis, kacang dan sirap madu.",
+    "descriptionEn": "Layers of flaky pastry, nuts and honey syrup.",
+    "image": null,
+    "wiki": "Baklava"
+  },
+  {
+    "id": "shakshuka",
+    "name": "Shakshuka",
+    "emoji": "🍳",
+    "category": "meat",
+    "cuisine": "middle-eastern",
+    "mealTime": [
+      "breakfast",
+      "lunch"
+    ],
+    "spicy": true,
+    "halalOption": true,
+    "price": "mid",
+    "description": "Telur dimasak dalam sos tomato dan lada berempah. Cicah dengan roti.",
+    "descriptionEn": "Eggs poached in spiced tomato and pepper sauce. Dip with bread.",
+    "image": null,
+    "wiki": "Shakshouka"
+  },
+  {
+    "id": "fattoush",
+    "name": "Fattoush",
+    "emoji": "🥗",
+    "category": "salad",
+    "cuisine": "middle-eastern",
+    "mealTime": [
+      "lunch"
+    ],
+    "spicy": false,
+    "halalOption": true,
+    "price": "mid",
+    "description": "Salad rangup dengan pita bakar, sumac dan lemon.",
+    "descriptionEn": "Crunchy salad with toasted pita, sumac and lemon.",
+    "image": null,
+    "wiki": "Fattoush"
+  },
+  {
+    "id": "doner-kebab",
+    "name": "Doner Kebab",
+    "emoji": "🥙",
+    "category": "bread",
+    "cuisine": "turkish",
+    "mealTime": [
+      "lunch",
+      "dinner",
+      "supper"
+    ],
+    "spicy": false,
+    "halalOption": true,
+    "price": "cheap",
+    "description": "Daging panggang berputar dihiris dalam roti dengan salad dan sos.",
+    "descriptionEn": "Sliced rotisserie meat in bread with salad and sauce.",
+    "image": null,
+    "wiki": "Doner_kebab"
+  },
+  {
+    "id": "turkish-pide",
+    "name": "Pide",
+    "emoji": "🫓",
+    "category": "bread",
+    "cuisine": "turkish",
+    "mealTime": [
+      "lunch",
+      "dinner"
+    ],
+    "spicy": false,
+    "halalOption": true,
+    "price": "mid",
+    "description": "Roti Turki berbentuk perahu dibakar dengan keju, telur atau daging cincang.",
+    "descriptionEn": "Boat-shaped Turkish flatbread baked with cheese, egg or minced meat.",
+    "image": null,
+    "wiki": "Pide"
+  },
+  {
+    "id": "pizza-margherita",
+    "name": "Pizza Margherita",
+    "emoji": "🍕",
+    "category": "bread",
+    "cuisine": "italian",
+    "mealTime": [
+      "lunch",
+      "dinner"
+    ],
+    "spicy": false,
+    "halalOption": true,
+    "price": "mid",
+    "description": "Kerak nipis dengan tomato, mozzarella dan daun selasih. Yang asal.",
+    "descriptionEn": "Thin crust with tomato, mozzarella and basil. The classic.",
+    "image": null,
+    "wiki": "Pizza_Margherita"
+  },
+  {
+    "id": "carbonara",
+    "name": "Spaghetti Carbonara",
+    "emoji": "🍝",
+    "category": "noodle",
+    "cuisine": "italian",
+    "mealTime": [
+      "lunch",
+      "dinner"
+    ],
+    "spicy": false,
+    "halalOption": false,
+    "price": "mid",
+    "description": "Pasta dengan telur, keju pecorino dan babi awet. Versi halal guna daging.",
+    "descriptionEn": "Pasta with egg, pecorino and cured pork. Halal versions use beef.",
+    "image": null,
+    "wiki": "Carbonara"
+  },
+  {
+    "id": "lasagna",
+    "name": "Lasagna",
+    "emoji": "🧀",
+    "category": "noodle",
+    "cuisine": "italian",
+    "mealTime": [
+      "lunch",
+      "dinner"
+    ],
+    "spicy": false,
+    "halalOption": true,
+    "price": "mid",
+    "description": "Lapisan pasta, sos daging dan béchamel dibakar dengan keju.",
+    "descriptionEn": "Layers of pasta, meat sauce and béchamel baked with cheese.",
+    "image": null,
+    "wiki": "Lasagna"
+  },
+  {
+    "id": "risotto",
+    "name": "Mushroom Risotto",
+    "emoji": "🍄",
+    "category": "rice",
+    "cuisine": "italian",
+    "mealTime": [
+      "lunch",
+      "dinner"
+    ],
+    "spicy": false,
+    "halalOption": true,
+    "price": "pricey",
+    "description": "Nasi Itali berkrim dimasak perlahan dengan cendawan dan parmesan.",
+    "descriptionEn": "Creamy Italian rice slowly cooked with mushrooms and parmesan.",
+    "image": null,
+    "wiki": "Risotto"
+  },
+  {
+    "id": "tiramisu",
+    "name": "Tiramisu",
+    "emoji": "☕",
+    "category": "dessert",
+    "cuisine": "italian",
+    "mealTime": [
+      "teatime",
+      "dinner"
+    ],
+    "spicy": false,
+    "halalOption": false,
+    "price": "mid",
+    "description": "Biskut direndam kopi berlapis mascarpone. Selalunya ada arak.",
+    "descriptionEn": "Coffee-soaked biscuits layered with mascarpone. Often has liqueur.",
+    "image": null,
+    "wiki": "Tiramisu"
+  },
+  {
+    "id": "gelato",
+    "name": "Gelato",
+    "emoji": "🍨",
+    "category": "dessert",
+    "cuisine": "italian",
+    "mealTime": [
+      "teatime"
+    ],
+    "spicy": false,
+    "halalOption": true,
+    "price": "mid",
+    "description": "Aiskrim Itali yang padat dan lembut.",
+    "descriptionEn": "Dense, silky Italian ice cream.",
+    "image": null,
+    "wiki": "Gelato"
+  },
+  {
+    "id": "croissant",
+    "name": "Croissant",
+    "emoji": "🥐",
+    "category": "bread",
+    "cuisine": "french",
+    "mealTime": [
+      "breakfast",
+      "teatime"
+    ],
+    "spicy": false,
+    "halalOption": true,
+    "price": "cheap",
+    "description": "Pastri bulan sabit bermentega dan rangup. Paling sedap panas dengan kopi.",
+    "descriptionEn": "Buttery, flaky crescent pastry. Best warm with coffee.",
+    "image": null,
+    "wiki": "Croissant"
+  },
+  {
+    "id": "crepe",
+    "name": "Crêpe",
+    "emoji": "🥞",
+    "category": "dessert",
+    "cuisine": "french",
+    "mealTime": [
+      "breakfast",
+      "teatime"
+    ],
+    "spicy": false,
+    "halalOption": true,
+    "price": "cheap",
+    "description": "Lempeng nipis Perancis dengan Nutella, pisang atau gula dan lemon.",
+    "descriptionEn": "Thin French pancake with Nutella, banana or sugar and lemon.",
+    "image": null,
+    "wiki": "Crêpe"
+  },
+  {
+    "id": "ratatouille",
+    "name": "Ratatouille",
+    "emoji": "🍆",
+    "category": "meat",
+    "cuisine": "french",
+    "mealTime": [
+      "lunch",
+      "dinner"
+    ],
+    "spicy": false,
+    "halalOption": true,
+    "price": "mid",
+    "description": "Rebusan Provence terung, zukini, lada benggala dan tomato.",
+    "descriptionEn": "Provençal stew of aubergine, courgette, peppers and tomato.",
+    "image": null,
+    "wiki": "Ratatouille"
+  },
+  {
+    "id": "quiche",
+    "name": "Quiche Lorraine",
+    "emoji": "🥧",
+    "category": "bread",
+    "cuisine": "french",
+    "mealTime": [
+      "breakfast",
+      "lunch"
+    ],
+    "spicy": false,
+    "halalOption": false,
+    "price": "mid",
+    "description": "Tart telur dan krim, biasanya dengan bacon.",
+    "descriptionEn": "Savoury egg and cream tart, traditionally with bacon.",
+    "image": null,
+    "wiki": "Quiche"
+  },
+  {
+    "id": "coq-au-vin",
+    "name": "Coq au Vin",
+    "emoji": "🍷",
+    "category": "meat",
+    "cuisine": "french",
+    "mealTime": [
+      "dinner"
+    ],
+    "spicy": false,
+    "halalOption": false,
+    "price": "pricey",
+    "description": "Ayam direbus dalam wain merah dengan cendawan dan bawang.",
+    "descriptionEn": "Chicken braised in red wine with mushrooms and onions.",
+    "image": null,
+    "wiki": "Coq_au_vin"
+  },
+  {
+    "id": "french-onion-soup",
+    "name": "French Onion Soup",
+    "emoji": "🧅",
+    "category": "soup",
+    "cuisine": "french",
+    "mealTime": [
+      "lunch",
+      "dinner"
+    ],
+    "spicy": false,
+    "halalOption": false,
+    "price": "mid",
+    "description": "Sup bawang karamel di bawah roti dan keju cair. Selalunya ada wain.",
+    "descriptionEn": "Caramelised onion soup under bread and melted cheese. Often has wine.",
+    "image": null,
+    "wiki": "French_onion_soup"
+  },
+  {
+    "id": "macarons",
+    "name": "Macarons",
+    "emoji": "🍬",
+    "category": "dessert",
+    "cuisine": "french",
+    "mealTime": [
+      "teatime"
+    ],
+    "spicy": false,
+    "halalOption": true,
+    "price": "mid",
+    "description": "Biskut meringue badam rangup dengan inti berkrim.",
+    "descriptionEn": "Crisp almond meringue cookies with a creamy filling.",
+    "image": null,
+    "wiki": "Macaron"
+  },
+  {
+    "id": "creme-brulee",
+    "name": "Crème Brûlée",
+    "emoji": "🍮",
+    "category": "dessert",
+    "cuisine": "french",
+    "mealTime": [
+      "dinner"
+    ],
+    "spicy": false,
+    "halalOption": true,
+    "price": "mid",
+    "description": "Kastard vanila dengan lapisan gula karamel yang rangup.",
+    "descriptionEn": "Vanilla custard with a crackly caramelised sugar top.",
+    "image": null,
+    "wiki": "Crème_brûlée"
+  },
+  {
+    "id": "paella",
+    "name": "Paella",
+    "emoji": "🥘",
+    "category": "rice",
+    "cuisine": "spanish",
+    "mealTime": [
+      "lunch",
+      "dinner"
+    ],
+    "spicy": false,
+    "halalOption": false,
+    "price": "pricey",
+    "description": "Nasi kunyit kesumba dalam kuali dengan makanan laut. Ada yang tambah chorizo.",
+    "descriptionEn": "Saffron rice pan with seafood. Some versions add chorizo.",
+    "image": null,
+    "wiki": "Paella"
+  },
+  {
+    "id": "churros",
+    "name": "Churros",
+    "emoji": "🍩",
+    "category": "dessert",
+    "cuisine": "spanish",
+    "mealTime": [
+      "teatime",
+      "supper"
+    ],
+    "spicy": false,
+    "halalOption": true,
+    "price": "cheap",
+    "description": "Doh goreng bergula, dicicah coklat.",
+    "descriptionEn": "Fried dough sticks rolled in sugar, dipped in chocolate.",
+    "image": null,
+    "wiki": "Churro"
+  },
+  {
+    "id": "gazpacho",
+    "name": "Gazpacho",
+    "emoji": "🍅",
+    "category": "soup",
+    "cuisine": "spanish",
+    "mealTime": [
+      "lunch"
+    ],
+    "spicy": false,
+    "halalOption": true,
+    "price": "mid",
+    "description": "Sup tomato dan sayur kisar yang sejuk untuk hari panas.",
+    "descriptionEn": "Cold blended tomato and vegetable soup for hot days.",
+    "image": null,
+    "wiki": "Gazpacho"
+  },
+  {
+    "id": "tortilla-espanola",
+    "name": "Tortilla Española",
+    "emoji": "🥔",
+    "category": "meat",
+    "cuisine": "spanish",
+    "mealTime": [
+      "breakfast",
+      "lunch"
+    ],
+    "spicy": false,
+    "halalOption": true,
+    "price": "cheap",
+    "description": "Telur dadar tebal Sepanyol dengan kentang dan bawang.",
+    "descriptionEn": "Thick Spanish omelette with potato and onion.",
+    "image": null,
+    "wiki": "Spanish_omelette"
+  },
+  {
+    "id": "gyros",
+    "name": "Gyros",
+    "emoji": "🥙",
+    "category": "bread",
+    "cuisine": "greek",
+    "mealTime": [
+      "lunch",
+      "dinner",
+      "supper"
+    ],
+    "spicy": false,
+    "halalOption": true,
+    "price": "cheap",
+    "description": "Pita berbalut daging panggang, tzatziki, tomato dan bawang.",
+    "descriptionEn": "Pita wrap with roasted meat, tzatziki, tomato and onion.",
+    "image": null,
+    "wiki": "Gyros"
+  },
+  {
+    "id": "moussaka",
+    "name": "Moussaka",
+    "emoji": "🍆",
+    "category": "meat",
+    "cuisine": "greek",
+    "mealTime": [
+      "dinner"
+    ],
+    "spicy": false,
+    "halalOption": true,
+    "price": "mid",
+    "description": "Lapisan terung, daging cincang berempah dan béchamel dibakar.",
+    "descriptionEn": "Baked layers of aubergine, spiced minced meat and béchamel.",
+    "image": null,
+    "wiki": "Moussaka"
+  },
+  {
+    "id": "greek-salad",
+    "name": "Greek Salad",
+    "emoji": "🥗",
+    "category": "salad",
+    "cuisine": "greek",
+    "mealTime": [
+      "lunch"
+    ],
+    "spicy": false,
+    "halalOption": true,
+    "price": "mid",
+    "description": "Tomato, timun, zaitun dan keju feta dengan minyak zaitun.",
+    "descriptionEn": "Tomato, cucumber, olives and a slab of feta with olive oil.",
+    "image": null,
+    "wiki": "Greek_salad"
+  },
+  {
+    "id": "fish-and-chips",
+    "name": "Fish and Chips",
+    "emoji": "🐟",
+    "category": "meat",
+    "cuisine": "british",
+    "mealTime": [
+      "lunch",
+      "dinner"
+    ],
+    "spicy": false,
+    "halalOption": true,
+    "price": "mid",
+    "description": "Ikan goreng tepung dengan kentang tebal dan sos tartar.",
+    "descriptionEn": "Battered fried fish with thick chips and tartare sauce.",
+    "image": null,
+    "wiki": "Fish_and_chips"
+  },
+  {
+    "id": "full-english",
+    "name": "Full English Breakfast",
+    "emoji": "🍳",
+    "category": "meat",
+    "cuisine": "british",
+    "mealTime": [
+      "breakfast"
+    ],
+    "spicy": false,
+    "halalOption": false,
+    "price": "mid",
+    "description": "Telur, bacon, sosej, kacang, roti bakar dan tomato bakar.",
+    "descriptionEn": "Eggs, bacon, sausages, beans, toast and grilled tomato.",
+    "image": null,
+    "wiki": "Full_breakfast"
+  },
+  {
+    "id": "shepherds-pie",
+    "name": "Shepherd's Pie",
+    "emoji": "🥧",
+    "category": "meat",
+    "cuisine": "british",
+    "mealTime": [
+      "dinner"
+    ],
+    "spicy": false,
+    "halalOption": true,
+    "price": "mid",
+    "description": "Rebusan kambing cincang dibakar di bawah kentang lenyek.",
+    "descriptionEn": "Minced lamb stew baked under creamy mashed potato.",
+    "image": null,
+    "wiki": "Shepherd's_pie"
+  },
+  {
+    "id": "schnitzel",
+    "name": "Schnitzel",
+    "emoji": "🥩",
+    "category": "meat",
+    "cuisine": "german",
+    "mealTime": [
+      "lunch",
+      "dinner"
+    ],
+    "spicy": false,
+    "halalOption": false,
+    "price": "mid",
+    "description": "Kepingan daging nipis bersalut tepung roti. Babi atau anak lembu, ayam untuk halal.",
+    "descriptionEn": "Thin breaded cutlet fried golden. Pork or veal, chicken for halal.",
+    "image": null,
+    "wiki": "Schnitzel"
+  },
+  {
+    "id": "bratwurst",
+    "name": "Bratwurst",
+    "emoji": "🌭",
+    "category": "meat",
+    "cuisine": "german",
+    "mealTime": [
+      "lunch",
+      "dinner",
+      "supper"
+    ],
+    "spicy": false,
+    "halalOption": false,
+    "price": "cheap",
+    "description": "Sosej babi Jerman bakar dengan mustard dan sauerkraut.",
+    "descriptionEn": "Grilled German pork sausage with mustard and sauerkraut.",
+    "image": null,
+    "wiki": "Bratwurst"
+  },
+  {
+    "id": "pretzel",
+    "name": "Pretzel",
+    "emoji": "🥨",
+    "category": "bread",
+    "cuisine": "german",
+    "mealTime": [
+      "teatime"
+    ],
+    "spicy": false,
+    "halalOption": true,
+    "price": "cheap",
+    "description": "Roti bersimpul kenyal dengan kulit masin.",
+    "descriptionEn": "Chewy knotted bread with a salty crust.",
+    "image": null,
+    "wiki": "Pretzel"
+  },
+  {
+    "id": "borscht",
+    "name": "Borscht",
+    "emoji": "🥣",
+    "category": "soup",
+    "cuisine": "east-european",
+    "mealTime": [
+      "lunch",
+      "dinner"
+    ],
+    "spicy": false,
+    "halalOption": true,
+    "price": "mid",
+    "description": "Sup ubi bit merah pekat dengan krim masam.",
+    "descriptionEn": "Deep red beetroot soup with sour cream.",
+    "image": null,
+    "wiki": "Borscht"
+  },
+  {
+    "id": "pierogi",
+    "name": "Pierogi",
+    "emoji": "🥟",
+    "category": "snack",
+    "cuisine": "east-european",
+    "mealTime": [
+      "lunch",
+      "dinner"
+    ],
+    "spicy": false,
+    "halalOption": true,
+    "price": "mid",
+    "description": "Ladu Poland berinti kentang dan keju, dengan bawang goreng.",
+    "descriptionEn": "Polish dumplings filled with potato and cheese, served with onions.",
+    "image": null,
+    "wiki": "Pierogi"
+  },
+  {
+    "id": "goulash",
+    "name": "Goulash",
+    "emoji": "🍲",
+    "category": "soup",
+    "cuisine": "east-european",
+    "mealTime": [
+      "lunch",
+      "dinner"
+    ],
+    "spicy": true,
+    "halalOption": true,
+    "price": "mid",
+    "description": "Rebusan daging Hungary yang kaya dengan paprika.",
+    "descriptionEn": "Hungarian beef stew rich with paprika.",
+    "image": null,
+    "wiki": "Goulash"
+  },
+  {
+    "id": "mac-and-cheese",
+    "name": "Mac and Cheese",
+    "emoji": "🧀",
+    "category": "noodle",
+    "cuisine": "american",
+    "mealTime": [
+      "lunch",
+      "dinner"
+    ],
+    "spicy": false,
+    "halalOption": true,
+    "price": "cheap",
+    "description": "Makaroni dibakar dalam sos keju yang pekat dan meleleh.",
+    "descriptionEn": "Macaroni baked in a thick, gooey cheese sauce.",
+    "image": null,
+    "wiki": "Macaroni_and_cheese"
+  },
+  {
+    "id": "pancakes",
+    "name": "Pancakes",
+    "emoji": "🥞",
+    "category": "bread",
+    "cuisine": "american",
+    "mealTime": [
+      "breakfast"
+    ],
+    "spicy": false,
+    "halalOption": true,
+    "price": "cheap",
+    "description": "Lempeng gebu bertingkat dengan mentega dan sirap maple.",
+    "descriptionEn": "Fluffy stacked pancakes with butter and maple syrup.",
+    "image": null,
+    "wiki": "Pancake"
+  },
+  {
+    "id": "bbq-ribs",
+    "name": "BBQ Ribs",
+    "emoji": "🍖",
+    "category": "meat",
+    "cuisine": "american",
+    "mealTime": [
+      "dinner"
+    ],
+    "spicy": false,
+    "halalOption": false,
+    "price": "pricey",
+    "description": "Rusuk diasap perlahan dalam sos BBQ melekit. Biasanya babi; ada rusuk lembu.",
+    "descriptionEn": "Slow-smoked ribs in sticky barbecue sauce. Usually pork; beef ribs exist.",
+    "image": null,
+    "wiki": "Spare_ribs"
+  },
+  {
+    "id": "buffalo-wings",
+    "name": "Buffalo Wings",
+    "emoji": "🍗",
+    "category": "meat",
+    "cuisine": "american",
+    "mealTime": [
+      "dinner",
+      "supper"
+    ],
+    "spicy": true,
+    "halalOption": true,
+    "price": "mid",
+    "description": "Kepak ayam goreng digaul sos pedas, dengan celup keju biru.",
+    "descriptionEn": "Fried chicken wings tossed in hot sauce, with blue cheese dip.",
+    "image": null,
+    "wiki": "Buffalo_wing"
+  },
+  {
+    "id": "apple-pie",
+    "name": "Apple Pie",
+    "emoji": "🥧",
+    "category": "dessert",
+    "cuisine": "american",
+    "mealTime": [
+      "teatime",
+      "dinner"
+    ],
+    "spicy": false,
+    "halalOption": true,
+    "price": "mid",
+    "description": "Inti epal kayu manis dalam pastri bermentega. Tambah aiskrim.",
+    "descriptionEn": "Cinnamon apple filling in buttery pastry. Add a scoop of ice cream.",
+    "image": null,
+    "wiki": "Apple_pie"
+  },
+  {
+    "id": "brownies",
+    "name": "Brownies",
+    "emoji": "🍫",
+    "category": "dessert",
+    "cuisine": "american",
+    "mealTime": [
+      "teatime"
+    ],
+    "spicy": false,
+    "halalOption": true,
+    "price": "cheap",
+    "description": "Kek coklat padat dan kenyal berbentuk segi empat.",
+    "descriptionEn": "Fudgy, chewy chocolate squares.",
+    "image": null,
+    "wiki": "Chocolate_brownie"
+  },
+  {
+    "id": "tacos",
+    "name": "Tacos",
+    "emoji": "🌮",
+    "category": "bread",
+    "cuisine": "mexican",
+    "mealTime": [
+      "lunch",
+      "dinner",
+      "supper"
+    ],
+    "spicy": true,
+    "halalOption": true,
+    "price": "cheap",
+    "description": "Tortila jagung lembut dengan daging bakar, salsa, bawang dan limau.",
+    "descriptionEn": "Soft corn tortillas with grilled meat, salsa, onion and lime.",
+    "image": null,
+    "wiki": "Taco"
+  },
+  {
+    "id": "burrito",
+    "name": "Burrito",
+    "emoji": "🌯",
+    "category": "bread",
+    "cuisine": "mexican",
+    "mealTime": [
+      "lunch",
+      "dinner"
+    ],
+    "spicy": false,
+    "halalOption": true,
+    "price": "mid",
+    "description": "Tortila besar membalut nasi, kacang, daging dan keju.",
+    "descriptionEn": "Big flour tortilla wrapped around rice, beans, meat and cheese.",
+    "image": null,
+    "wiki": "Burrito"
+  },
+  {
+    "id": "quesadilla",
+    "name": "Quesadilla",
+    "emoji": "🧀",
+    "category": "bread",
+    "cuisine": "mexican",
+    "mealTime": [
+      "lunch",
+      "teatime"
+    ],
+    "spicy": false,
+    "halalOption": true,
+    "price": "cheap",
+    "description": "Tortila bakar dilipat dengan keju cair dan inti.",
+    "descriptionEn": "Toasted tortilla folded over melted cheese and fillings.",
+    "image": null,
+    "wiki": "Quesadilla"
+  },
+  {
+    "id": "nachos",
+    "name": "Nachos",
+    "emoji": "🧀",
+    "category": "snack",
+    "cuisine": "mexican",
+    "mealTime": [
+      "teatime",
+      "supper"
+    ],
+    "spicy": true,
+    "halalOption": true,
+    "price": "cheap",
+    "description": "Kerepek tortila dengan keju, jalapeño dan salsa.",
+    "descriptionEn": "Tortilla chips piled with cheese, jalapeños and salsa.",
+    "image": null,
+    "wiki": "Nachos"
+  },
+  {
+    "id": "guacamole",
+    "name": "Guacamole",
+    "emoji": "🥑",
+    "category": "snack",
+    "cuisine": "mexican",
+    "mealTime": [
+      "lunch",
+      "teatime"
+    ],
+    "spicy": false,
+    "halalOption": true,
+    "price": "cheap",
+    "description": "Avokado lenyek dengan limau, bawang dan daun ketumbar, dengan kerepek.",
+    "descriptionEn": "Mashed avocado with lime, onion and coriander, with chips.",
+    "image": null,
+    "wiki": "Guacamole"
+  },
+  {
+    "id": "enchiladas",
+    "name": "Enchiladas",
+    "emoji": "🌶️",
+    "category": "bread",
+    "cuisine": "mexican",
+    "mealTime": [
+      "dinner"
+    ],
+    "spicy": true,
+    "halalOption": true,
+    "price": "mid",
+    "description": "Tortila bergulung berisi ayam, dibakar dalam sos cili.",
+    "descriptionEn": "Rolled tortillas filled with chicken, baked in chilli sauce.",
+    "image": null,
+    "wiki": "Enchilada"
+  },
+  {
+    "id": "feijoada",
+    "name": "Feijoada",
+    "emoji": "🫘",
+    "category": "meat",
+    "cuisine": "south-american",
+    "mealTime": [
+      "lunch"
+    ],
+    "spicy": false,
+    "halalOption": false,
+    "price": "mid",
+    "description": "Rebusan kacang hitam Brazil dengan babi salai, dimakan dengan nasi.",
+    "descriptionEn": "Brazilian black bean stew with smoked pork, served with rice.",
+    "image": null,
+    "wiki": "Feijoada"
+  },
+  {
+    "id": "pao-de-queijo",
+    "name": "Pão de Queijo",
+    "emoji": "🧀",
+    "category": "bread",
+    "cuisine": "south-american",
+    "mealTime": [
+      "breakfast",
+      "teatime"
+    ],
+    "spicy": false,
+    "halalOption": true,
+    "price": "cheap",
+    "description": "Roti keju bulat Brazil yang kenyal.",
+    "descriptionEn": "Chewy Brazilian cheese bread balls.",
+    "image": null,
+    "wiki": "Pão_de_queijo"
+  },
+  {
+    "id": "acai-bowl",
+    "name": "Açaí Bowl",
+    "emoji": "🫐",
+    "category": "dessert",
+    "cuisine": "south-american",
+    "mealTime": [
+      "breakfast",
+      "teatime"
+    ],
+    "spicy": false,
+    "halalOption": true,
+    "price": "mid",
+    "description": "Kisaran beri açaí sejuk dengan granola dan buah.",
+    "descriptionEn": "Frozen açaí berry blend topped with granola and fruit.",
+    "image": null,
+    "wiki": "Açaí_na_tigela"
+  },
+  {
+    "id": "churrasco",
+    "name": "Churrasco",
+    "emoji": "🥩",
+    "category": "meat",
+    "cuisine": "south-american",
+    "mealTime": [
+      "dinner"
+    ],
+    "spicy": false,
+    "halalOption": true,
+    "price": "pricey",
+    "description": "BBQ Brazil: daging bakar dihiris terus dari cucuk.",
+    "descriptionEn": "Brazilian barbecue: grilled meats sliced straight from skewers.",
+    "image": null,
+    "wiki": "Churrasco"
+  },
+  {
+    "id": "ceviche",
+    "name": "Ceviche",
+    "emoji": "🐟",
+    "category": "salad",
+    "cuisine": "south-american",
+    "mealTime": [
+      "lunch"
+    ],
+    "spicy": true,
+    "halalOption": true,
+    "price": "mid",
+    "description": "Ikan mentah diperap jus limau dengan cili dan bawang merah. Kebanggaan Peru.",
+    "descriptionEn": "Raw fish cured in lime juice with chilli and red onion. Peru's pride.",
+    "image": null,
+    "wiki": "Ceviche"
+  },
+  {
+    "id": "lomo-saltado",
+    "name": "Lomo Saltado",
+    "emoji": "🥩",
+    "category": "meat",
+    "cuisine": "south-american",
+    "mealTime": [
+      "lunch",
+      "dinner"
+    ],
+    "spicy": false,
+    "halalOption": true,
+    "price": "mid",
+    "description": "Daging lembu goreng Peru dengan tomato, bawang dan kentang goreng.",
+    "descriptionEn": "Peruvian beef stir-fry with tomato, onion and fries.",
+    "image": null,
+    "wiki": "Lomo_saltado"
+  },
+  {
+    "id": "empanadas",
+    "name": "Empanadas",
+    "emoji": "🥟",
+    "category": "snack",
+    "cuisine": "south-american",
+    "mealTime": [
+      "lunch",
+      "teatime"
+    ],
+    "spicy": false,
+    "halalOption": true,
+    "price": "cheap",
+    "description": "Pastri bakar atau goreng berinti daging berempah.",
+    "descriptionEn": "Baked or fried pastries filled with spiced beef.",
+    "image": null,
+    "wiki": "Empanada"
+  },
+  {
+    "id": "poutine",
+    "name": "Poutine",
+    "emoji": "🍟",
+    "category": "snack",
+    "cuisine": "american",
+    "mealTime": [
+      "lunch",
+      "supper"
+    ],
+    "spicy": false,
+    "halalOption": true,
+    "price": "mid",
+    "description": "Kentang goreng Kanada dengan keju dadih dan kuah panas.",
+    "descriptionEn": "Canadian fries with cheese curds and hot gravy.",
+    "image": null,
+    "wiki": "Poutine"
+  },
+  {
+    "id": "jerk-chicken",
+    "name": "Jerk Chicken",
+    "emoji": "🍗",
+    "category": "meat",
+    "cuisine": "caribbean",
+    "mealTime": [
+      "lunch",
+      "dinner"
+    ],
+    "spicy": true,
+    "halalOption": true,
+    "price": "mid",
+    "description": "Ayam Jamaica diperap rempah dan cili Scotch bonnet, kemudian dibakar.",
+    "descriptionEn": "Jamaican chicken marinated in allspice and Scotch bonnet, then grilled.",
+    "image": null,
+    "wiki": "Jamaican_jerk_chicken"
+  },
+  {
+    "id": "poke-bowl",
+    "name": "Poke Bowl",
+    "emoji": "🐟",
+    "category": "rice",
+    "cuisine": "american",
+    "mealTime": [
+      "lunch"
+    ],
+    "spicy": false,
+    "halalOption": true,
+    "price": "mid",
+    "description": "Mangkuk Hawaii tuna atau salmon mentah atas nasi dengan bijan dan kicap.",
+    "descriptionEn": "Hawaiian bowl of raw tuna or salmon over rice with sesame and soy.",
+    "image": null,
+    "wiki": "Poke_(dish)"
+  },
+  {
+    "id": "tagine",
+    "name": "Chicken Tagine",
+    "emoji": "🍲",
+    "category": "meat",
+    "cuisine": "african",
+    "mealTime": [
+      "lunch",
+      "dinner"
+    ],
+    "spicy": false,
+    "halalOption": true,
+    "price": "mid",
+    "description": "Ayam Maghribi dimasak perlahan dengan lemon jeruk dan zaitun.",
+    "descriptionEn": "Moroccan slow-cooked chicken with preserved lemon and olives.",
+    "image": null,
+    "wiki": "Tajine"
+  },
+  {
+    "id": "couscous",
+    "name": "Couscous",
+    "emoji": "🍚",
+    "category": "rice",
+    "cuisine": "african",
+    "mealTime": [
+      "lunch",
+      "dinner"
+    ],
+    "spicy": false,
+    "halalOption": true,
+    "price": "mid",
+    "description": "Semolina kukus yang gebu dengan sayur dan rebusan.",
+    "descriptionEn": "Fluffy steamed semolina with vegetables and stew.",
+    "image": null,
+    "wiki": "Couscous"
+  },
+  {
+    "id": "injera",
+    "name": "Injera with Doro Wat",
+    "emoji": "🫓",
+    "category": "bread",
+    "cuisine": "african",
+    "mealTime": [
+      "lunch",
+      "dinner"
+    ],
+    "spicy": true,
+    "halalOption": true,
+    "price": "mid",
+    "description": "Roti leper Ethiopia yang berongga dengan rebusan ayam pedas. Makan guna tangan.",
+    "descriptionEn": "Spongy Ethiopian flatbread with spicy chicken stew. Eat with your hands.",
+    "image": null,
+    "wiki": "Injera"
+  },
+  {
+    "id": "jollof-rice",
+    "name": "Jollof Rice",
+    "emoji": "🍅",
+    "category": "rice",
+    "cuisine": "african",
+    "mealTime": [
+      "lunch",
+      "dinner"
+    ],
+    "spicy": true,
+    "halalOption": true,
+    "price": "cheap",
+    "description": "Nasi tomato dan lada Afrika Barat, berasap dan pedas.",
+    "descriptionEn": "West African tomato and pepper rice, smoky and spicy.",
+    "image": null,
+    "wiki": "Jollof_rice"
+  },
+  {
+    "id": "bunny-chow",
+    "name": "Bunny Chow",
+    "emoji": "🍞",
+    "category": "bread",
+    "cuisine": "african",
+    "mealTime": [
+      "lunch"
+    ],
+    "spicy": true,
+    "halalOption": true,
+    "price": "cheap",
+    "description": "Roti buku yang dikorek dan diisi kari. Makanan jalanan Durban.",
+    "descriptionEn": "Hollowed-out bread loaf filled with curry. Durban street food.",
+    "image": null,
+    "wiki": "Bunny_chow"
+  },
+  {
+    "id": "koshari",
+    "name": "Koshari",
+    "emoji": "🍝",
+    "category": "rice",
+    "cuisine": "african",
+    "mealTime": [
+      "lunch"
+    ],
+    "spicy": true,
+    "halalOption": true,
+    "price": "cheap",
+    "description": "Campuran Mesir nasi, kacang dal, pasta dan sos tomato pedas.",
+    "descriptionEn": "Egyptian mix of rice, lentils, pasta and spicy tomato sauce.",
+    "image": null,
+    "wiki": "Koshary"
+  },
+  {
+    "id": "meat-pie",
+    "name": "Meat Pie",
+    "emoji": "🥧",
+    "category": "bread",
+    "cuisine": "oceanian",
+    "mealTime": [
+      "lunch",
+      "teatime"
+    ],
+    "spicy": false,
+    "halalOption": true,
+    "price": "cheap",
+    "description": "Pai Australia saiz tapak tangan berinti daging cincang dan kuah.",
+    "descriptionEn": "Australian hand-sized pie with minced beef and gravy.",
+    "image": null,
+    "wiki": "Meat_pie"
+  },
+  {
+    "id": "pavlova",
+    "name": "Pavlova",
+    "emoji": "🍓",
+    "category": "dessert",
+    "cuisine": "oceanian",
+    "mealTime": [
+      "teatime"
+    ],
+    "spicy": false,
+    "halalOption": true,
+    "price": "mid",
+    "description": "Meringue rangup dengan krim putar dan buah segar.",
+    "descriptionEn": "Crisp meringue with whipped cream and fresh fruit.",
+    "image": null,
+    "wiki": "Pavlova"
+  },
+  {
+    "id": "lamingtons",
+    "name": "Lamingtons",
+    "emoji": "🍫",
+    "category": "dessert",
+    "cuisine": "oceanian",
+    "mealTime": [
+      "teatime"
+    ],
+    "spicy": false,
+    "halalOption": true,
+    "price": "cheap",
+    "description": "Kek span dicelup coklat dan kelapa kering.",
+    "descriptionEn": "Sponge cake squares dipped in chocolate and coconut.",
+    "image": null,
+    "wiki": "Lamington"
+  },
+  {
+    "id": "avocado-toast",
+    "name": "Avocado Toast",
+    "emoji": "🥑",
+    "category": "bread",
+    "cuisine": "oceanian",
+    "mealTime": [
+      "breakfast"
+    ],
+    "spicy": false,
+    "halalOption": true,
+    "price": "mid",
+    "description": "Roti masam dengan avokado lenyek, lemon dan serpihan cili. Brunch kafe.",
+    "descriptionEn": "Sourdough with smashed avocado, lemon and chilli flakes. Café brunch.",
+    "image": null,
+    "wiki": "Avocado_toast"
+  },
+  {
+    "id": "fried-chicken",
+    "name": "Fried Chicken",
+    "emoji": "🍗",
+    "category": "meat",
+    "cuisine": "fast-food",
+    "mealTime": [
+      "lunch",
+      "dinner",
+      "supper"
+    ],
+    "spicy": false,
+    "halalOption": true,
+    "price": "cheap",
+    "description": "Ayam goreng rangup dan berjus. Original atau pedas?",
+    "descriptionEn": "Crispy, juicy fried chicken. Original or spicy?",
+    "image": null,
+    "wiki": "Fried_chicken"
+  },
+  {
+    "id": "burger",
+    "name": "Beef Burger",
+    "emoji": "🍔",
+    "category": "bread",
+    "cuisine": "fast-food",
+    "mealTime": [
+      "lunch",
+      "dinner",
+      "supper"
+    ],
+    "spicy": false,
+    "halalOption": true,
+    "price": "cheap",
+    "description": "Daging burger, keju, salad dan sos dalam roti lembut.",
+    "descriptionEn": "Beef patty, cheese, lettuce and sauce in a soft bun.",
+    "image": null,
+    "wiki": "Hamburger"
+  },
+  {
+    "id": "chicken-burger",
+    "name": "Chicken Burger",
+    "emoji": "🍔",
+    "category": "bread",
+    "cuisine": "fast-food",
+    "mealTime": [
+      "lunch",
+      "dinner",
+      "supper"
+    ],
+    "spicy": true,
+    "halalOption": true,
+    "price": "cheap",
+    "description": "Burger isi ayam goreng rangup, selalunya ada pilihan pedas.",
+    "descriptionEn": "Crispy fried chicken fillet burger, often with a spicy option.",
+    "image": null,
+    "wiki": "Chicken_sandwich"
+  },
+  {
+    "id": "french-fries",
+    "name": "French Fries",
+    "emoji": "🍟",
+    "category": "snack",
+    "cuisine": "fast-food",
+    "mealTime": [
+      "lunch",
+      "teatime",
+      "supper"
+    ],
+    "spicy": false,
+    "halalOption": true,
+    "price": "cheap",
+    "description": "Kentang goreng keemasan bergaram. Cicah sos cili atau sundae.",
+    "descriptionEn": "Golden fries, salted. Dip in chilli sauce or a sundae.",
+    "image": null,
+    "wiki": "French_fries"
+  },
+  {
+    "id": "chicken-nuggets",
+    "name": "Chicken Nuggets",
+    "emoji": "🍗",
+    "category": "snack",
+    "cuisine": "fast-food",
+    "mealTime": [
+      "lunch",
+      "teatime",
+      "supper"
+    ],
+    "spicy": false,
+    "halalOption": true,
+    "price": "cheap",
+    "description": "Ayam bersalut tepung saiz sekali gigit dengan sos celup.",
+    "descriptionEn": "Bite-sized breaded chicken with dipping sauces.",
+    "image": null,
+    "wiki": "Chicken_nugget"
+  },
+  {
+    "id": "pizza",
+    "name": "Pepperoni Pizza",
+    "emoji": "🍕",
+    "category": "bread",
+    "cuisine": "fast-food",
+    "mealTime": [
+      "lunch",
+      "dinner",
+      "supper"
+    ],
+    "spicy": false,
+    "halalOption": true,
+    "price": "mid",
+    "description": "Piza penghantaran dengan pepperoni daging atau ayam dan keju melimpah.",
+    "descriptionEn": "Delivery pizza with beef or chicken pepperoni and lots of cheese.",
+    "image": null,
+    "wiki": "Pepperoni"
+  },
+  {
+    "id": "hot-dog",
+    "name": "Hot Dog",
+    "emoji": "🌭",
+    "category": "bread",
+    "cuisine": "fast-food",
+    "mealTime": [
+      "lunch",
+      "teatime",
+      "supper"
+    ],
+    "spicy": false,
+    "halalOption": true,
+    "price": "cheap",
+    "description": "Sosej dalam roti lembut dengan sos tomato dan mustard. Daging atau ayam.",
+    "descriptionEn": "Sausage in a soft bun with ketchup and mustard. Beef or chicken.",
+    "image": null,
+    "wiki": "Hot_dog"
+  },
+  {
+    "id": "sub-sandwich",
+    "name": "Sub Sandwich",
+    "emoji": "🥪",
+    "category": "bread",
+    "cuisine": "fast-food",
+    "mealTime": [
+      "lunch"
+    ],
+    "spicy": false,
+    "halalOption": true,
+    "price": "mid",
+    "description": "Sandwic panjang dengan pilihan daging, keju dan sayur.",
+    "descriptionEn": "Long sandwich with your pick of meat, cheese and vegetables.",
+    "image": null,
+    "wiki": "Submarine_sandwich"
+  },
+  {
+    "id": "milkshake",
+    "name": "Milkshake",
+    "emoji": "🥤",
+    "category": "drink",
+    "cuisine": "fast-food",
+    "mealTime": [
+      "teatime",
+      "supper"
+    ],
+    "spicy": false,
+    "halalOption": true,
+    "price": "cheap",
+    "description": "Minuman aiskrim kisar yang pekat. Coklat, vanila atau strawberi.",
+    "descriptionEn": "Thick blended ice cream drink. Chocolate, vanilla or strawberry.",
+    "image": null,
+    "wiki": "Milkshake"
+  },
+  {
+    "id": "sundae",
+    "name": "Ice Cream Sundae",
+    "emoji": "🍨",
+    "category": "dessert",
+    "cuisine": "fast-food",
+    "mealTime": [
+      "teatime",
+      "supper"
+    ],
+    "spicy": false,
+    "halalOption": true,
+    "price": "cheap",
+    "description": "Aiskrim lembut dengan sos coklat atau karamel.",
+    "descriptionEn": "Soft serve with chocolate or caramel sauce.",
+    "image": null,
+    "wiki": "Sundae"
+  },
+  {
+    "id": "fried-chicken-rice",
+    "name": "Rice with Fried Chicken",
+    "emoji": "🍱",
+    "category": "rice",
+    "cuisine": "fast-food",
+    "mealTime": [
+      "lunch",
+      "dinner"
+    ],
+    "spicy": true,
+    "halalOption": true,
+    "price": "cheap",
+    "description": "Set nasi makanan segera dengan ayam goreng dan sos. Sangat Malaysia.",
+    "descriptionEn": "Fast-food rice meal with fried chicken and sauce. Very Malaysian.",
+    "image": null,
+    "wiki": null
   }
 ]

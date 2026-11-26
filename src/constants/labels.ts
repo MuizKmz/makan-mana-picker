@@ -1,56 +1,42 @@
-import type { Category, Cuisine, MealTime, PriceTier } from "../types/food";
+import type { Category, Cuisine, MealTime, PriceTier, Region } from "../types/food";
 
-export const MEAL_LABEL: Record<MealTime, string> = {
-  breakfast: "Sarapan",
-  lunch: "Tengah hari",
-  teatime: "Minum petang",
-  dinner: "Makan malam",
-  supper: "Supper",
+// Display text lives in src/i18n. This file only holds language-neutral values.
+
+export const MEAL_TIMES: MealTime[] = ["breakfast", "lunch", "teatime", "dinner", "supper"];
+export const PRICE_TIERS: PriceTier[] = ["cheap", "mid", "pricey"];
+export const CATEGORIES: Category[] = ["rice", "noodle", "bread", "meat", "soup", "salad", "snack", "dessert", "drink"];
+
+/** Which region each cuisine belongs to. Order here is the order shown in filters. */
+export const REGION_CUISINES: Record<Region, Cuisine[]> = {
+  malaysia: ["malay", "chinese", "mamak", "peranakan", "east-malaysia", "western"],
+  "southeast-asia": ["thai", "indonesian", "vietnamese", "filipino", "burmese", "cambodian"],
+  "east-asia": ["china", "taiwanese", "japanese", "korean"],
+  "south-asia": ["indian", "pakistani", "sri-lankan", "nepali"],
+  "middle-east": ["middle-eastern", "turkish"],
+  europe: ["italian", "french", "spanish", "greek", "british", "german", "east-european"],
+  americas: ["american", "mexican", "south-american", "caribbean"],
+  africa: ["african"],
+  oceania: ["oceanian"],
+  "fast-food": ["fast-food"],
 };
 
-export const PRICE_LABEL: Record<PriceTier, string> = {
-  cheap: "Murah",
-  mid: "Sederhana",
-  pricey: "Belanja sikit",
+export const REGIONS = Object.keys(REGION_CUISINES) as Region[];
+export const CUISINES: Cuisine[] = REGIONS.flatMap((r) => REGION_CUISINES[r]);
+
+export const CUISINE_REGION = Object.fromEntries(
+  REGIONS.flatMap((r) => REGION_CUISINES[r].map((c) => [c, r]))
+) as Record<Cuisine, Region>;
+
+/** Price levels are relative, so they make sense in any country. */
+export const PRICE_SIGN: Record<PriceTier, string> = {
+  cheap: "$",
+  mid: "$$",
+  pricey: "$$$",
 };
 
-export const PRICE_RANGE: Record<PriceTier, string> = {
-  cheap: "RM4–10",
-  mid: "RM10–25",
-  pricey: "RM25+",
-};
-
+/** Rough Malaysian ringgit ceilings, used when someone searches "bawah RM15". */
 export const PRICE_MAX: Record<PriceTier, number> = {
   cheap: 10,
   mid: 25,
   pricey: Infinity,
 };
-
-export const CUISINE_LABEL: Record<Cuisine, string> = {
-  malay: "Melayu",
-  chinese: "Cina",
-  indian: "India",
-  mamak: "Mamak",
-  peranakan: "Peranakan",
-  thai: "Siam",
-  "east-malaysia": "Sabah & Sarawak",
-  western: "Western",
-  japanese: "Jepun",
-  korean: "Korea",
-};
-
-export const CATEGORY_LABEL: Record<Category, string> = {
-  rice: "Nasi",
-  noodle: "Mi",
-  bread: "Roti",
-  meat: "Lauk",
-  soup: "Sup",
-  snack: "Snek",
-  dessert: "Pencuci mulut",
-  drink: "Minuman",
-};
-
-export const MEAL_TIMES = Object.keys(MEAL_LABEL) as MealTime[];
-export const PRICE_TIERS = Object.keys(PRICE_LABEL) as PriceTier[];
-export const CUISINES = Object.keys(CUISINE_LABEL) as Cuisine[];
-export const CATEGORIES = Object.keys(CATEGORY_LABEL) as Category[];

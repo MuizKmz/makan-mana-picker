@@ -1,6 +1,8 @@
 import { describe, expect, it } from "vitest";
-import { filterDishes, mealTimeForHour, pickDish, sampleDishes } from "../src/lib/picker";
-import { parseSearch } from "../src/lib/smartSearch";
+import { filterDishes, mealTimeForHour, pickDish, sampleDishes, whyPicked } from "../src/lib/picker";
+import { describe as describeItem, parseSearch } from "../src/lib/smartSearch";
+import { ms } from "../src/i18n/ms";
+import { en } from "../src/i18n/en";
 import type { Dish } from "../src/types/food";
 
 const base: Omit<Dish, "id" | "name"> = {
@@ -12,6 +14,8 @@ const base: Omit<Dish, "id" | "name"> = {
   halalOption: true,
   price: "cheap",
   description: "Test dish description.",
+  descriptionEn: "Test dish description in English.",
+  image: null,
   wiki: null,
 };
 
@@ -94,5 +98,48 @@ describe("parseSearch", () => {
     expect(r.filters.price).toBe("cheap");
     expect(r.filters.cuisines).toEqual(["korean"]);
     expect(r.place).toBe("mount austin");
+  });
+});
+
+describe("bilingual", () => {
+  it("understands an English sentence", () => {
+    const r = parseSearch("spicy noodles under RM10 tonight");
+    expect(r.filters.spicy).toBe("yes");
+    expect(r.filters.categories).toEqual(["noodle"]);
+    expect(r.filters.price).toBe("cheap");
+    expect(r.filters.mealTime).toBe("dinner");
+  });
+
+  it("describes what it understood in either language", () => {
+    const r = parseSearch("nasi pedas bawah RM15 dekat JB");
+    expect(r.understood.map((u) => describeItem(u, ms))).toEqual(["Bawah RM15", "Pedas", "Nasi", "Lokasi: JB"]);
+    expect(r.understood.map((u) => describeItem(u, en))).toEqual(["Under RM15", "Spicy", "Rice", "Location: JB"]);
+  });
+
+  it("explains a pick in the chosen language", () => {
+    expect(whyPicked(dishes[0], { spicy: "yes" }, en)).toEqual(["Spicy, like you wanted"]);
+    expect(whyPicked(dishes[0], { spicy: "yes" }, ms)).toEqual(["Pedas, macam yang kau nak"]);
+  });
+
+  it("understands global cuisines and regions", () => {
+    expect(parseSearch("makanan jepun murah").filters.cuisines).toEqual(["japanese"]);
+    expect(parseSearch("cheap chinese food").filters.cuisines).toEqual(["chinese", "china"]);
+    expect(parseSearch("fast food supper").filters.cuisines).toEqual(["fast-food"]);
+    expect(parseSearch("something european").filters.regions).toEqual(["europe"]);
+  });
+
+  it("filters by region when no cuisine is picked", () => {
+    expect(filterDishes(dishes, { regions: ["east-asia"] })).toHaveLength(0);
+    expect(filterDishes(dishes, { regions: ["malaysia"] }).map((d) => d.id)).toEqual(["a", "b", "c"]);
+  });
+
+  it("leaves only dish words for the name search", () => {
+    expect(parseSearch("cari nasi lemak pedas bawah RM10").rest).toBe("lemak");
+    expect(parseSearch("cheap italian food near KL").rest).toBe("");
+    expect(parseSearch("I want ramen tonight").rest).toBe("ramen");
+  });
+
+  it("searches English descriptions too", () => {
+    expect(filterDishes(dishes, { query: "english" })).toHaveLength(3);
   });
 });

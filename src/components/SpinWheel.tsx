@@ -1,15 +1,17 @@
 import { useEffect, useRef } from "react";
 import { motion, useAnimate, useReducedMotion } from "motion/react";
 import type { Dish } from "../types/food";
+import { useT } from "../i18n";
 
 const SEGMENT_COLOURS = [
-  { fill: "#F97336", text: "#FFFFFF" },
+  // Every pair passes WCAG AA (4.5:1) for the small bold labels.
+  { fill: "#F97336", text: "#24211F" },
   { fill: "#FFF8EF", text: "#24211F" },
-  { fill: "#EF5350", text: "#FFFFFF" },
+  { fill: "#EF5350", text: "#24211F" },
   { fill: "#FFE7CF", text: "#24211F" },
-  { fill: "#6D9255", text: "#FFFFFF" },
+  { fill: "#4F7A3B", text: "#FFFFFF" },
   { fill: "#FFF8EF", text: "#24211F" },
-  { fill: "#E85D24", text: "#FFFFFF" },
+  { fill: "#E85D24", text: "#24211F" },
   { fill: "#FFE7CF", text: "#24211F" },
 ];
 
@@ -47,6 +49,7 @@ export function SpinWheel({ dishes, targetIndex, spinKey, onDone, onCenterClick,
   const [scope, animate] = useAnimate<SVGGElement>();
   const rotation = useRef(0);
   const reduce = useReducedMotion();
+  const t = useT();
   const n = Math.max(dishes.length, 1);
   const seg = 360 / n;
 
@@ -81,7 +84,7 @@ export function SpinWheel({ dishes, targetIndex, spinKey, onDone, onCenterClick,
         <circle cx="20" cy="12" r="4" fill="#FFF8EF" />
       </svg>
 
-      <svg viewBox={`0 0 ${SIZE} ${SIZE}`} className="h-full w-full" role="img" aria-label="Roda makanan">
+      <svg viewBox={`0 0 ${SIZE} ${SIZE}`} className="h-full w-full" role="img" aria-label={t.picker.wheelLabel}>
         <circle cx={C} cy={C} r={R + 8} fill="#24211F" />
         <g ref={scope} style={{ transformOrigin: "50% 50%", transformBox: "view-box" }}>
           {dishes.length <= 1 ? (
@@ -138,7 +141,7 @@ export function SpinWheel({ dishes, targetIndex, spinKey, onDone, onCenterClick,
         whileTap={disabled ? undefined : { scale: 0.94 }}
         className="absolute left-1/2 top-1/2 grid h-[24%] w-[24%] -translate-x-1/2 -translate-y-1/2 place-items-center rounded-full border-4 border-ink bg-white text-sm font-extrabold text-ink shadow-lift disabled:cursor-wait sm:text-base"
       >
-        {disabled ? "…" : "Putar!"}
+        {disabled ? "…" : t.picker.center}
       </motion.button>
     </div>
   );

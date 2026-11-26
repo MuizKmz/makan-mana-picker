@@ -1,8 +1,10 @@
 import { Link } from "react-router";
+import { useT } from "../i18n";
 
 export function Logo({ className = "" }: { className?: string }) {
+  const t = useT();
   return (
-    <Link to="/" className={`inline-flex items-center gap-2 font-extrabold text-ink ${className}`} aria-label="Makan Mana, laman utama">
+    <Link to="/" className={`inline-flex items-center gap-2 font-extrabold text-ink ${className}`} aria-label={t.nav.homeLink}>
       <svg viewBox="0 0 32 32" className="h-8 w-8 shrink-0" aria-hidden="true">
         <rect width="32" height="32" rx="9" fill="#F97336" />
         <circle cx="16" cy="17" r="8.5" fill="#FFF8EF" />

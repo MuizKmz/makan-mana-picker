@@ -17,12 +17,14 @@ Terima kasih! The easiest way to help is to add a dish.
 ## Guidelines
 
 - One dish per entry. Variants (roti telur, roti bawang) belong in the main dish's description.
-- Write the description in Malay, short and friendly (10–120 characters).
+- Write `description` in Malay and `descriptionEn` in English, short and friendly (10–120 characters each).
 - Set `halalOption` to `true` only if a halal version is easy to find in Malaysia.
-- Keep prices realistic for an average kedai, not a hotel.
+- `price` is relative: `cheap` for street food and stalls, `mid` for casual restaurants, `pricey` for sit-down or special-occasion food.
+- `cuisine` must be one of the cuisines in `REGION_CUISINES` (`src/constants/labels.ts`). Adding a new cuisine means adding it there, to `scripts/validate.mjs`, and a label in both `src/i18n/ms.ts` and `src/i18n/en.ts`.
 
 ## Code changes
 
+- Never hardcode interface text in components. Add the key to both `src/i18n/ms.ts` and `src/i18n/en.ts`, then use `useT()`.
 - Logic lives in `src/lib/` as pure functions. If you change `picker.ts` or `smartSearch.ts`, add or update a test in `tests/`.
 - Run `npm run build` before opening a PR; it type-checks everything.
 - Never put API keys in frontend code or in `VITE_` environment variables.

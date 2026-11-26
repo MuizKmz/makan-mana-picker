@@ -4,15 +4,18 @@ import { cloneElement } from "react";
 import { Navbar, MobileTabBar } from "../components/Navbar";
 import { Footer } from "../components/Footer";
 import { Toaster } from "../components/Toaster";
+import { useSyncHtmlLang, useT } from "../i18n";
 
 export function RootLayout() {
+  const t = useT();
+  useSyncHtmlLang();
   const location = useLocation();
   const outlet = useOutlet();
 
   return (
     <MotionConfig reducedMotion="user">
       <a href="#main" className="sr-only focus:not-sr-only focus:fixed focus:left-4 focus:top-4 focus:z-50 focus:rounded-full focus:bg-ink focus:px-4 focus:py-2 focus:text-white">
-        Langkau ke kandungan
+        {t.nav.skip}
       </a>
       <Navbar />
       <AnimatePresence mode="wait">

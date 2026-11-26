@@ -2,7 +2,8 @@ import { Link } from "react-router";
 import { motion } from "motion/react";
 import { Check, MapPin, RotateCw, X } from "lucide-react";
 import type { Dish } from "../types/food";
-import { CATEGORY_LABEL, CUISINE_LABEL, PRICE_RANGE } from "../constants/labels";
+import { PRICE_SIGN } from "../constants/labels";
+import { useDescription, useT } from "../i18n";
 import { DishImage } from "./DishImage";
 import { FavouriteButton } from "./FavouriteButton";
 import { mapsSearchUrl } from "../lib/maps";
@@ -15,6 +16,8 @@ interface Props {
 }
 
 export function ResultCard({ dish, reasons, onAgain, onExclude }: Props) {
+  const t = useT();
+  const desc = useDescription();
   return (
     <motion.section
       key={dish.id}
@@ -27,12 +30,12 @@ export function ResultCard({ dish, reasons, onAgain, onExclude }: Props) {
     >
       <DishImage dish={dish} className="aspect-[16/10]" credit eager />
       <div className="p-5 sm:p-6">
-        <p className="text-sm font-semibold text-orange">Hari ni makan…</p>
+        <p className="text-sm font-semibold text-orange-ink">{t.picker.resultKicker}</p>
         <h2 className="mt-1 text-3xl font-extrabold sm:text-4xl">{dish.name}</h2>
         <p className="mt-1 text-sm text-muted">
-          {CUISINE_LABEL[dish.cuisine]} · {CATEGORY_LABEL[dish.category]} · Anggaran {PRICE_RANGE[dish.price]}
+          {t.cuisine[dish.cuisine]} · {t.category[dish.category]} · {t.picker.estimate(PRICE_SIGN[dish.price], t.price[dish.price])}
         </p>
-        <p className="mt-3 text-ink/90">{dish.description}</p>
+        <p className="mt-3 text-ink/90">{desc(dish)}</p>
 
         <ul className="mt-4 space-y-1.5">
           {reasons.map((r) => (
@@ -44,18 +47,18 @@ export function ResultCard({ dish, reasons, onAgain, onExclude }: Props) {
 
         <div className="mt-5 grid grid-cols-2 gap-2 sm:flex sm:flex-wrap">
           <button type="button" onClick={onAgain} className="btn-primary col-span-2 sm:col-span-1">
-            <RotateCw size={18} /> Pilih lagi
+            <RotateCw size={18} /> {t.picker.again}
           </button>
           <FavouriteButton dish={dish} variant="full" />
           <button type="button" onClick={onExclude} className="btn-ghost">
-            <X size={18} /> Tak nak ni
+            <X size={18} /> {t.picker.nope}
           </button>
           <a href={mapsSearchUrl(dish.name)} target="_blank" rel="noreferrer" className="btn-ghost col-span-2 sm:col-span-1">
-            <MapPin size={18} /> Cari kedai berdekatan
+            <MapPin size={18} /> {t.common.findNearby}
           </a>
         </div>
         <Link to={`/makanan/${dish.id}`} className="mt-4 inline-block text-sm font-semibold text-muted underline underline-offset-4 hover:text-ink">
-          Lihat butiran {dish.name}
+          {t.picker.details(dish.name)}
         </Link>
       </div>
     </motion.section>
