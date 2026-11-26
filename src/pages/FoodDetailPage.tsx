@@ -78,7 +78,7 @@ export default function FoodDetailPage() {
       {related.length > 0 && (
         <section className="container-page mt-20">
           <h2 className="text-2xl font-extrabold sm:text-3xl">{t.detail.related(dish.name)}</h2>
-          <motion.div variants={stagger} initial="initial" whileInView="animate" viewport={{ once: true }} className="mt-6 grid grid-cols-2 gap-x-4 gap-y-8 lg:grid-cols-4">
+          <motion.div variants={stagger} initial="initial" whileInView="animate" viewport={{ once: true }} className="mt-6 grid grid-cols-2 gap-4 lg:grid-cols-4">
             {related.map((d) => (
               <DishCard key={d.id} dish={d} />
             ))}

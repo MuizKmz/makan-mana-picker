@@ -1,13 +1,13 @@
 import { Link } from "react-router";
 import { motion } from "motion/react";
-import type { Dish } from "../../types/food";
-import { priceText } from "../../lib/price";
-import { useT } from "../../i18n";
-import { DishImage } from "../DishImage";
-import { FavouriteButton } from "../FavouriteButton";
-import { rise } from "../../animations/variants";
+import type { Dish } from "../types/food";
+import { priceText } from "../lib/price";
+import { useT } from "../i18n";
+import { DishImage } from "./DishImage";
+import { FavouriteButton } from "./FavouriteButton";
+import { rise } from "../animations/variants";
 
-/** Variant 3: one-line row with a small thumbnail, for favourites and short lists. */
+/** Compact dish row: one-line row with a small thumbnail, for favourites and short lists. */
 export function DishCardCompact({ dish }: { dish: Dish }) {
   const t = useT();
   return (
