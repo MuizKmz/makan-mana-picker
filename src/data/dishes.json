@@ -1,0 +1,1026 @@
+[
+  {
+    "id": "nasi-lemak",
+    "name": "Nasi Lemak",
+    "emoji": "🍛",
+    "category": "rice",
+    "cuisine": "malay",
+    "mealTime": [
+      "breakfast",
+      "lunch",
+      "supper"
+    ],
+    "spicy": true,
+    "halalOption": true,
+    "price": "cheap",
+    "description": "Nasi santan, sambal, ikan bilis, kacang dan telur. Raja segala sarapan.",
+    "wiki": "Nasi_lemak"
+  },
+  {
+    "id": "nasi-kandar",
+    "name": "Nasi Kandar",
+    "emoji": "🍛",
+    "category": "rice",
+    "cuisine": "mamak",
+    "mealTime": [
+      "lunch",
+      "dinner",
+      "supper"
+    ],
+    "spicy": true,
+    "halalOption": true,
+    "price": "mid",
+    "description": "Nasi dengan kuah campur banjir dan lauk pilihan. Ala Penang.",
+    "wiki": "Nasi_kandar"
+  },
+  {
+    "id": "nasi-ayam",
+    "name": "Nasi Ayam",
+    "emoji": "🍗",
+    "category": "rice",
+    "cuisine": "chinese",
+    "mealTime": [
+      "lunch",
+      "dinner"
+    ],
+    "spicy": false,
+    "halalOption": true,
+    "price": "cheap",
+    "description": "Nasi ayam rebus atau panggang dengan sos cili dan sup.",
+    "wiki": "Hainanese_chicken_rice"
+  },
+  {
+    "id": "nasi-goreng-kampung",
+    "name": "Nasi Goreng Kampung",
+    "emoji": "🍳",
+    "category": "rice",
+    "cuisine": "malay",
+    "mealTime": [
+      "lunch",
+      "dinner",
+      "supper"
+    ],
+    "spicy": true,
+    "halalOption": true,
+    "price": "cheap",
+    "description": "Nasi goreng dengan ikan bilis, kangkung dan cili padi.",
+    "wiki": "Nasi_goreng"
+  },
+  {
+    "id": "nasi-kerabu",
+    "name": "Nasi Kerabu",
+    "emoji": "💙",
+    "category": "rice",
+    "cuisine": "malay",
+    "mealTime": [
+      "breakfast",
+      "lunch"
+    ],
+    "spicy": false,
+    "halalOption": true,
+    "price": "cheap",
+    "description": "Nasi biru Kelantan dengan ulam, kerisik dan ikan goreng.",
+    "wiki": "Nasi_kerabu"
+  },
+  {
+    "id": "nasi-dagang",
+    "name": "Nasi Dagang",
+    "emoji": "🐟",
+    "category": "rice",
+    "cuisine": "malay",
+    "mealTime": [
+      "breakfast"
+    ],
+    "spicy": false,
+    "halalOption": true,
+    "price": "cheap",
+    "description": "Nasi santan Terengganu dengan gulai ikan tongkol.",
+    "wiki": "Nasi_dagang"
+  },
+  {
+    "id": "nasi-campur",
+    "name": "Nasi Campur",
+    "emoji": "🥘",
+    "category": "rice",
+    "cuisine": "malay",
+    "mealTime": [
+      "lunch",
+      "dinner"
+    ],
+    "spicy": true,
+    "halalOption": true,
+    "price": "cheap",
+    "description": "Ambil sendiri lauk kegemaran. Pilihan selamat bila tak tahu nak makan apa.",
+    "wiki": "Nasi_campur"
+  },
+  {
+    "id": "nasi-briyani",
+    "name": "Nasi Briyani",
+    "emoji": "🍚",
+    "category": "rice",
+    "cuisine": "indian",
+    "mealTime": [
+      "lunch",
+      "dinner"
+    ],
+    "spicy": true,
+    "halalOption": true,
+    "price": "mid",
+    "description": "Nasi berempah dengan ayam atau kambing dan dalca.",
+    "wiki": "Biryani"
+  },
+  {
+    "id": "banana-leaf-rice",
+    "name": "Nasi Daun Pisang",
+    "emoji": "🍃",
+    "category": "rice",
+    "cuisine": "indian",
+    "mealTime": [
+      "lunch",
+      "dinner"
+    ],
+    "spicy": true,
+    "halalOption": true,
+    "price": "mid",
+    "description": "Nasi atas daun pisang dengan sayur, papadom dan kari. Makan guna tangan!",
+    "wiki": "Banana_leaf_rice"
+  },
+  {
+    "id": "nasi-kukus",
+    "name": "Nasi Kukus Ayam Dara",
+    "emoji": "🍗",
+    "category": "rice",
+    "cuisine": "malay",
+    "mealTime": [
+      "lunch",
+      "dinner",
+      "supper"
+    ],
+    "spicy": true,
+    "halalOption": true,
+    "price": "cheap",
+    "description": "Nasi kukus dengan ayam goreng berempah dan kuah kari.",
+    "wiki": null
+  },
+  {
+    "id": "char-siu-rice",
+    "name": "Nasi Char Siu",
+    "emoji": "🥩",
+    "category": "rice",
+    "cuisine": "chinese",
+    "mealTime": [
+      "lunch",
+      "dinner"
+    ],
+    "spicy": false,
+    "halalOption": false,
+    "price": "cheap",
+    "description": "Nasi dengan daging babi panggang manis dan sos.",
+    "wiki": "Char_siu"
+  },
+  {
+    "id": "claypot-chicken-rice",
+    "name": "Claypot Chicken Rice",
+    "emoji": "🍲",
+    "category": "rice",
+    "cuisine": "chinese",
+    "mealTime": [
+      "dinner"
+    ],
+    "spicy": false,
+    "halalOption": false,
+    "price": "mid",
+    "description": "Nasi ayam dalam periuk tanah dengan lap cheong. Kerak bawah paling sedap.",
+    "wiki": "Claypot_chicken_rice"
+  },
+  {
+    "id": "char-kway-teow",
+    "name": "Char Kway Teow",
+    "emoji": "🍜",
+    "category": "noodle",
+    "cuisine": "chinese",
+    "mealTime": [
+      "lunch",
+      "dinner",
+      "supper"
+    ],
+    "spicy": true,
+    "halalOption": true,
+    "price": "cheap",
+    "description": "Kuey teow goreng api besar dengan udang, kerang dan taugeh.",
+    "wiki": "Char_kway_teow"
+  },
+  {
+    "id": "mee-goreng-mamak",
+    "name": "Mee Goreng Mamak",
+    "emoji": "🍝",
+    "category": "noodle",
+    "cuisine": "mamak",
+    "mealTime": [
+      "lunch",
+      "dinner",
+      "supper"
+    ],
+    "spicy": true,
+    "halalOption": true,
+    "price": "cheap",
+    "description": "Mee kuning goreng dengan kentang, tauhu dan perahan limau.",
+    "wiki": "Mee_goreng"
+  },
+  {
+    "id": "maggi-goreng",
+    "name": "Maggi Goreng",
+    "emoji": "🍜",
+    "category": "noodle",
+    "cuisine": "mamak",
+    "mealTime": [
+      "supper"
+    ],
+    "spicy": true,
+    "halalOption": true,
+    "price": "cheap",
+    "description": "Menu wajib lepak mamak tengah malam. Tambah telur mata.",
+    "wiki": "Maggi_goreng"
+  },
+  {
+    "id": "asam-laksa",
+    "name": "Asam Laksa",
+    "emoji": "🐟",
+    "category": "noodle",
+    "cuisine": "peranakan",
+    "mealTime": [
+      "lunch"
+    ],
+    "spicy": true,
+    "halalOption": true,
+    "price": "cheap",
+    "description": "Kuah ikan masam pedas Penang dengan nanas, bunga kantan dan petis.",
+    "wiki": "Asam_laksa"
+  },
+  {
+    "id": "curry-laksa",
+    "name": "Kari Laksa",
+    "emoji": "🍛",
+    "category": "noodle",
+    "cuisine": "chinese",
+    "mealTime": [
+      "breakfast",
+      "lunch"
+    ],
+    "spicy": true,
+    "halalOption": true,
+    "price": "cheap",
+    "description": "Mee dalam kuah kari santan dengan tauhu pok dan ayam.",
+    "wiki": "Curry_mee"
+  },
+  {
+    "id": "laksa-johor",
+    "name": "Laksa Johor",
+    "emoji": "🍝",
+    "category": "noodle",
+    "cuisine": "malay",
+    "mealTime": [
+      "breakfast",
+      "lunch"
+    ],
+    "spicy": true,
+    "halalOption": true,
+    "price": "cheap",
+    "description": "Spaghetti dalam kuah ikan dan kerisik dengan ulam. Kebanggaan Johor.",
+    "wiki": "Laksa_Johor"
+  },
+  {
+    "id": "mee-rebus",
+    "name": "Mee Rebus",
+    "emoji": "🥣",
+    "category": "noodle",
+    "cuisine": "malay",
+    "mealTime": [
+      "breakfast",
+      "lunch"
+    ],
+    "spicy": false,
+    "halalOption": true,
+    "price": "cheap",
+    "description": "Mee kuning dengan kuah keledek pekat, telur rebus dan cili.",
+    "wiki": "Mee_rebus"
+  },
+  {
+    "id": "mee-bandung",
+    "name": "Mee Bandung Muar",
+    "emoji": "🦐",
+    "category": "noodle",
+    "cuisine": "malay",
+    "mealTime": [
+      "lunch",
+      "dinner"
+    ],
+    "spicy": true,
+    "halalOption": true,
+    "price": "cheap",
+    "description": "Mee dalam kuah udang pekat dan telur. Asal dari Muar.",
+    "wiki": "Mee_bandung_Muar"
+  },
+  {
+    "id": "wantan-mee",
+    "name": "Wantan Mee",
+    "emoji": "🥟",
+    "category": "noodle",
+    "cuisine": "chinese",
+    "mealTime": [
+      "breakfast",
+      "lunch"
+    ],
+    "spicy": false,
+    "halalOption": true,
+    "price": "cheap",
+    "description": "Mee kering dengan sos gelap, sayur dan wantan.",
+    "wiki": "Wonton_noodles"
+  },
+  {
+    "id": "pan-mee",
+    "name": "Pan Mee",
+    "emoji": "🍜",
+    "category": "noodle",
+    "cuisine": "chinese",
+    "mealTime": [
+      "breakfast",
+      "lunch"
+    ],
+    "spicy": false,
+    "halalOption": true,
+    "price": "cheap",
+    "description": "Mee buatan tangan dalam sup ikan bilis dengan sayur manis.",
+    "wiki": "Pan_mee"
+  },
+  {
+    "id": "hokkien-mee",
+    "name": "Hokkien Mee KL",
+    "emoji": "🖤",
+    "category": "noodle",
+    "cuisine": "chinese",
+    "mealTime": [
+      "dinner",
+      "supper"
+    ],
+    "spicy": false,
+    "halalOption": false,
+    "price": "cheap",
+    "description": "Mee tebal goreng dengan kicap pekat dan lemak babi.",
+    "wiki": "Hokkien_mee"
+  },
+  {
+    "id": "bihun-sup",
+    "name": "Bihun Sup",
+    "emoji": "🥣",
+    "category": "noodle",
+    "cuisine": "malay",
+    "mealTime": [
+      "breakfast",
+      "lunch",
+      "supper"
+    ],
+    "spicy": false,
+    "halalOption": true,
+    "price": "cheap",
+    "description": "Bihun dalam sup ayam panas dengan sambal kicap. Sesuai masa hujan.",
+    "wiki": null
+  },
+  {
+    "id": "laksa-sarawak",
+    "name": "Laksa Sarawak",
+    "emoji": "🦐",
+    "category": "noodle",
+    "cuisine": "east-malaysia",
+    "mealTime": [
+      "breakfast"
+    ],
+    "spicy": true,
+    "halalOption": true,
+    "price": "cheap",
+    "description": "Bihun dalam kuah sambal belacan dan santan dengan udang dan telur dadar.",
+    "wiki": "Sarawak_laksa"
+  },
+  {
+    "id": "mee-kolok",
+    "name": "Mee Kolok",
+    "emoji": "🍜",
+    "category": "noodle",
+    "cuisine": "east-malaysia",
+    "mealTime": [
+      "breakfast",
+      "lunch"
+    ],
+    "spicy": false,
+    "halalOption": true,
+    "price": "cheap",
+    "description": "Mee kering Sarawak dengan bawang goreng dan daging hiris.",
+    "wiki": "Kolo_mee"
+  },
+  {
+    "id": "roti-canai",
+    "name": "Roti Canai",
+    "emoji": "🫓",
+    "category": "bread",
+    "cuisine": "mamak",
+    "mealTime": [
+      "breakfast",
+      "supper"
+    ],
+    "spicy": false,
+    "halalOption": true,
+    "price": "cheap",
+    "description": "Roti leper rangup dengan dal dan kari. Kosong, telur atau bawang?",
+    "wiki": "Roti_canai"
+  },
+  {
+    "id": "murtabak",
+    "name": "Murtabak",
+    "emoji": "🥙",
+    "category": "bread",
+    "cuisine": "mamak",
+    "mealTime": [
+      "dinner",
+      "supper"
+    ],
+    "spicy": false,
+    "halalOption": true,
+    "price": "mid",
+    "description": "Roti berinti daging cincang, telur dan bawang, dengan acar.",
+    "wiki": "Murtabak"
+  },
+  {
+    "id": "thosai",
+    "name": "Thosai",
+    "emoji": "🥞",
+    "category": "bread",
+    "cuisine": "indian",
+    "mealTime": [
+      "breakfast",
+      "dinner"
+    ],
+    "spicy": false,
+    "halalOption": true,
+    "price": "cheap",
+    "description": "Lempeng nipis tepung beras dengan chutney kelapa dan sambar.",
+    "wiki": "Dosa_(food)"
+  },
+  {
+    "id": "chapati",
+    "name": "Chapati",
+    "emoji": "🫓",
+    "category": "bread",
+    "cuisine": "indian",
+    "mealTime": [
+      "breakfast",
+      "dinner"
+    ],
+    "spicy": false,
+    "halalOption": true,
+    "price": "cheap",
+    "description": "Roti gandum tanpa minyak dengan dal. Pilihan ringan.",
+    "wiki": "Chapati"
+  },
+  {
+    "id": "roti-john",
+    "name": "Roti John",
+    "emoji": "🥖",
+    "category": "bread",
+    "cuisine": "malay",
+    "mealTime": [
+      "teatime",
+      "dinner",
+      "supper"
+    ],
+    "spicy": false,
+    "halalOption": true,
+    "price": "cheap",
+    "description": "Roti panjang dengan telur dan daging cincang, sos cili dan mayonis.",
+    "wiki": "Roti_john"
+  },
+  {
+    "id": "burger-ramly",
+    "name": "Burger Ramly",
+    "emoji": "🍔",
+    "category": "bread",
+    "cuisine": "malay",
+    "mealTime": [
+      "supper"
+    ],
+    "spicy": false,
+    "halalOption": true,
+    "price": "cheap",
+    "description": "Burger tepi jalan berbalut telur dengan sos melimpah.",
+    "wiki": "Ramly_Burger"
+  },
+  {
+    "id": "satay",
+    "name": "Satay",
+    "emoji": "🍢",
+    "category": "meat",
+    "cuisine": "malay",
+    "mealTime": [
+      "dinner",
+      "supper"
+    ],
+    "spicy": false,
+    "halalOption": true,
+    "price": "mid",
+    "description": "Daging cucuk bakar dengan kuah kacang, nasi impit dan timun.",
+    "wiki": "Satay"
+  },
+  {
+    "id": "ayam-penyet",
+    "name": "Ayam Penyet",
+    "emoji": "🍗",
+    "category": "meat",
+    "cuisine": "malay",
+    "mealTime": [
+      "lunch",
+      "dinner"
+    ],
+    "spicy": true,
+    "halalOption": true,
+    "price": "mid",
+    "description": "Ayam goreng dipenyek dengan sambal pedas berapi.",
+    "wiki": "Ayam_penyet"
+  },
+  {
+    "id": "ikan-bakar",
+    "name": "Ikan Bakar",
+    "emoji": "🐠",
+    "category": "meat",
+    "cuisine": "malay",
+    "mealTime": [
+      "dinner"
+    ],
+    "spicy": true,
+    "halalOption": true,
+    "price": "pricey",
+    "description": "Ikan segar bakar atas daun pisang dengan air asam.",
+    "wiki": "Ikan_bakar"
+  },
+  {
+    "id": "rendang",
+    "name": "Rendang Daging",
+    "emoji": "🥩",
+    "category": "meat",
+    "cuisine": "malay",
+    "mealTime": [
+      "lunch",
+      "dinner"
+    ],
+    "spicy": true,
+    "halalOption": true,
+    "price": "mid",
+    "description": "Daging masak perlahan dalam santan dan rempah sampai kering.",
+    "wiki": "Rendang"
+  },
+  {
+    "id": "tom-yam",
+    "name": "Tom Yam",
+    "emoji": "🌶️",
+    "category": "soup",
+    "cuisine": "thai",
+    "mealTime": [
+      "lunch",
+      "dinner",
+      "supper"
+    ],
+    "spicy": true,
+    "halalOption": true,
+    "price": "mid",
+    "description": "Sup masam pedas dari kedai tomyam. Campur, seafood atau ayam.",
+    "wiki": "Tom_yum"
+  },
+  {
+    "id": "sup-tulang",
+    "name": "Sup Tulang",
+    "emoji": "🦴",
+    "category": "soup",
+    "cuisine": "mamak",
+    "mealTime": [
+      "dinner",
+      "supper"
+    ],
+    "spicy": false,
+    "halalOption": true,
+    "price": "mid",
+    "description": "Sup tulang lembu berempah, sedut sumsum guna straw.",
+    "wiki": "Sup_tulang"
+  },
+  {
+    "id": "sup-kambing",
+    "name": "Sup Kambing",
+    "emoji": "🥣",
+    "category": "soup",
+    "cuisine": "malay",
+    "mealTime": [
+      "dinner",
+      "supper"
+    ],
+    "spicy": false,
+    "halalOption": true,
+    "price": "mid",
+    "description": "Sup kambing pekat berempah dengan roti atau nasi.",
+    "wiki": "Sup_kambing"
+  },
+  {
+    "id": "bak-kut-teh",
+    "name": "Bak Kut Teh",
+    "emoji": "🍲",
+    "category": "soup",
+    "cuisine": "chinese",
+    "mealTime": [
+      "breakfast",
+      "dinner"
+    ],
+    "spicy": false,
+    "halalOption": false,
+    "price": "mid",
+    "description": "Sup herba dengan tulang rusuk babi. Klang punya famous.",
+    "wiki": "Bak_kut_teh"
+  },
+  {
+    "id": "steamboat",
+    "name": "Steamboat",
+    "emoji": "🫕",
+    "category": "soup",
+    "cuisine": "chinese",
+    "mealTime": [
+      "dinner"
+    ],
+    "spicy": false,
+    "halalOption": true,
+    "price": "pricey",
+    "description": "Celur sendiri seafood, daging dan sayur dalam periuk kongsi. Best ramai-ramai.",
+    "wiki": "Hot_pot"
+  },
+  {
+    "id": "yong-tau-foo",
+    "name": "Yong Tau Foo",
+    "emoji": "🥢",
+    "category": "soup",
+    "cuisine": "chinese",
+    "mealTime": [
+      "lunch"
+    ],
+    "spicy": false,
+    "halalOption": true,
+    "price": "cheap",
+    "description": "Pilih sendiri tauhu dan sayur bersumbat ikan, dalam sup atau kering.",
+    "wiki": "Yong_tau_foo"
+  },
+  {
+    "id": "dim-sum",
+    "name": "Dim Sum",
+    "emoji": "🥟",
+    "category": "snack",
+    "cuisine": "chinese",
+    "mealTime": [
+      "breakfast"
+    ],
+    "spicy": false,
+    "halalOption": true,
+    "price": "mid",
+    "description": "Pau, siew mai dan har gow dalam bakul kukus. Cari kedai dim sum halal.",
+    "wiki": "Dim_sum"
+  },
+  {
+    "id": "popiah",
+    "name": "Popiah",
+    "emoji": "🌯",
+    "category": "snack",
+    "cuisine": "peranakan",
+    "mealTime": [
+      "lunch",
+      "teatime"
+    ],
+    "spicy": false,
+    "halalOption": true,
+    "price": "cheap",
+    "description": "Kulit nipis berisi sengkuang, telur dan sos manis.",
+    "wiki": "Popiah"
+  },
+  {
+    "id": "lok-lok",
+    "name": "Lok Lok",
+    "emoji": "🍡",
+    "category": "snack",
+    "cuisine": "chinese",
+    "mealTime": [
+      "dinner",
+      "supper"
+    ],
+    "spicy": false,
+    "halalOption": true,
+    "price": "cheap",
+    "description": "Pilih cucuk, celur, celup sos kacang. Aktiviti malam yang sempurna.",
+    "wiki": "Lok-lok"
+  },
+  {
+    "id": "keropok-lekor",
+    "name": "Keropok Lekor",
+    "emoji": "🐟",
+    "category": "snack",
+    "cuisine": "malay",
+    "mealTime": [
+      "teatime"
+    ],
+    "spicy": false,
+    "halalOption": true,
+    "price": "cheap",
+    "description": "Keropok ikan Terengganu goreng dengan sos cili. Snek petang.",
+    "wiki": "Keropok_lekor"
+  },
+  {
+    "id": "pisang-goreng",
+    "name": "Pisang Goreng",
+    "emoji": "🍌",
+    "category": "snack",
+    "cuisine": "malay",
+    "mealTime": [
+      "breakfast",
+      "teatime"
+    ],
+    "spicy": false,
+    "halalOption": true,
+    "price": "cheap",
+    "description": "Cekodok pisang rangup panas-panas dengan kopi O.",
+    "wiki": "Pisang_goreng"
+  },
+  {
+    "id": "karipap",
+    "name": "Karipap",
+    "emoji": "🥟",
+    "category": "snack",
+    "cuisine": "malay",
+    "mealTime": [
+      "breakfast",
+      "teatime"
+    ],
+    "spicy": true,
+    "halalOption": true,
+    "price": "cheap",
+    "description": "Pastri berinti kentang kari. Beli lima, makan semua.",
+    "wiki": "Curry_puff"
+  },
+  {
+    "id": "rojak-buah",
+    "name": "Rojak Buah",
+    "emoji": "🥭",
+    "category": "snack",
+    "cuisine": "malay",
+    "mealTime": [
+      "teatime"
+    ],
+    "spicy": true,
+    "halalOption": true,
+    "price": "cheap",
+    "description": "Buah dan sayur dengan kuah petis pekat dan kacang tumbuk.",
+    "wiki": "Rojak"
+  },
+  {
+    "id": "cendol",
+    "name": "Cendol",
+    "emoji": "🍧",
+    "category": "dessert",
+    "cuisine": "malay",
+    "mealTime": [
+      "lunch",
+      "teatime"
+    ],
+    "spicy": false,
+    "halalOption": true,
+    "price": "cheap",
+    "description": "Ais dengan cendol hijau, santan dan gula Melaka. Penyelamat hari panas.",
+    "wiki": "Cendol"
+  },
+  {
+    "id": "ais-kacang",
+    "name": "Ais Kacang (ABC)",
+    "emoji": "🍨",
+    "category": "dessert",
+    "cuisine": "malay",
+    "mealTime": [
+      "lunch",
+      "teatime"
+    ],
+    "spicy": false,
+    "halalOption": true,
+    "price": "cheap",
+    "description": "Ais kisar dengan kacang merah, jagung, cincau dan susu.",
+    "wiki": "Ais_kacang"
+  },
+  {
+    "id": "apam-balik",
+    "name": "Apam Balik",
+    "emoji": "🥞",
+    "category": "dessert",
+    "cuisine": "malay",
+    "mealTime": [
+      "teatime",
+      "supper"
+    ],
+    "spicy": false,
+    "halalOption": true,
+    "price": "cheap",
+    "description": "Lempeng lipat berisi kacang, gula dan jagung. Nipis rangup atau tebal?",
+    "wiki": "Apam_balik"
+  },
+  {
+    "id": "hinava",
+    "name": "Hinava",
+    "emoji": "🐟",
+    "category": "meat",
+    "cuisine": "east-malaysia",
+    "mealTime": [
+      "lunch",
+      "dinner"
+    ],
+    "spicy": true,
+    "halalOption": true,
+    "price": "mid",
+    "description": "Ikan mentah diperap limau, cili dan halia. Tradisi Kadazan-Dusun Sabah.",
+    "wiki": "Hinava"
+  },
+  {
+    "id": "roti-tisu",
+    "name": "Roti Tisu",
+    "emoji": "🫓",
+    "category": "bread",
+    "cuisine": "mamak",
+    "mealTime": [
+      "teatime",
+      "supper"
+    ],
+    "spicy": false,
+    "halalOption": true,
+    "price": "cheap",
+    "description": "Roti nipis tinggi macam kon, disiram gula dan susu pekat.",
+    "wiki": "Roti_tisu"
+  },
+  {
+    "id": "chicken-chop",
+    "name": "Chicken Chop",
+    "emoji": "🍗",
+    "category": "meat",
+    "cuisine": "western",
+    "mealTime": [
+      "lunch",
+      "dinner"
+    ],
+    "spicy": false,
+    "halalOption": true,
+    "price": "mid",
+    "description": "Ayam goreng tepung atau grill dengan sos lada hitam, kentang dan coleslaw.",
+    "wiki": "Chicken_chop"
+  },
+  {
+    "id": "spaghetti-bolognese",
+    "name": "Spaghetti Bolognese",
+    "emoji": "🍝",
+    "category": "noodle",
+    "cuisine": "western",
+    "mealTime": [
+      "lunch",
+      "dinner"
+    ],
+    "spicy": false,
+    "halalOption": true,
+    "price": "mid",
+    "description": "Spaghetti dengan sos tomato daging cincang. Menu wajib kedai western.",
+    "wiki": "Spaghetti_alla_bolognese"
+  },
+  {
+    "id": "sushi",
+    "name": "Sushi",
+    "emoji": "🍣",
+    "category": "rice",
+    "cuisine": "japanese",
+    "mealTime": [
+      "lunch",
+      "dinner"
+    ],
+    "spicy": false,
+    "halalOption": true,
+    "price": "mid",
+    "description": "Nasi cuka dengan ikan dan seafood. Kedai sushi conveyor senang jumpa di mall.",
+    "wiki": "Sushi"
+  },
+  {
+    "id": "ramen",
+    "name": "Ramen",
+    "emoji": "🍜",
+    "category": "noodle",
+    "cuisine": "japanese",
+    "mealTime": [
+      "lunch",
+      "dinner"
+    ],
+    "spicy": false,
+    "halalOption": true,
+    "price": "pricey",
+    "description": "Mee Jepun dalam sup pekat dengan telur separuh masak. Cari kedai ramen halal.",
+    "wiki": "Ramen"
+  },
+  {
+    "id": "korean-fried-chicken",
+    "name": "Ayam Goreng Korea",
+    "emoji": "🍗",
+    "category": "meat",
+    "cuisine": "korean",
+    "mealTime": [
+      "dinner",
+      "supper"
+    ],
+    "spicy": true,
+    "halalOption": true,
+    "price": "mid",
+    "description": "Ayam goreng rangup disalut sos gochujang manis pedas.",
+    "wiki": "Korean_fried_chicken"
+  },
+  {
+    "id": "tteokbokki",
+    "name": "Tteokbokki",
+    "emoji": "🌶️",
+    "category": "snack",
+    "cuisine": "korean",
+    "mealTime": [
+      "teatime",
+      "dinner"
+    ],
+    "spicy": true,
+    "halalOption": true,
+    "price": "cheap",
+    "description": "Kek beras kenyal dalam sos merah pedas manis.",
+    "wiki": "Tteok-bokki"
+  },
+  {
+    "id": "teh-tarik",
+    "name": "Teh Tarik",
+    "emoji": "🧋",
+    "category": "drink",
+    "cuisine": "mamak",
+    "mealTime": [
+      "breakfast",
+      "teatime",
+      "supper"
+    ],
+    "spicy": false,
+    "halalOption": true,
+    "price": "cheap",
+    "description": "Teh susu ditarik sampai berbuih. Kurang manis kalau nak sihat sikit.",
+    "wiki": "Teh_tarik"
+  },
+  {
+    "id": "milo-ais",
+    "name": "Milo Ais",
+    "emoji": "🥤",
+    "category": "drink",
+    "cuisine": "mamak",
+    "mealTime": [
+      "lunch",
+      "teatime",
+      "supper"
+    ],
+    "spicy": false,
+    "halalOption": true,
+    "price": "cheap",
+    "description": "Milo sejuk pekat. Nak lagi gila, order Milo Dinosaur.",
+    "wiki": "Milo_(drink)"
+  },
+  {
+    "id": "kopi-o",
+    "name": "Kopi O",
+    "emoji": "☕",
+    "category": "drink",
+    "cuisine": "chinese",
+    "mealTime": [
+      "breakfast",
+      "teatime"
+    ],
+    "spicy": false,
+    "halalOption": true,
+    "price": "cheap",
+    "description": "Kopi hitam kopitiam yang pekat. Kawan baik roti bakar dan telur separuh masak.",
+    "wiki": "Kopi"
+  },
+  {
+    "id": "air-bandung",
+    "name": "Air Bandung",
+    "emoji": "🌸",
+    "category": "drink",
+    "cuisine": "malay",
+    "mealTime": [
+      "lunch",
+      "teatime",
+      "dinner"
+    ],
+    "spicy": false,
+    "halalOption": true,
+    "price": "cheap",
+    "description": "Sirap mawar dengan susu, sejuk dan merah jambu.",
+    "wiki": "Bandung_(drink)"
+  }
+]
