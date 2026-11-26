@@ -14,6 +14,7 @@ export const EMPTY_FILTERS: DishFilters = {
   cuisines: [],
   categories: [],
   excludeIds: [],
+  maxRM: null,
   query: "",
 };
 
@@ -35,7 +36,12 @@ export function filterDishes(dishes: Dish[], f: Partial<DishFilters>): Dish[] {
 
   return dishes.filter((d) => {
     if (filters.mealTime !== "any" && !d.mealTime.includes(filters.mealTime)) return false;
-    if (filters.price !== "any" && PRICE_RANK[d.price] > PRICE_RANK[filters.price]) return false;
+    if (filters.maxRM !== null && d.priceMYR) {
+      // Real estimate available: the cheapest typical price must fit the budget.
+      if (d.priceMYR[0] > filters.maxRM) return false;
+    } else if (filters.price !== "any" && PRICE_RANK[d.price] > PRICE_RANK[filters.price]) {
+      return false;
+    }
     if (filters.spicy === "yes" && !d.spicy) return false;
     if (filters.spicy === "no" && d.spicy) return false;
     if (filters.halalOnly && !d.halalOption) return false;

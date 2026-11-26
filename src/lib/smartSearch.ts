@@ -153,6 +153,7 @@ export function parseSearch(input: string): ParsedSearch {
   if (amount) {
     const value = Number(amount[1]);
     filters.price = priceFromAmount(value);
+    filters.maxRM = value;
     understood.push({ kind: "under", value });
   } else if (/\b(murah|cheap|jimat|budget)\b/.test(text)) {
     filters.price = "cheap";

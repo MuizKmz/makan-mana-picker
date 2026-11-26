@@ -135,8 +135,8 @@ export const en: Dict = {
     anytime: "Anytime",
     budget: "Budget",
     any: "Don't mind",
-    under10: "$ Cheap",
-    under25: "$$ Mid-range",
+    under10: "Cheap",
+    under25: "Mid-range",
     region: "Region",
     allRegions: "All",
     spicyQ: "Spicy?",
@@ -188,7 +188,7 @@ export const en: Dict = {
     bandBody: "Let the wheel choose. Filter by budget, spice or halal, and remove dishes you really don't want.",
     bandCta: "Spin the wheel now",
     heroTags: {
-      "nasi-lemak": "Nasi Lemak · $",
+      "nasi-lemak": "Nasi Lemak · Breakfast",
       "roti-canai": "Roti Canai · Mamak",
       "char-kway-teow": "Char Kway Teow",
       satay: "Satay · Dinner",
@@ -207,7 +207,6 @@ export const en: Dict = {
     inDraw: (n) => `${n} ${n === 1 ? "dish" : "dishes"} in the draw`,
     restore: (n) => `restore ${n} removed`,
     resultKicker: "Today you're eating…",
-    estimate: (sign, label) => `${sign} ${label.toLowerCase()}`,
     again: "Pick again",
     nope: "Not this one",
     details: (name) => `See ${name} details`,
@@ -226,7 +225,7 @@ export const en: Dict = {
 
   detail: {
     back: "All dishes",
-    price: "Price level",
+    price: "Estimated price",
     suits: "Good for",
     spicy: "Spicy",
     spicyYes: "Yes, usually spicy",
@@ -234,7 +233,7 @@ export const en: Dict = {
     halal: "Halal",
     halalYes: "Halal version easy to find",
     halalNo: "Usually not halal",
-    note: "Prices are shown as a rough level ($ cheap, $$ mid-range, $$$ pricey), not exact prices. Halal status depends on the shop; always check its certificate.",
+    note: "Prices are estimates for one serving in Malaysia; real shop prices may differ. Halal status depends on the shop; always check its certificate.",
     related: (name) => `If you don't want ${name}…`,
   },
 
@@ -277,7 +276,7 @@ export const en: Dict = {
     p1: (n) =>
       `Every day, the same question: what should I eat? Makan Mana is an open-source project that answers it with a spinning wheel, plain-language search and a dataset of ${n} dishes from around the world, starting from Malaysia.`,
     p2: "Search runs entirely in your browser. It reads budget, time, spice, halal and cuisine from your sentence, then filters the dataset. It never makes up shop names, prices or halal status. For real shops, we send you to Google Maps.",
-    p3: "Prices are shown as a level ($, $$, $$$), not exact prices. The halal field means a halal version is easy to find in Malaysia, not a certification of any shop. Food photos come from Wikipedia and Wikimedia Commons.",
+    p3: "Prices are estimates for one serving in Malaysia, not real shop prices. The halal field means a halal version is easy to find in Malaysia, not a certification of any shop. Food photos come from Wikipedia and Wikimedia Commons.",
     addTitle: "Add a dish",
     addBody: "Your favourite dish missing? Add one entry to dishes.json and open a pull request.",
     fbTitle: "Send feedback",

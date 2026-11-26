@@ -75,6 +75,7 @@ Each dish in `src/data/dishes.json`:
   "spicy": true,
   "halalOption": true,
   "price": "cheap",
+  "priceMYR": [5, 9],
   "description": "Nasi santan, sambal, ikan bilis, kacang dan telur. Raja segala sarapan.",
   "descriptionEn": "Coconut rice with sambal, anchovies, peanuts and egg. The king of breakfast.",
   "image": null,
@@ -87,13 +88,31 @@ Each dish in `src/data/dishes.json`:
 | `category` | `rice`, `noodle`, `bread`, `meat`, `soup`, `salad`, `snack`, `dessert`, `drink` |
 | `cuisine` | one of the 36 cuisines in `REGION_CUISINES` in `src/constants/labels.ts` (e.g. `malay`, `japanese`, `italian`, `fast-food`) |
 | `mealTime` | one or more of `breakfast`, `lunch`, `teatime`, `dinner`, `supper` |
-| `price` | `cheap` ($), `mid` ($$), `pricey` ($$$). A relative level, not an exact price |
+| `price` | `cheap`, `mid` or `pricey`. Shown as Murah / Sederhana / Mahal when there's no ringgit estimate |
+| `priceMYR` | `[min, max]` ringgit for one serving in Malaysia, or `null`. Filled by `npm run estimate-prices` |
 | `halalOption` | `true` if a halal version is easy to find in Malaysia |
 | `description` / `descriptionEn` | Malay and English, 10–120 characters each |
 | `image` | Your own photo, e.g. `/food/nasi-lemak.webp`, or `null`. See `public/food/README.md` |
 | `wiki` | English Wikipedia page title for the photo, or `null` |
 
 `halalOption` describes the dish in general, not any specific shop. Always check the shop's halal certification.
+
+## Price estimates (optional, needs an OpenAI key)
+
+Dishes show an estimated ringgit price ("≈ RM6–10") once `priceMYR` is filled in. A script asks OpenAI once per dish and writes the answers into the dataset, so the website itself never calls the API and never sees the key.
+
+```bash
+cp .env.example .env          # then put your key in OPENAI_API_KEY
+npm run estimate-prices -- --dry-run   # preview, saves nothing
+npm run estimate-prices                # fill every dish that has no price yet
+git diff src/data/dishes.json          # review before committing
+npm run validate
+```
+
+- Answers are checked before saving (whole ringgit, min ≤ max, sensible range); bad ones are skipped and can be retried.
+- `--force` re-estimates every dish, `--only=nasi-lemak,pho` does specific ones.
+- Smart search uses the real estimate when it exists: "bawah RM9" includes a dish priced RM6–10.
+- `.env` is in `.gitignore`. Never commit your key.
 
 ## Deploy
 

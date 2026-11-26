@@ -56,6 +56,12 @@ dishes.forEach((d, i) => {
   }
   if (d.wiki !== null && (typeof d.wiki !== "string" || /\s/.test(d.wiki))) fail("wiki must be null or a Wikipedia title with underscores, e.g. \"Nasi_lemak\"");
   if (!PRICES.includes(d.price)) fail(`price must be one of: ${PRICES.join(", ")}`);
+  if (
+    d.priceMYR !== null &&
+    !(Array.isArray(d.priceMYR) && d.priceMYR.length === 2 && d.priceMYR.every((n) => typeof n === "number" && n > 0 && n <= 1000) && d.priceMYR[0] <= d.priceMYR[1])
+  ) {
+    fail("priceMYR must be null or [min, max] in ringgit, e.g. [5, 9]");
+  }
   if (typeof d.spicy !== "boolean") fail("spicy must be true or false");
   if (typeof d.halalOption !== "boolean") fail("halalOption must be true or false");
 

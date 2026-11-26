@@ -1,7 +1,7 @@
 import { Link } from "react-router";
 import { motion } from "motion/react";
 import type { Dish } from "../../types/food";
-import { PRICE_SIGN } from "../../constants/labels";
+import { priceText } from "../../lib/price";
 import { useT } from "../../i18n";
 import { DishImage } from "../DishImage";
 import { FavouriteButton } from "../FavouriteButton";
@@ -20,7 +20,7 @@ export function DishCardCompact({ dish }: { dish: Dish }) {
         <div className="min-w-0">
           <h3 className="truncate font-bold">{dish.name}</h3>
           <p className="truncate text-sm text-muted">
-            {t.cuisine[dish.cuisine]} · {PRICE_SIGN[dish.price]}
+            {t.cuisine[dish.cuisine]} · {priceText(dish, t)}
             {dish.spicy && <span className="font-semibold text-tomato-ink"> · {t.common.spicy}</span>}
           </p>
         </div>

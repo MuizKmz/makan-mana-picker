@@ -2,7 +2,7 @@ import { Link } from "react-router";
 import { motion } from "motion/react";
 import { Check, MapPin, RotateCw, X } from "lucide-react";
 import type { Dish } from "../../types/food";
-import { PRICE_SIGN } from "../../constants/labels";
+import { priceText } from "../../lib/price";
 import { useDescription, useT } from "../../i18n";
 import { DishImage } from "../DishImage";
 import { FavouriteButton } from "../FavouriteButton";
@@ -45,7 +45,7 @@ export function ResultCardGlow({ dish, reasons, onAgain, onExclude }: Props) {
         <CardBody>
           <h2 className="text-3xl font-extrabold sm:text-4xl">{dish.name}</h2>
           <p className="mt-1 text-sm text-muted">
-            {t.cuisine[dish.cuisine]} · {t.category[dish.category]} · {t.picker.estimate(PRICE_SIGN[dish.price], t.price[dish.price])}
+            {t.cuisine[dish.cuisine]} · {t.category[dish.category]} · {priceText(dish, t)}
           </p>
           <p className="mt-3 text-ink/90">{desc(dish)}</p>
 

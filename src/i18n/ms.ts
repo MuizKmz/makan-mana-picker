@@ -134,8 +134,8 @@ export const ms = {
     anytime: "Bila-bila",
     budget: "Bajet",
     any: "Tak kisah",
-    under10: "$ Murah",
-    under25: "$$ Sederhana",
+    under10: "Murah",
+    under25: "Sederhana",
     region: "Rantau",
     allRegions: "Semua",
     spicyQ: "Pedas?",
@@ -187,7 +187,7 @@ export const ms = {
     bandBody: "Biar roda pilih. Kau boleh tapis ikut bajet, pedas atau halal, dan buang hidangan yang memang tak nak.",
     bandCta: "Putar roda sekarang",
     heroTags: {
-      "nasi-lemak": "Nasi Lemak · $",
+      "nasi-lemak": "Nasi Lemak · Sarapan",
       "roti-canai": "Roti Canai · Mamak",
       "char-kway-teow": "Char Kway Teow",
       satay: "Satay · Makan malam",
@@ -206,7 +206,6 @@ export const ms = {
     inDraw: (n: number) => `${n} hidangan dalam cabutan`,
     restore: (n: number) => `pulihkan ${n} yang dibuang`,
     resultKicker: "Hari ni makan…",
-    estimate: (sign: string, label: string) => `${sign} ${label.toLowerCase()}`,
     again: "Pilih lagi",
     nope: "Tak nak ni",
     details: (name: string) => `Lihat butiran ${name}`,
@@ -225,7 +224,7 @@ export const ms = {
 
   detail: {
     back: "Semua hidangan",
-    price: "Tahap harga",
+    price: "Anggaran harga",
     suits: "Sesuai untuk",
     spicy: "Pedas",
     spicyYes: "Ya, biasanya pedas",
@@ -233,7 +232,7 @@ export const ms = {
     halal: "Halal",
     halalYes: "Versi halal mudah dicari",
     halalNo: "Selalunya tidak halal",
-    note: "Harga ialah tahap anggaran ($ murah, $$ sederhana, $$$ mahal), bukan harga sebenar. Status halal bergantung pada kedai; sentiasa semak sijil kedai.",
+    note: "Harga ialah anggaran untuk satu hidangan di Malaysia; harga kedai sebenar mungkin berbeza. Status halal bergantung pada kedai; sentiasa semak sijil kedai.",
     related: (name: string) => `Kalau tak nak ${name}…`,
   },
 
@@ -276,7 +275,7 @@ export const ms = {
     p1: (n: number) =>
       `Setiap hari soalan sama: nak makan apa? Makan Mana ialah projek sumber terbuka yang jawab soalan tu dengan roda putar, carian ayat biasa dan set data ${n} hidangan dari seluruh dunia, bermula dari Malaysia.`,
     p2: "Carian kami berjalan sepenuhnya dalam pelayar kau. Ia baca bajet, masa, pedas, halal dan jenis masakan daripada ayat kau, kemudian tapis set data. Ia tak reka nama kedai, harga atau status halal. Untuk kedai sebenar, kami hantar kau ke Google Maps.",
-    p3: "Harga ditunjuk sebagai tahap ($, $$, $$$), bukan harga sebenar. Medan halal bermaksud versi halal mudah dicari di Malaysia, bukan pengesahan mana-mana kedai. Foto hidangan datang dari Wikipedia dan Wikimedia Commons.",
+    p3: "Harga ialah anggaran untuk satu hidangan di Malaysia, bukan harga kedai sebenar. Medan halal bermaksud versi halal mudah dicari di Malaysia, bukan pengesahan mana-mana kedai. Foto hidangan datang dari Wikipedia dan Wikimedia Commons.",
     addTitle: "Tambah hidangan",
     addBody: "Hidangan kegemaran kau tak ada? Tambah satu baris dalam dishes.json dan hantar pull request.",
     fbTitle: "Hantar maklum balas",

@@ -2,7 +2,7 @@ import { Link } from "react-router";
 import { motion } from "motion/react";
 import { Flame } from "lucide-react";
 import type { Dish } from "../../types/food";
-import { PRICE_SIGN } from "../../constants/labels";
+import { priceText } from "../../lib/price";
 import { useT } from "../../i18n";
 import { DishImage } from "../DishImage";
 import { FavouriteButton } from "../FavouriteButton";
@@ -23,7 +23,7 @@ export function DishCardFeature({ dish }: { dish: Dish }) {
           <div className="absolute inset-x-0 bottom-0 p-4">
             <h3 className="line-clamp-2 text-lg font-extrabold leading-tight text-white">{dish.name}</h3>
             <p className="mt-1 truncate text-sm font-medium text-white/85">
-              {t.cuisine[dish.cuisine]} · {PRICE_SIGN[dish.price]}
+              {t.cuisine[dish.cuisine]} · {priceText(dish, t)}
             </p>
           </div>
         </Spotlight>
