@@ -15,7 +15,6 @@ const FoodDetailPage = lazy(() => import("./pages/FoodDetailPage"));
 const FavouritesPage = lazy(() => import("./pages/FavouritesPage"));
 const NearbyPage = lazy(() => import("./pages/NearbyPage"));
 const AboutPage = lazy(() => import("./pages/AboutPage"));
-const CardPreviewPage = lazy(() => import("./pages/CardPreviewPage"));
 
 function Loading() {
   const t = useT();
@@ -42,7 +41,6 @@ const router = createBrowserRouter([
       { path: "simpan", element: withSuspense(<FavouritesPage />) },
       { path: "dekat", element: withSuspense(<NearbyPage />) },
       { path: "tentang", element: withSuspense(<AboutPage />) },
-      { path: "kad", element: withSuspense(<CardPreviewPage />) }, // TEMPORARY card design preview
       { path: "*", element: <NotFoundPage /> },
     ],
   },
